@@ -1,0 +1,12 @@
+version: "2"         # required to adjust maintainability checks
+checks:
+  file-lines:
+    config:
+      threshold: 250
+plugins:
+  csslint:
+    enabled: true
+  editorconfig:
+    enabled: true
+  fixme:
+    enabled: true
