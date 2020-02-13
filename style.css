@@ -15,10 +15,11 @@ section, article, aside, footer, header, nav {
     position: fixed;
 }
 
+.content-index {}
+
 #indice {
     color: rgb(161, 145, 55);
     font-family: Roboto, sans-serif;
-    
 }
 
 #rodape {
