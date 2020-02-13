@@ -8,7 +8,7 @@
   
   
 
-  #cabeçalho {
+  #cabecalho {
     position: fixed;
     
   
@@ -21,6 +21,7 @@
   .navigation {
     background-color: crimson;
     padding: 0 30px;
+    
   }
   
   .navigation ul {
