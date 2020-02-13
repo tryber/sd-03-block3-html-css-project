@@ -35,6 +35,7 @@ main article {
 }
 #cabecalho {
   position: fixed;
+  margin-top: 20px;
 }
 
 footer {
