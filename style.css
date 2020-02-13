@@ -25,3 +25,12 @@ li{
     width: 100%;
     text-align: center;
 }
+#rodape{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: right;
+}
+#lista{
+    margin-top: 100px;
+}
