@@ -7,7 +7,7 @@
 .header-container {
   position: fixed;
   background-color: cornflowerblue;
-  color: #000000;
+  color: black;
   width: fit-content;
 }
 
@@ -22,7 +22,7 @@
 }
 
 #reference1 {
-  background-color: #AECEFF;
+  background-color: #aeceff;
   font-family: Helvetica, serif;
 }
 
@@ -37,7 +37,7 @@ p {
 .navigation {
   background-color: cornflowerblue;
   /*padding: 0 300px;*/
-  color:#000000;
+  color: black;
 }
 
 .navigation ul {
@@ -88,5 +88,5 @@ p {
 
 .footer {
   background-color: cornflowerblue;
-  color: #000000;
+  color: black;
 }
