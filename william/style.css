@@ -1,0 +1,37 @@
+body {
+    background-color: beige;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+#cabecalho {
+    padding: 0px;
+    background-color: black;
+}
+
+#cabecalho ul {
+    padding: 10px;
+    max-width: 100%;
+    top:1px;
+    position: fixed;
+    background-color: black;
+    line-height: 50px;
+    left:300px;
+    
+}
+#cabecalho ul li {
+    display: inline;
+
+}
+#cabecalho ul li a {
+    padding: 10px 30px;
+    display: inline-block;
+    color : white;
+    text-align: center
+}
+#cabecalho ul li a:hover {
+    color: yellow;
+}
+
+
