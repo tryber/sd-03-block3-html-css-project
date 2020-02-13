@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    font-family:  "Lato", sans-serif;
+    font-family:  'Lato', sans-serif;
 }
 
 #cabecalho {
@@ -30,4 +30,4 @@ body {
 #rodape {
     background-color: black;
     text-align: center;
- }
+  }
