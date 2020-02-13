@@ -1,3 +1,19 @@
 body {
-    background-color: #1D51A8
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+}
+
+#centro {
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#titulodapagina {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-style: italic;
+    font-family: Helvetica;
 }
