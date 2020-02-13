@@ -1,14 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: brown;
+    margin-top: 150px;
 }
 
 #cabecalho {
     position: fixed;
+    top: 0;
     width: 100%;
     height: 150px;
+    border: 2px solid black;
 }
 
 #rodape {
     width: 100%;
     height: 150px;
+    border: 2px solid black;
+    clear: both;
+}
+
+.lado-esquerdo {
+    width: 70%;
+    margin: 0;
+    border: 2px solid blue;
+    float: left;
+}
+
+.lado-esquerdo img {
+    width: 200px;
+}
+
+.lado-direito {
+    width: 30%;
+    margin: 0;
+    border: 2px solid purple;
+    float: right;
 }
