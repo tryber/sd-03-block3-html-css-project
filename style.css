@@ -16,5 +16,11 @@ body{
 }
 
 img{
+    margin-top: 300px;
+}
+
+section{
+    position: absolute;
     margin-top: 100px;
 }
+
