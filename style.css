@@ -8,10 +8,14 @@ p {
     margin-left: 20px;
 }
 
+h3 {
+    margin-left: 150px;
+}
+
 ul {
     font-size: 20px;
     list-style-type: square;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 li a:visited {
@@ -23,32 +27,34 @@ h2 {
     border-radius: 32px;
     text-align: center;
     font-style: bold;
+    width: 90%;
+    margin-left: 55px;
 }
 
 .body {
-    background-image: url("./images/giphy.gif");
+    background-image: url("./giphy.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .main {
-    margin-left: 160px;
     font-size: 23px;
-    padding: 0px 10px;
+    padding: 10px 0px;
     color: ivory;
 }
 
 .sidenav {
-    height: 100%;
-    width: 140px;
+    height: 6%;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(15, 15, 15);
-    overflow-x: hidden;
-    padding-top: 20px;
+    overflow-y: hidden;
+    padding-top: 10px;
+    display: block;
 }
 
 .sidenav a {
@@ -56,7 +62,7 @@ h2 {
     text-decoration: none;
     font-size: 22px;
     color: #2b2828;
-    display: block;
+    display: inline;
 }
 
 .sidenav a:hover {
@@ -65,7 +71,7 @@ h2 {
 
 .intro-picture {
     border-radius: 18px;
-    margin-right: 25px;
+    margin-left: 150px;
 }
 
 .introduction-text {
@@ -79,9 +85,9 @@ h2 {
 .proj-text {
     float: left;
     width: 42%;
-    margin-right: 10px;
     font-size: 20px;
     padding-right: 25px;
+    margin-left: 90px;
 }
 
 .quotation {
