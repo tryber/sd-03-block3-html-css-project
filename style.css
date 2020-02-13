@@ -1,0 +1,48 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    background: #F9EDCC;
+    color: black;
+    height: 100vh;
+}
+
+
+/*MAIN PAGE*/
+
+#main-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 4fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: "cab cab cab cab cab" ". hero hero photo1 ." ". . . . ."
+}
+
+#cabecalho {
+    grid-area: cab;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 4fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: ". logo . nav ." ". . . deco deco"
+}
+
+#logo {
+    grid-area: logo;
+    display: flex;
+}
+
+#navbar {
+    grid-area: nav;
+}
+
+#deco {
+    grid-area: deco;
+    background: #EF4F2B;
+}
+
+#hero {
+    grid-area: hero;
+}
+
+#photo1 {
+    grid-area: photo1;
+    width: 300px;
+    height: auto;
+}
