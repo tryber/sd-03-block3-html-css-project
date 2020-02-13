@@ -116,14 +116,14 @@ body{
     background-color:rgb(213,231,184);
 }
 
-#subcorpo1 {
+.subcorpo1 {
     padding: 2px 0 10px 0;
     margin-top: 30px;
     background-color: rgb(1, 39, 6);
     border-radius: 10px;
 }
 
-#subcorpo2 {
+.subcorpo2 {
     padding: 2px 0 10px 0;
     margin-top: 30px;
     /*background-color: white;*/
@@ -138,7 +138,7 @@ body{
         background-size: cover;
 }
 
-#subcorpo1 h1 {
+.subcorpo1 h1 {
     color: rgb(212, 253, 193);
     text-align: center;
     font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -146,7 +146,7 @@ body{
     letter-spacing: -0.07em;
 }
 
-#subcorpo2 h1 {
+.subcorpo2 h1 {
     color:rgb(1, 39, 6);
     font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, Sans-serif;
     text-align: center;
@@ -155,7 +155,7 @@ body{
     letter-spacing: -0.07em;
 }
 
-#subcorpo1 p {
+.subcorpo1 p {
     text-align: left;
     font-size:17px;
     color: white;
@@ -164,7 +164,7 @@ body{
     margin:5px 80px 5px 80px;
 }
 
-#subcorpo2 p {
+.subcorpo2 p {
     text-align: left;
     font-size:17px;
     color: rgb(1, 39, 6);
