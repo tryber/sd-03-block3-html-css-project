@@ -73,7 +73,6 @@ ol {
     width: 70px;
     transition: all .2s linear;
     position: fixed;
-    
 }
 .nav_bar{
     margin-top: 40px;
@@ -84,16 +83,12 @@ ol {
     padding-top: 15px;
 }
 .icones ul li{
-    display: inline-block;
     padding-top: 60px;
     text-align: center;
-    
 }
 .icones ul li a{
     color: rgb(160, 160, 160);
-    font-size: 20px;
-   
-    
+    font-size: 20px;   
 } 
 .icones ul li a:hover{
     color: rgb(78, 78, 78);
@@ -229,9 +224,15 @@ h2{
 .contact_submit:hover{
     font-weight: 800;
 }
+#icones_tabela td a{
+    color: #4b4b4b;
+    font-size: 35px;
+    padding-left: 20px;
+}
 #rodape{
     text-align: center;
     color: #4b4b4b;
     font-family: Helvetica, sans-serif;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
