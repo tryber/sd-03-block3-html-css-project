@@ -31,13 +31,13 @@ h1{
     text-align: center;
 }
 
-#direito{
+.lado-direito{
     display: block;
     margin: 10px;
     padding: 10px;
     border: black;
 }
 
-#esquerdo{
+.lado-esquerdo{
     float: right;
 }
