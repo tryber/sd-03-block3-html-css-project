@@ -35,3 +35,8 @@ body{
 .img-centro{
     text-align: center;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
