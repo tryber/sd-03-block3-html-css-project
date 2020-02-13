@@ -11,14 +11,16 @@ h2 {color: purple ; font-family: Cambria, Cochin, Georgia, Times, 'Times New Rom
 
 h3 {color: orangered; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
-section { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+section { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-top: 150;
+    padding-top: 150;}
 
 body {
-    background-color: green;
+    background-color: green;margin-top: 150;
+    padding-top: 150;
 }
 header {
     margin-top: 150;
-    padding-top: 150;git 
+    padding-top: 150;
 }
 
 nav {
@@ -59,6 +61,8 @@ aside {
     margin-top: 150;
     padding-top: 150;
 }
+#lado-esquerdo {margin-top: 150;
+    padding-top: 150;}
 
 #dgtl {margin-top: 150;
     padding-top: 150;
@@ -67,3 +71,6 @@ aside {
 
 #timewarp {margin-top: 150;
     padding-top: 150;}
+
+    article {margin-top: 150;
+        padding-top: 150;}
