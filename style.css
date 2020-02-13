@@ -16,3 +16,18 @@ body {
     width: 60px;
     margin-top: 10px;
 }
+.lists {
+    background: #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    padding-right: 20px;
+    margin-top: 140px;
+    margin-right: 13px;
+    float: right;
+}
+#rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
