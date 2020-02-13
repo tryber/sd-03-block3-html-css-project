@@ -23,13 +23,13 @@ body {
     border-style: inset;
 }
 
-#lado-esquerdo{
+.lado-esquerdo{
     padding-top: 70px;
     padding-left: 10px;
     width: 60%;
 }
 
-#lado-direito{
+.lado-direito{
     float: right;
     width: 35%;
     padding-top: 70px; 
