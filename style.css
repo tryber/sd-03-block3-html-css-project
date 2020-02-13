@@ -15,9 +15,9 @@ nav {
 
 
 #cabecalho {
-    
-    
-   
+    position: fixed;
+    margin-top: 150;
+    padding-top: 150;   
 }
 
 img {float: left;
@@ -32,12 +32,25 @@ ul {
 footer {    margin-top: 150;
     padding-top: 150;}
 
-    aside { 
-        float: right;   
-        margin-top: 150;
+aside { 
+    float: right;   
+    margin-top: 150;
+    padding-top: 150;}
+
+    article {margin-top: 150;
         padding-top: 150;}
 
 
 #intro {
     position: relative;
+    margin-top: 150;
+    padding-top: 150;
 }
+
+#dgtl {margin-top: 150;
+    padding-top: 150;
+
+}
+
+#timewarp {margin-top: 150;
+    padding-top: 150;}
