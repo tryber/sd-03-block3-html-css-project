@@ -1,0 +1,38 @@
+.brasil {
+  color: green;
+}
+
+h2 {
+  font-style: italic;
+}
+
+body {
+  background-color: yellow;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: blue;
+}
+
+.lado-esquerdo {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+.lado-direito {
+  position: relative;
+  top: 0;
+  left: 200px;
+}
+
+#imagem {
+  margin: none;
+  padding: 10px;
+  border: black;
+}
