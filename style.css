@@ -23,13 +23,19 @@ body {
     border-style: inset;
 }
 
-#article{
+#lado-esquerdo{
     padding-top: 70px;
     padding-left: 10px;
-    width: 60%
+    width: 60%;
 }
 
-#ak-aks-image {
+#lado-direito{
+    float: right;
+    width: 35%;
+    padding-top: 70px; 
+}
+
+.images {
     border: 5px;
     border-color: rgb(75, 47, 16);
     border-style: ridge;
@@ -62,5 +68,25 @@ article a {
 footer a {
     color: yellow;
     font-weight: bold;
+}
+
+#source a {
+    
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+#table{
+    border: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: ridge;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-collapse: collapse;
 }
 
