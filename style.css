@@ -5,12 +5,12 @@ h1 { font-size: 35px; }
 body {
   background-color: #e1d5c9;
   margin: 0;
-  font-family: "Lora", serif;
+  font-family: "Times New Roman", 'Ancient Runes', serif;
 }
 
-section#imgandtitulo { text-align: center; }
+#imgandtitulo { text-align: center; }
 
-section img#imgandtitulo {
+#imgandtitulo img{
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
@@ -61,13 +61,13 @@ table {
   margin: 20px;
 }
 
-td, th {
+td , th {
   border: 1px solid black;
   text-align: center;
   padding: 10px;
 }
 
-article#sobre {
+#sobre {
   margin-top: 150px;
   width: 100%;
 }
