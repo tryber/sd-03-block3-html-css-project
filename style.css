@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-weight: 900;
 }
 
-body { 
-  font-family: "Roboto", "Helvetica", sans-serif;
+body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
-body, html {
+body , html {
   height: 100%;
 }
 
@@ -54,17 +54,25 @@ a {
   color: rgb( 226 , 197 , 35 );
   width: 130px;
   height: fit-content;
-  font-family: 'Lobster', cursive;
+  font-family: Lobster, cursive;
 }
 
-#nav-hor ul{
+#nav-hor ul {
   display: flex;
   justify-content: space-between;
 }
 
-#nav-hor ol{
+#nav-hor ol {
   display: flex;
   justify-content: space-between;
+}
+
+.content-item-text a {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  text-decoration: underline;
+  color: blue;
 }
 
 #nav-hor a {
@@ -74,22 +82,22 @@ a {
 }
 
 #link1 {
-  background: url(/images/icon-burger.png) no-repeat 8px;
+  background: url('/images/icon-burger.png') no-repeat 8px;
 }
 
 #link2 {
-  background: url(/images/icon-menu.png) no-repeat 8px;
+  background: url('/images/icon-menu.png') no-repeat 8px;
 }
 
 #link3 {
-  background: url(/images/icon-unidades.png) no-repeat 8px;
+  background: url('/images/icon-unidades.png') no-repeat 8px;
 }
 
 #link4 {
-  background: url(/images/icon-curiosidade.png) no-repeat 8px;
+  background: url('/images/icon-curiosidade.png') no-repeat 8px;
 }
 
-#nav-hor li{
+#nav-hor li {
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -106,7 +114,7 @@ a {
 }
 
 #box-main {
-  background-image: url(/images/burger.jpg);
+  background-image: url('/images/burger.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -136,6 +144,10 @@ a {
   border-bottom: 3px solid black;
 }
 
+.content-item-text p {
+  font-size: 14px;
+}
+
 #about p {
   text-align: justify;
   padding: 10px 20px;
@@ -147,6 +159,11 @@ a {
   height: 591px;
   padding: 25px 10px;
   background-color: rgba( 255 , 246 , 246 , 0.856 );
+}
+
+.content-item img {
+  width: 150px;
+  padding: 10px 0;
 }
 
 #photo01 {
@@ -190,7 +207,7 @@ a {
 }
 
 #box-curiosidades {
-  background-image: url(/images/burger-02.jpg);
+  background-image: url('/images/burger-02.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -207,7 +224,7 @@ a {
 
 #curiosidades-list {
   background-color: white;
-  padding: 10px 10px;
+  padding: 10px;
   height: fit-content;
   box-shadow: 5px 5px 5px;
 }
@@ -228,21 +245,12 @@ a {
   border-top: none;
 }
 
-.content-item img {
-  width: 150px;
-  padding: 10px 0;
-}
-
 .content-item-text {
   width: 350px;
   padding: 10px 0 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.content-item-text p {
-  font-size: 14px;
 }
 
 .content-item-text a {
@@ -272,7 +280,7 @@ a {
   text-align: justify;
 }
 
-#voce-sabia, #curiosidades-list {
+#voce-sabia , #curiosidades-list {
   margin-top: 20px;
 }
 
@@ -293,11 +301,11 @@ a {
 }
 
 #content-footer a {
-  width: fit-content
+  width: fit-content;
 }
 
 #box-table {
-  background-image: url(/images/burger-03.jpg);
+  background-image: url('/images/burger-03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -314,7 +322,7 @@ a {
 table {
   width: fit-content;
   margin-top: 47px;
-  background-color:  white;
+  background-color: white;
   color: black;
   box-shadow: 5px 5px 5px;
 }
@@ -364,9 +372,9 @@ table p {
   height: 400px;
 }
 
-.lado-direito, .lado-esquerdo {
+.lado-direito , .lado-esquerdo {
   width: 50%;
-  background-color: rgb( 255 , 255 , 240);
+  background-color: rgb( 255 , 255 , 240 );
 }
 
 .address {
@@ -407,7 +415,7 @@ table p {
   border-radius: 5px;
   padding: 7px;
   background-color: black;
-  box-shadow: 3px 5px 5px rgb(49, 48, 48);
+  box-shadow: 3px 5px 5px rgb( 49 , 48 , 48 );
 }
 
 #buttom-menu:hover {
