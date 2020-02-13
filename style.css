@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 
-.header-container {
+.first-line {
+  background-color: cornflowerblue;
+  color: black;
+  width: auto;
+}
+
+#header-container {
   position: fixed;
   background-color: cornflowerblue;
   color: black;
-  width: fit-content;
+  width: auto;
 }
 
 .picture {
@@ -24,10 +30,6 @@
 #reference1 {
   background-color: chartreuse;
   font-family: Helvetica, serif;
-}
-
-h1 {
-  margin: 0 0 20px;
 }
 
 p {
@@ -63,7 +65,7 @@ p {
 }
 
 .main-content {
-  width: 56%;
+  width: 80%;
 }
 
 .side-bar {
@@ -78,14 +80,14 @@ p {
 }
 
 .article {
-  padding: 15px;
+  padding: 30px;
 }
 
 .jobs {
   margin-top: 40px;
 }
 
-.footer {
+#footer {
   background-color: cornflowerblue;
   color: black;
 }
