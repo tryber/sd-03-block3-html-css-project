@@ -74,6 +74,14 @@ h2 {
     margin-left: 150px;
 }
 
+#cabecalho {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: rgba(118, 146, 165, 0.685);
+    width: 100%;
+    margin-bottom: -50px;
+}
+
 .introduction-text {
     text-align: justify;
     font-size: 20px;
@@ -93,4 +101,16 @@ h2 {
 .quotation {
     font-style: italic;
     font-size: 18px;
+}
+
+#rodape {
+    position: relative;
+    left: -650px;
+    bottom: -474px;
+    text-align: justify;
+    color: lightslategray;
+}
+
+#i-frame {
+    margin-top: -50px;
 }
