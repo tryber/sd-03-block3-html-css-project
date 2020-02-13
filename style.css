@@ -9,7 +9,14 @@ p {
 }
 
 h3 {
-    margin-left: 150px;
+    text-align: center;
+}
+
+ol {
+    position: relative;
+    left: 700px;
+    top: -200px;
+    font-size: 20px;
 }
 
 ul {
@@ -20,6 +27,19 @@ ul {
 
 li a:visited {
     color: blue
+}
+
+.lists {
+    margin-bottom: -200px;
+}
+
+table,
+tr,
+th,
+td {
+    width: 50%;
+    border: solid rgb(59, 146, 93) 2px;
+    padding: 2px;
 }
 
 h2 {
@@ -34,8 +54,6 @@ h2 {
 .body {
     background-image: url("./giphy.gif");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .main {
@@ -72,14 +90,7 @@ h2 {
 .intro-picture {
     border-radius: 18px;
     margin-left: 150px;
-}
-
-#cabecalho {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.466);
-    color: rgba(118, 146, 165, 0.685);
-    width: 100%;
-    margin-bottom: -50px;
+    margin-top: 40px;
 }
 
 .introduction-text {
