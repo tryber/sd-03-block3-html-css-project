@@ -28,14 +28,14 @@ body {
     text-align: right;
 }
 
-article {
+.lado-esquerdo {
     float: left;
     background-color: brown;
     width: 70%;
     margin: 0;
 }
 
-aside {
+.lado-direito {
     float: right;
     background-color: chartreuse;
     width: 30%;
