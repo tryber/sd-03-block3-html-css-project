@@ -13,6 +13,7 @@ body {
     width: 100%;
     height: 150px;
     border: 2px solid black;
+    background-color: green;
 }
 
 #rodape {
@@ -38,6 +39,12 @@ body {
     margin: 0;
     border: 2px solid purple;
     float: right;
+}
+
+.ladodireito-alinh {
+    margin: 2em;
+    padding: 2em;
+    border: 2px solid black;
 }
 
 .caracteristicas {
