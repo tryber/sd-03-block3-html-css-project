@@ -1,18 +1,23 @@
 body {
     background-color: lightgrey;
+
 }
 
 header {
-    position: fixed;
-    background-color: #848f4b;
+    position: absolute fixed;
+       background-color: rgb(132, 143, 75);
+       padding: 10px 0;
+
 }
 
 #testimage {
     background-color: maroon;
     border: 1em 1em;
+
 }
 
 #rodape {
-    background-color: #7a8792;
+    background-color: rgb(208, 215, 174);
     height: 100px;
+
 }
