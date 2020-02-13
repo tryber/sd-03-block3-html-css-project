@@ -1,65 +1,79 @@
 html { overflow-x: hidden; }
 h1 { font-size: 35px; }
-body { 
-    background-color: #e1d5c9;
-    margin: 0;
-    font-family: 'Lora', serif;
+
+body {
+  background-color: #e1d5c9;
+  margin: 0;
+  font-family: "Lora", serif;
 }
 section#imgandtitulo { text-align: center; }
-section img#imgandtitulo { 
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
+
+section img#imgandtitulo {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
 }
+
 nav {
-    background-color: #283e4a;
-    width: 100%;
-    text-align: center;
+  background-color: #283e4a;
+  width: 100%;
+  text-align: center;
 }
-nav ul li { 
-    display: inline-block;
-    padding: 10px;
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
 }
-nav ul li a { color: beige;
-    text-decoration: none;
+
+nav ul li a {
+  color: beige;
+  text-decoration: none;
 }
+
 nav ul li a:hover { color: burlywood; }
-article { 
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+article {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
-section#post { 
-    width: fit-content;
-    text-align: left;
-    font-size: 20px;
+
+section#post {
+  width: fit-content;
+  text-align: left;
+  font-size: 20px;
 }
-footer { 
-    width: 100%;
-    background-color: darkslategray;
-    padding: 10px;
-    text-align: center;
-    clear: both;
-    height: 50px;
-    padding-top: 40px;
+
+footer {
+  width: 100%;
+  background-color: darkslategray;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  height: 50px;
+  padding-top: 40px;
 }
-table { 
-    border-collapse: collapse;
-    margin: 20px;
+
+table {
+  border-collapse: collapse;
+  margin: 20px;
 }
-td, th { 
-    border: 1px solid black;
-    text-align: center;
-    padding: 10px;
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
 }
-article#sobre { 
-    margin-top: 150px;
-    width: 100%;
+
+article#sobre {
+  margin-top: 150px;
+  width: 100%;
 }
+
 .fixed { position: fixed; }
-.lado-esquerdo { 
-    float: left;
-    width: 45%;
-    margin-left: 100px;
+.lado-esquerdo {
+  float: left;
+  width: 45%;
+  margin-left: 100px;
 }
+
 .lado-direito { float: right; }
