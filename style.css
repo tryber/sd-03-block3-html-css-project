@@ -43,3 +43,14 @@ img {
   width: 42px;
   height: 42px;
 }
+
+.lado-esquerdo {
+  width: 500px;
+  height: 300px;
+  float: left;
+}
+.lado-direito {
+  width: 500px;
+  height: 500px;
+  float: left;
+}
