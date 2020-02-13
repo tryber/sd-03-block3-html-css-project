@@ -9,7 +9,7 @@ header img {
     margin-right: auto;
 }
 nav {
-    position: fixed; background-color: #283e4a; width: 100%; text-align: center;
+    background-color: #283e4a; width: 100%; text-align: center;
 }
 nav ul li {
     display: inline-block; padding: 10px;
@@ -29,4 +29,7 @@ article {
 section#post{
     width: fit-content;
     text-align: left;
+}
+.fixed {
+    position: fixed;
 }
