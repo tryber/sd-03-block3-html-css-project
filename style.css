@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 
-.cabecalho {
+#cabecalho {
   height: 100px;
   background-color: rgba( 0 , 0 , 0 );
 }
