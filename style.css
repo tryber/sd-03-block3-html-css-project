@@ -5,3 +5,6 @@
 body {
     background-color: #C0A9B0;
 }
+#cabecalho{
+    position: fixed;
+}
