@@ -1,0 +1,101 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    background-color: #E3E1DD;
+}
+
+#cabecalho {
+    background-color: #9FB1BC;
+    border-radius: 50px 50px;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+    position: fixed;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+    z-index: 2;
+}
+
+#link1 {
+    margin: 0 14%;
+}
+
+#link2 {
+    margin: 0 14%;
+}
+
+#link3 {
+    margin: 0 14%;
+}
+
+#random-pic {
+    position: absolute;
+    top: 45px;
+    height: auto;
+    max-width: 100%;
+    z-index: -1;
+}
+
+#titulo-listas {
+    color: #9FB1BC;
+    z-index: 1;
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+
+#listas {
+    z-index: 1;
+    color: #9FB1BC;
+    font-size: xx-large;
+    margin: 0px 35px;
+}
+
+#lista-ordenada {
+    float: right;
+    position: relative;
+    top: 150px;
+    text-align: center; 
+}
+
+ol {
+    list-style: decimal inside none;
+}
+
+#lista-nao-ordenada {
+    float: left;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+ul {
+    list-style: inside none;
+}
+
+#link-externo {
+    position: relative;
+    top: 275px;
+    margin-left: 14%;
+    text-align: center;
+    display: inline;
+    color: #9FB1BC;
+}
+
+#google {
+    margin-left: 48%;
+    font-size: large;
+}
+
+#rodape {
+    bottom: 10px;
+    position: fixed;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
