@@ -1,7 +1,3 @@
-/** {
-    box-sizing: border-box;
-}*/
-
 body {
     background-color: brown;
     margin-top: 150px;
@@ -17,59 +13,3 @@ body {
     background-color: green;
 }
 
-/*#cabecalho h1 {
-    margin: 2em;
-}
-
-#rodape {
-    width: 100%;
-    height: 150px;
-    border: 2px solid black;
-    clear: both;
-}
-
-#rodape p{
-    margin: 2em;
-}
-
-.lado-esquerdo {
-    width: 70%;
-    margin: 0;
-    border: 2px solid blue;
-    float: left;
-}
-
-.lado-esquerdo img {
-    width: 200px;
-}
-
-.lado-direito {
-    width: 30%;
-    margin: 0;
-    border: 2px solid purple;
-    float: right;
-}
-
-.ladodireito-alinh {
-    margin: 2em;
-    padding: 2em;
-    border: 2px solid black;
-}
-
-.caracteristicas {
-    margin: 1em;
-    padding: 4em;
-    border: 2px solid black;
-}
-
-.caracteristicas img {
-    float: left;
-    margin-right: 3em;}
-
-.tabela thead tr th {
-    border: 2px solid black;
-}
-
-.tabela tbody tr td {
-    border: 2px solid black;
-}
