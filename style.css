@@ -17,6 +17,16 @@ h1, h2, h3 {
 	z-index: 10;
 }
 
+#imgAntes {
+  position: relative;
+  left: 0%;
+}
+
+#imgDepois {
+  position: relative;
+  left: 50%;
+}
+
 article {
 	background-color: salmon;
 	height: auto;
