@@ -3,3 +3,8 @@
 body {
 	background-color: #cddfa0;
 }
+
+#cabecalho {
+    position: fixed;
+    background-color: #7b9ea8;
+}
