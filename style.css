@@ -8,7 +8,7 @@ header img {
     margin-left: auto;
     margin-right: auto;
 }
-nav#cabecalho {
+nav {
     position: fixed; background-color: #283e4a; width: 100%; text-align: center;
 }
 nav ul li {
