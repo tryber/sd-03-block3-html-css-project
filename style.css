@@ -16,3 +16,7 @@ body {
     border: 100px ;
     font-family: open sans;    
 }
+.section-1 {
+    position: absolute;
+    width: 100px;    
+}
