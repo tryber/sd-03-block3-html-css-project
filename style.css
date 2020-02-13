@@ -1,7 +1,7 @@
 #cabecalho {
     font-size: 15px;
     text-align: center;
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 
@@ -12,6 +12,10 @@
 
 .titulo {
     font-family: "fastfont";
+}
+
+p {
+    font-size: 10px;
 }
 
 body {
@@ -55,23 +59,24 @@ body {
     position: relative;
 }
 
-#picture-slide {
+.picture-slide {
     border: 5px ridge;
     border-radius: 100%;
     position: relative;
-    margin: 5% 10%;
+    display: inline-block;
 }
 
-#picture-slide:hover {
+.picture-slide:hover {
     opacity: 65%;
 }
 
 .lado-direito {
     font-size: 14px;
-    width: 25%;
+    width: 50%;
     display: inline-block;
     padding: 20px;
     position: absolute;
+    top: 150px;
     left: 33%;
     overflow: auto;
 }
