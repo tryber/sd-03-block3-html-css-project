@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Trybe | Projeto 01</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1 class="outline">Corpo</h1>
+        <header id="cabecalho">
+            <h1 class="outline">Menu de navegação</h1>
+                <a href="#home" class="header_item">Home</a>
+                <a href="#about" class="header_item">About</a>
+                <a href="#contact" class="header_item">Contact</a>
+        </header>
+        <aside>
+            <h1 class="outline">Menu de navegação lateral</h1>
+            <input type="checkbox" id="check">
+            <label id="icone_hamburguer" for="check"><img src="./img/menuhamburger.png" alt="icone do menu"><h1 class="outline">Menu Haburger</h1></label>
+            <nav class="barra_menu">
+                <section class= "nav_bar">
+                    <section class="icones">    
+                        <ul>
+                            <li><a href="#home"><p class="fa fa-home"></p></a></li>
+                            <li><a href="#about"><p class="fa fa-user"></p></a></li>
+                            <li><a href="#contact"><p class="fa fa-envelope"></p></a></li>
+                        </ul>
+                    </section>  
+                    <section class="icones icones_sociais">
+                        <ul> 
+                            <li><a target="_blank" href="https://www.behance.net/thiareis"><p class="fa fa-behance"></p></a></li>
+                            <li><a target="_blank" href="https://github.com/alcantara2509"><p class="fa fa-github"></p></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/thiareis/"><p class="fa fa-linkedin"></p></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </nav>
+        </aside>
+        <section class="home" id="home">
+            <h1 class="outline">Banner</h1>                   
+            <h1 class="h1_banner">hello<span class="virgula">,</span><br>i am<br>thiago</h1>
+            <section class="h2_banner">
+                <h2>software development <br> student at </span><strong><a href="https://www.betrybe.com/" target="_blank">TRYBE</a></strong></h2>
+            </section>
+        </section>
+        <article class="about" id="about">
+            <h1 class="outline">about me</h1>
+            <h1 class="t_about">about me</h1>
+            <p class="p_about">
+                Software development student, freelance programmer. Brazilian, 26 years old, married. I'm dedicated,<br> 
+                proactive and a fast learner. Always looking for holistic and embracing solutions for daily challenges.<br>
+                Based in <strong> Brazil, Belo Horizonte </strong> city.
+            </p>
+        </article>
+        <section class="contact" id="contact">
+            <h1 class="t_contact">contact me</h1>
+            <form class="form">
+                <ol>
+                    <li>
+                        <input class="lado-esquerdo" type="text" placeholder="name" id="nomeid">
+                    </li>
+                    <li>
+                        <input class="lado-direito" type="text" placeholder="email" >
+                    </li>
+                    <li>
+                        <input class="contact_assunto" type="text" placeholder="subject" >
+                    </li>
+                    <li>
+                        <textarea class="contact_msg" type="text" placeholder="message" ></textarea>
+                    </li>
+                    <li>
+                        <input class="contact_submit" type="submit" placeholder="submit" onclick="Submit();">
+                    </li>
+                </ol>
+            </form>
+        </section>
+        <table>
+            <tr id="icones_tabela">
+                <td><a target="_blank" href="https://www.behance.net/thiareis"><p class="fa fa-behance"></p></a></td>
+                <td><a target="_blank" href="https://github.com/alcantara2509"><p class="fa fa-github"></p></a></td>
+                <td><a target="_blank" href="https://www.linkedin.com/in/thiareis/"><p class="fa fa-linkedin"></p></a></td>
+            </tr>
+        </table>
+        <footer id="rodape">
+            <p>&copy;Thiago Pimenta Alcântara dos Reis</p>
+        </footer>
+        <script>
+            function Submit() {
+            
+                var nome = document.getElementById("nomeid");
+            
+                if (nome.value != "") {
+                    alert('Obrigado ' + nome.value + '! Mensagem enviada com sucesso!');
+                }
+                else{
+                    alert('Obrigado! Mensagem enviada com sucesso!');
+                }
+            
+            }
+        </script>
+    </body>
+</html>

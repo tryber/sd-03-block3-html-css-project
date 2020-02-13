@@ -1,0 +1,238 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.outline{
+    display: none;
+}
+body{
+    background-color: #111111;
+    width: 100%;
+    min-width: 1024px;
+}
+.content{
+    width: 100%;
+    min-width: 1024px;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+}
+a:link{
+    text-decoration: none;
+    list-style-type: none;
+}
+ul {
+    padding: 0px!important;
+    list-style-type: none;
+}
+ol {
+    padding: 0px!important;
+    list-style-type: none;
+}
+#cabecalho{
+    padding-top: 25px;
+    padding-left: 1050px;
+    position: fixed;
+}
+.header_item{
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+.header_item:hover{
+    color: #0FA36B;
+    font-weight: 700;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .barra_menu{
+    transform: translateX(-70px);
+}
+#icone_hamburguer{
+    cursor: pointer;
+    color: rgb(160, 160, 160);
+    padding-top: 30px; 
+    padding-left: 23px;
+    position: fixed;
+    z-index: 1;
+    font-size: 25px;
+}
+#icone_hamburguer:active{
+    color: #0FA36B;
+}
+.barra_menu{
+    background-color: rgba(39, 39, 39, 0.815);
+    height: 100%;
+    width: 70px;
+    transition: all .2s linear;
+    position: fixed;
+}
+.nav_bar{
+    margin-top: 40px;
+}
+.icones{
+    width: 27%;
+    float: center;
+    padding-top: 15px;
+}
+.icones ul li{
+    padding-top: 60px;
+    text-align: center;
+}
+.icones ul li a{
+    color: rgb(160, 160, 160);
+    font-size: 20px;   
+} 
+.icones ul li a:hover{
+    color: rgb(78, 78, 78);
+}
+.icones ul li a:active{
+    color: #0FA36B;
+}
+.icones_sociais{
+    padding-top: 120px;
+}
+.icones_sociais ul li{
+    padding-top: 30px;
+}
+.home{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(/img/perfil.png);
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 50px;
+}
+.h1_banner{
+    font-family: Helvetica, sans-serif;
+    font-size: 70px;
+    color: #ffffff;
+    text-align: justify;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 380px;   
+}
+.virgula{
+    color: #0FA36B;
+}
+h2{
+    margin-top: 250px;
+    margin-left: 380px;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: justify;
+    padding-right: 60px;
+    font-weight: 100;
+}
+.about{
+    width: 100%;
+    height: 768px;
+    text-align: center;
+    background-image: url(/img/bg_about.png);
+    background-repeat: no-repeat;
+}
+.t_about{
+    padding-top: 90px;
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+.p_about{
+    padding-top: 22px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+.contact{
+    width: 100%;
+    height: 768px;
+    text-align: center;
+    background-image: url(/img/bg_contact.png);
+    background-repeat: no-repeat;
+}
+.t_contact{
+    padding-top: 60px;
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+.form{
+    padding-top: 65px;
+    text-decoration: none;
+    width: 480px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.lado-esquerdo{
+    padding-left: 10px;
+    width: 47%;
+    height: 45px;
+    background-color: #4b4b4b;
+    border: none;
+    float: left;
+}
+.lado-direito{
+    padding-left: 10px;
+    width: 47%;
+    height: 45px;
+    background-color: #4b4b4b;
+    border: none;
+    float: right;
+}
+.contact_assunto{
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 97.9%;
+    height: 45px;
+    background-color: #4b4b4b;
+    border: none;
+    float: right;
+}
+.contact_msg{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 97.9%;
+    height: 130px;
+    background-color: #4b4b4b;
+    border: none;
+    float: right;
+}
+.contact_submit{
+    cursor: pointer;
+    color: #0FA36B;
+    margin-top: 15px;
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    background-color:rgba(27, 173, 117, 0);
+    border: 3px #0FA36B solid ;
+    float: right;
+}
+.contact_submit:hover{
+    font-weight: 800;
+}
+#icones_tabela td a{
+    color: #4b4b4b;
+    font-size: 35px;
+    padding-left: 20px;
+}
+#rodape{
+    text-align: center;
+    color: #4b4b4b;
+    font-family: Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
