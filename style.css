@@ -5,37 +5,38 @@
     background-color: rgb(3, 3, 31);
 }
 
+section, article, aside, footer, header, nav {
+    display: block;
+}
+
 #cabecalho {
     color: rgb(245, 239, 239);
-    font-family: "Open Sans", sans-serif;
+    font-family: Open Sans, sans-serif;
     position: fixed;
 }
 
 #indice {
     color: rgb(161, 145, 55);
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     
 }
 
 #rodape {
     color: rgb(245, 239, 239);
-    font-family: "Open Sans", sans-serif;
+    font-family: Open Sans, sans-serif;
 }
 
 #background {
     color: rgb(245, 239, 239);
-    font-family: "Open Sans", sans-serif;
-    
+    font-family: Open Sans, sans-serif;
 }
 
 #caracteristicas {
     color: rgb(245, 239, 239);
-    font-family: "Open Sans", sans-serif;
-    
+    font-family: Open Sans, sans-serif;
 }
 
 #impacto {
     color: rgb(245, 239, 239);
-    font-family: "Open Sans", sans-serif;
-    position: static;
+    font-family: Open Sans, sans-serif;
 }
