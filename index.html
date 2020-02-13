@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <title>Paulo Lins</title>
     <meta charset='utf-8'>
+    
     <meta name="viewport" content="width=device-width" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
     <style>
-        body {           
-            width: 960px;
+        body {
+            display:block;
+            width: 100%;
             margin: 0;
             font-family: Open Sans Condensed, sans-serif;
             background-color: #e7f4e4;
@@ -59,12 +61,7 @@
             text-decoration: none;
             font-size: 24px;
         }
-
-        #box {
-            display: inline;
-            margin: 50px;
-        }
-        
+       
         #img {
             width: 300px;
             position: float;
@@ -74,7 +71,7 @@
         
         #titulo {
             position: float;
-            margin: auto;
+            margin-left: 100px;
             background-color: rgb(190, 190, 190);
             width: 650px;
             padding: 20px;
@@ -82,32 +79,41 @@
             font-size: 24px;
         }
         
-        .lado-esquerdo {letter-spacing: normal;
-            /* box-sizing: border-box; */
-            position: relative;cd
-            margin-left: 30px;
-        }
+      
         
-        .lado-direito {
-            position: relative;
-            margin-left: 900px;
-            background-color: rgb(190, 190, 190);
+        /* .lado-direito {
+            position: float;
+            margin-right: 100px;
+            background-color: rgb(0, 44, 4);
             width: 650px;
             padding: 20px;
             margin-top: 0px;
             border-radius: 5px;
             font-size: 24px;
-        }
+            color:white;
+        } */
         
-        #trabalho {
+        #formacao{
             position: float;
-            margin: auto;
-            background-color: rgb(190, 190, 190);
+            margin-left: 900px;
+            background-color: rgb(0, 44, 4);
             width: 650px;
             padding: 20px;
             margin-top: 50px;
             border-radius: 5px;
             font-size: 24px;
+            color: white;
+        }
+        #trabalho {
+            position: float;
+            margin: auto;
+            background-color: rgb(0, 44, 4);
+            width: 650px;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 5px;
+            font-size: 24px;
+            color:white;
         }
         
         .link {
@@ -137,12 +143,13 @@
         #habilidades {
             position: float;
             margin: auto;
-            background-color: rgb(190, 190, 190);
+            background-color: rgb(0, 44, 4);
             width: 650px;
             padding: 20px;
             margin-top: 50px;
             border-radius: 5px;
             font-size: 24px;
+            color:white;
         }
         
         #rodape {
@@ -171,11 +178,8 @@
                 <li><a href="#trabalho">Trabalhos</a></li>
                 <li><a href="#habilidades">Habilidades e competências</a></li>
             </ul>
-        </nav>
-        
-            <img id="img" src="images/paulo.png" alt="foto de Paulo Lins" />
-     <div id="box">
-            <div class="lado-esquerdo"></div>
+        </nav>        
+            <img id="img" src="images/paulo.png" alt="foto de Paulo Lins" />             
             <div id="titulo">
                 <h2>Portfólio Web - Paulo Lins</h2>
                 <h3>Um pouco mais sobre mim</h3>
@@ -183,13 +187,14 @@
                     Sou brasileiro, nasci e moro em Fortaleza no estado do Ceará. Adoro tecnologia e acredito que ela pode nos levar à resolução de diversos problemas. Propiciando uma vida mais tranquila e o desenvolvimento sustentável.
                 </p>
             </div>
-        </div>
         <br>
-        <div class="lado-direito">
+       
+            <div id="formacao">
             <h2>Formação</h2>
             <p>Me formei em Arquitetura, fiz pós-graduação em Educação. Fui professor universitário por quase 7 anos.Neste período fiz parte do grupo de pesquisa em multimídia e da equipe de professores que implementou o Nead (Núcleo de Educação à Distância)
                 da <strong>Universidade de Fortaleza.</strong></p>
-        </div>
+            </div>    
+        
     </div>
         <br>
        <article>
