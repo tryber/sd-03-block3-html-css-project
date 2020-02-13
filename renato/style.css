@@ -1,0 +1,15 @@
+body{
+    background-color: lightgrey;
+}
+header{
+    position: fixed;
+    background-color:#848F4B;
+}
+#testimage{
+    background-color: maroon;
+    border: 1em 1em;
+}
+#rodape{
+    background-color: #7A8792;
+    height: 100px;
+}
