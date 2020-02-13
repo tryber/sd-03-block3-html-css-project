@@ -62,5 +62,5 @@ nav{
 }
 
 #cabecalho{
-    display: fixed;
+    position: fixed;
 }
