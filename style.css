@@ -13,5 +13,5 @@ table { border-collapse: collapse; margin: 20px; }
 td, th { border-bottom: 1px solid #ddd; text-align: center; padding: 10px; }
 section#sobre { width: 50%; margin: 20px; }
 .fixed { position: fixed; }
-.left-side { float: left; }
-.right-side { float: right; }
+.lado-esquerdo { float: left; }
+.lado-direito { float: right; }
