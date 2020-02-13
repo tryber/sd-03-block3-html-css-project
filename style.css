@@ -1,3 +1,32 @@
-body { background-color: #e1d5c9; margin: 0; }
-nav { position: fixed; background-color: #b9c16b; width: 100%; text-align: center; }
-nav ul li { display: inline-block; padding: 10px; }
+body {
+    background-color: #e1d5c9; margin: 0;
+}
+header {
+    text-align: center;
+}
+header img {
+    margin-left: auto;
+    margin-right: auto;
+}
+nav#cabecalho {
+    position: fixed; background-color: #283e4a; width: 100%; text-align: center;
+}
+nav ul li {
+    display: inline-block; padding: 10px;
+}
+nav ul li a{
+    color: beige;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: burlywood;
+}
+article {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section#post{
+    width: fit-content;
+    text-align: left;
+}
