@@ -5,16 +5,39 @@
     background-color: aqua;
     width: 150px;
     height: 150px;
-    display: inline-block;
+    z-index: 2;
 }
 
 #rodape{
+    position: relative;
     font-size: 30px;
     height: 100px;
+    margin-top: 50px;
 
+}
+#lado-direito{
+    position: fixed;
+    width: 20%;
+    right: 5px;
+}
+
+#lado-esquerdo{
+    position: relative;
+    top:300px;
+    width: 80%;
+    left: 5px;
+}
+
+#primeiro-artigo{
+    position: relative;
+    top: 250px;
+    border: darkred;
+    font-size: 29px;
+    
 }
 
 body{
+    position: relative;
     background-color: azure;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,4 +45,8 @@ body{
 }
 li{
     list-style: none;
+    
+}
+ul{
+    display: inline-block;
 }
