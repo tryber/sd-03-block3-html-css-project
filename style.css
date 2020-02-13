@@ -1,0 +1,12 @@
+#brasil{
+    color: green;
+}
+h2{
+    font-style: italic;
+}
+body{
+    background-color: blue;
+}
+#cabecalho{
+    position: fixed; top: 0; left: 0; width: 100%; height: 100px;
+}
