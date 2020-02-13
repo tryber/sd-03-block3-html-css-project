@@ -1,12 +1,29 @@
-#brasil{
-    color: green;
+.brasil { 
+ color: green;
 }
-h2{
-    font-style: italic;
+
+h2 {
+ font-style: italic;
 }
-body{
-    background-color: blue;
+
+body {
+ background-color: rgb(240, 240, 0);
 }
-#cabecalho{
-    position: fixed; top: 0; left: 0; width: 100%; height: 100px;
+
+#cabecalho {
+ position: fixed; 
+ top: 0; 
+ left: 0; 
+ width: 100%; 
+ height: auto;
+ background-color: blue;
+}
+
+#lista1 {
+ top: 400 px;
+ left: 400px;
+}
+
+#lista2 {
+ right: 0;
 }
