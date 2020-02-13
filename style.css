@@ -1,7 +1,7 @@
 body {
     background: rgb(144, 155, 80);
 }
-header {
+#cabecalho {
     background: black;
     color: white;
     padding: 25px;
