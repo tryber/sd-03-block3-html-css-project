@@ -5,7 +5,11 @@ body {
 #cabecalho {
     position: fixed;
 }
-#rodapé {
+#rodape {
     font-family: arial;
     color: gray;
+}
+#listas1 {
+    margin-top: 180px;
+    font-family: open sans;    
 }
