@@ -1,31 +1,41 @@
 body {
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#cabecalho  {
-    background-color: #578c3e;
-    display: flex;
-    justify-content: space-around;
-    left: 0%;
-    position: fixed;
-    top: 0%;
-    width: 100%;
+h1, h2, h3 {
+	text-align: center;
+}
+
+#cabecalho {
+	background-color: #578c3e;
+	display: flex;
+	justify-content: space-around;
+	left: 0%;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	z-index: 10;
 }
 
 article {
-    background-color: salmon;
-    height: auto;
-    position: relative;
+	background-color: salmon;
+	height: auto;
+	position: relative;
 }
 
-#fotos  {
-    height: 400px;
+footer {
+	background-color: #d4daf2;
 }
 
-#fatos  {
-    background-color: sandybrown;
+#fotos {
+	height: 300px;
 }
 
-#curiosidades   {
-    background-color: sienna;
+#fatos {
+	background-color: sandybrown;
+}
+
+#curiosidades {
+	background-color: #4a484b;
+	color: snow;
 }
