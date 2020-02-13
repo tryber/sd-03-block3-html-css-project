@@ -1,0 +1,4 @@
+body{ background-color: #E1D5C9; margin: 0;  }
+header{ }
+nav{  position: fixed; background-color: #B9C16B; width: 100%; text-align: center; }
+nav ul li{ display: inline-block; padding: 10px;}
