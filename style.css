@@ -30,3 +30,9 @@ body {
   top: 0;
   left: 200px;
 }
+
+#imagem {
+  margin: none;
+  padding: 10px;
+  border: black;
+}
