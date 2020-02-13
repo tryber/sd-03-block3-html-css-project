@@ -35,7 +35,8 @@ nav {
 
 .lado-esquerdo {float: left;
 margin-right: 20px;
-border: orangered solid 2px;}
+border: orangered solid 2px;
+position: relative}
 
 ul {
     list-style: none;
