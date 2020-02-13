@@ -4,6 +4,12 @@ body{
     margin: 0;    
 
 }
+.lado-esquerdo{
+
+}
+.lado-direito{
+
+}
 #cabecalho{
     position: fixed;
 }
@@ -24,4 +30,13 @@ body{
     font-weight: bold;
     text-decoration: none;
     font-family: monospace, sans-serif;
-
+}
+#pagina-inicial{
+    margin: 0;
+    display: inline-block;
+}
+#artigos{
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+}
