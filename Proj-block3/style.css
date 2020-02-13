@@ -1,0 +1,32 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+#cabecalio{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 100px;   
+}
+
+#conteudo{
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+
+
+#rodape{
+
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 100px;
+       
+}
+
