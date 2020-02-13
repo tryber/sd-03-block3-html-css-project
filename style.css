@@ -8,7 +8,7 @@ body{
     background-color: aquamarine;
 }
 
-.header{
+#cabecalho{
     background-color: teal;
     color: whitesmoke;
 }
@@ -25,22 +25,22 @@ p {
     margin-bottom: 5px;
 }
 
-#cabecalho{
+.nav{
     background-color: cornflowerblue;
     padding: 0 30px;
 }
 
-#cabecalho ul{
+.nav ul{
     display: flex;
     padding: 5px 0;
 }
 
-#cabecalho li{
+.nav li{
     margin-right: 40px;
     list-style-type: none;
 }
 
-#cabecalho li a{
+.nav li a{
     color: white;
     text-decoration: none;
 }
