@@ -1,3 +1,31 @@
 body {
-    background-color: #578C3E;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cabecalho  {
+    background-color: #578c3e;
+    display: flex;
+    justify-content: space-around;
+    left: 0%;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+article {
+    background-color: salmon;
+    height: auto;
+    position: relative;
+}
+
+#fotos  {
+    height: 400px;
+}
+
+#fatos  {
+    background-color: sandybrown;
+}
+
+#curiosidades   {
+    background-color: sienna;
 }
