@@ -71,10 +71,10 @@ nav{
     background-color: aliceblue;
 }
 
-#direita{
+.direita{
     float: right;
 }
 
-#esquerda{
+.esquerda{
     float: left;
 }
