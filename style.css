@@ -26,6 +26,8 @@ p {
 nav {
   text-align: center;
   padding-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
 }
 
 main article {
