@@ -102,10 +102,10 @@ body {
   text-align: center;
 }
 
-.lado-direito{
+.lado-direito {
   float: right;
 }
 
-.lado-esquerdo{
-  float: right;
+.lado-esquerdo {
+  float: left;
 }
