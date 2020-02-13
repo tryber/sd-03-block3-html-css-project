@@ -47,7 +47,7 @@ Lembre-se de verificar sua página no [achecker](https://achecker.ca/checker/ind
 ### ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-03-week3-html-css-project.git`.
+  * `git clone https://github.com/tryber/sd-03-block3-html-css-project.git`.
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -60,7 +60,7 @@ Lembre-se de verificar sua página no [achecker](https://achecker.ca/checker/ind
 
 3. Crie uma pasta na raiz do projeto com o seu nome e um arquivo **README.md** dentro dessa pasta:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-03-week3-html-css-project**_
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-03-block3-html-css-project**_
   * Crie a pasta e o arquivo **README.md**
     * Exemplo:
       * `mkdir joaozinho`
@@ -82,13 +82,13 @@ Lembre-se de verificar sua página no [achecker](https://achecker.ca/checker/ind
   * Usando o exemplo anterior: `git push -u origin joaozinho-html-css-project`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-week3-html-css-project/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-block3-html-css-project/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-03-week3-html-css-project/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-03-block3-html-css-project/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
