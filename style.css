@@ -1,6 +1,6 @@
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
 body {
     background-color: brown;
@@ -17,7 +17,7 @@ body {
     background-color: green;
 }
 
-#cabecalho h1 {
+/*#cabecalho h1 {
     margin: 2em;
 }
 
@@ -64,5 +64,12 @@ body {
 
 .caracteristicas img {
     float: left;
-    margin-right: 3em;
+    margin-right: 3em;}
+
+.tabela thead tr th {
+    border: 2px solid black;
+}
+
+.tabela tbody tr td {
+    border: 2px solid black;
 }
