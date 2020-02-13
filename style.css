@@ -7,6 +7,12 @@ body {
     position: fixed; 
     background-color: rgb(95, 70, 25); 
     width: 12%; 
-    text-align: center;
+    text-align: center; 
+}
+#rodape{
+    border: 2px dashed rgb(218, 146, 14);
     
+    background-color: rgb(95, 70, 25); 
+    width: 12%; 
+    text-align: center; 
 }
