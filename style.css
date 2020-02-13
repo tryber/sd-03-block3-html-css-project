@@ -1,23 +1,44 @@
 body {
     background-color: lightgrey;
+}
 
+ul {
+    display: flex;
+    text-decoration: none;
+}
+
+li {
+    margin: 1em;
+}
+
+nav{color: chartreuse;
+    text-decoration: none;
 }
 
 header {
-    position: absolute fixed;
-       background-color: rgb(132, 143, 75);
-       padding: 10px 0;
-
+    position: fixed;
+    background-color:rgb(58, 66, 25);
+    display: inline-flex;
+    top: 0em;
+    width: 100%;
+    color: rgb(208, 215, 174);
+    margin-bottom: 2em;
 }
 
-#testimage {
+img {
     background-color: maroon;
-    border: 1em 1em;
-
+    border: 0.5em solid rgb(122, 135, 146);
 }
 
 #rodape {
     background-color: rgb(208, 215, 174);
     height: 100px;
+}
 
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
 }
