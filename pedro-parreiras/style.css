@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(126, 91, 26);
+}
+
+#cabecalho{
+    border: 2px dashed rgb(218, 146, 14);
+    position: fixed; 
+    background-color: rgb(95, 70, 25); 
+    width: 12%; 
+    text-align: center;
+    
+}
