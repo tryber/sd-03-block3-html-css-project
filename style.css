@@ -5,15 +5,13 @@
 }
 
 body {
-  background-color: rgba(0, 140, 255, 0.349);
+  background-color: rgba(0 , 140 , 255 , 0.349);
 }
 
 #cabecalho {
   position: fixed;
-  padding: 10px;
   width: 100%;
-  background-size: 100%;
-  background-color: rgba(225, 0, 255, 0.39);
+  background-color: rgba(225 , 0 , 255 , 0.39);
 }
 
 .navegacao {
@@ -27,11 +25,7 @@ body {
   width: 100%;
   background-size: 100%;
   bottom: 0;
-  background-color: rgba(168, 168, 168, 0.856);
-}
-
-.explanation {
-
+  background-color: rgba(168 , 168 , 168 , 0.856);
 }
 
 .main-title {
@@ -42,10 +36,23 @@ img {
   width: 350px;
 }
 
-.lists {
-  display: inline-;
+.lado-esquerdo {
+  float: left;
 }
 
-ul ,ol {
+.lado-direito {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+ul, ol {
   padding: 20px;
+}
+
+.italic-bold {
+  font-weight: bold;
+  font-style: italic;
 }
