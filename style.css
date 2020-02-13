@@ -1,9 +1,22 @@
-body{
-    background-color:#8c7f73;
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Lato', sans-serif;
 }
-#cabecalho{
-
+#cabecalho {
+    width:100%;
+    height:100px;
+    padding: 10px;
+    margin: 0;
+    background-color: #032701;		
+    box-sizing: border-box;
 }
-#rodape{
-    
+#lista1{
+    list-style-type: lower-roman;
+}
+#rodape {
+    width: auto;
+    padding: 0;
+    background-color: black;
+    text-align: center;
 }
