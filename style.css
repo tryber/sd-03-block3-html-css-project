@@ -4,20 +4,20 @@ body{
     margin: 0;    
 
 }
-#barra-inicial{
+#cabecalho{
     position: fixed;
 }
-#barra-inicial ul{
+#cabecalho ul{
     background-color: black;
     list-style: none;
     margin: 0;
 }
-#barra-inicial ul li{
+#cabecalho ul li{
     color: orangered;
     display: inline;
     margin: 50px;
 }
-#barra-inicial ul li a{
+#cabecalho ul li a{
     padding: 5px 5px;
     display: inline-block;
     color: orangered;
