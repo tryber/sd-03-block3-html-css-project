@@ -1,14 +1,10 @@
 body {
     background-color: #3E885B;
 }
-body *{
-    margin-left:10px;
-    margin-right:1px;
-}
 #cabecalho {
     position:fixed;
     background-color: yellow;
-    width: 100%;
+    width: 90%;
 }
 nav ul li {
     display:inline-block;
