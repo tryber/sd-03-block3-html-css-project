@@ -1,0 +1,66 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    background-color: rgb(206, 177, 124);
+}
+
+#cabecalho {
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+    margin-right: 0;
+    top: 0;
+    text-align: center;
+    color: yellow;
+    border-bottom: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: yellow;
+    border-style: inset;
+}
+
+#article{
+    padding-top: 70px;
+    padding-left: 5px;
+    width: 60%
+}
+
+#ak-aks-image {
+    border: 5px;
+    border-color: rgb(75, 47, 16);
+    border-style: ridge;
+}
+
+#contact {
+    background-color: red;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    top: 0;
+    text-align: center;
+    color: yellow;
+    border-bottom: 0;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-color: yellow;
+    border-style: inset;
+    padding-bottom: 5px;
+}
+
+article a {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+footer a {
+    color: yellow;
+    font-weight: bold;
+}
+
