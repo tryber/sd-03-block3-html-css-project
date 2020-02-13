@@ -22,7 +22,7 @@
 }
 
 #reference1 {
-  background-color: #aeceff;
+  background-color: chartreuse;
   font-family: Helvetica, serif;
 }
 
@@ -36,7 +36,6 @@ p {
 
 .navigation {
   background-color: cornflowerblue;
-  /*padding: 0 300px;*/
   color: black;
 }
 
