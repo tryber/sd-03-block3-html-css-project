@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color:whitesmoke;
+    }
+    
+    #cabecalho {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: green; 
+    width: 100%;
+    position:; 
+    }
+    
+    .principal {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: justify;
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    #ul_list {
+        list-style-type: none;
+    position: relative; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif; 
+    text-align: right;
+    display:block; 
+    }
+
+    li a {    
+    }
+    
+    #ol_list {
+    display: block; 
+    }
+    
+    #rodape {
+    
+    }
+    
