@@ -64,3 +64,17 @@ nav{
 #cabecalho{
     position: fixed;
 }
+
+.lateral{
+    float: right;
+    width: 10%;
+    background-color: aliceblue;
+}
+
+#direita{
+    float: right;
+}
+
+#esquerda{
+    float: left;
+}
