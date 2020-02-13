@@ -1,4 +1,4 @@
-#cabecalho{
+#cabecalho {
     font-size: 30px;
     position: fixed;
     top:5px;
@@ -8,27 +8,27 @@
     z-index: 2;
 }
 
-#rodape{
+#rodape {
     position: relative;
     font-size: 30px;
     height: 100px;
     margin-top: 50px;
 
 }
-#lado-direito{
+#lado-direito {
     position: fixed;
     width: 20%;
     right: 5px;
 }
 
-#lado-esquerdo{
+#lado-esquerdo {
     position: relative;
     top:300px;
     width: 80%;
     left: 5px;
 }
 
-#primeiro-artigo{
+#primeiro-artigo {
     position: relative;
     top: 250px;
     border: darkred;
@@ -36,17 +36,17 @@
     
 }
 
-body{
+body {
     position: relative;
     background-color: azure;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkred;
 }
-li{
+li {
     list-style: none;
     
 }
-ul{
+ul {
     display: inline-block;
 }
