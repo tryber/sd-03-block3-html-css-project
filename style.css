@@ -1,9 +1,25 @@
 #cabecalho{
     font-size: 30px;
+    position: fixed;
+    top:5px;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
 
 #rodape{
     font-size: 30px;
     height: 100px;
 
+}
+
+body{
+    background-color: azure;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}
+li{
+    list-style: none;
 }
