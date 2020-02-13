@@ -31,3 +31,10 @@ nav{
     padding: 2px;
     border: black 3px solid;
 }
+
+.lado-esquerdo{
+    float: left;
+}
+.lado-direito{
+    float: right;
+}
