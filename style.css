@@ -6,12 +6,20 @@ body {
     display: none;
 }
 
-.fixo {
+#cabecalho {
+    display: block;
     background-color: white;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 35px;
-    padding: 25px;
+}
+
+.lado{
+    display: inline-block;
+    margin-left: 50px;left: 0;
+}
+.relativo{
+    display: block;
+    padding: 100px;
 }
