@@ -5,3 +5,7 @@ body {
 #cabecalho {
     position: fixed;
 }
+#rodapé {
+    font-family: arial;
+    color: gray;
+}
