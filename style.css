@@ -1,3 +1,3 @@
-#cabecalho{
-    display: fixed;
+#cabecalho h1{
+    position: fixed;
 }
