@@ -7,12 +7,13 @@
     height: 150px;
     z-index: 2;
 }
+footer{
+    margin: 0;
+}
 
 #rodape {
-    position: relative;
+
     font-size: 30px;
-    height: 100px;
-    margin-top: 50px;
 
 }
 #lado-direito {
@@ -22,22 +23,22 @@
 }
 
 #lado-esquerdo {
-    position: relative;
+
     top:300px;
     width: 80%;
     left: 5px;
 }
 
 #primeiro-artigo {
-    position: relative;
-    top: 250px;
+
+    margin-top: 200px;
     border: darkred;
     font-size: 29px;
     
 }
 
 body {
-    position: relative;
+
     background-color: azure;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
