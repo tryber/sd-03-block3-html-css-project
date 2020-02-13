@@ -35,8 +35,8 @@ nav {
 
 .lado-esquerdo {float: left;
 margin-right: 20px;
-border: orangered solid 2px;
-position: relative}
+position: relative;
+width: 50%;}
 
 ul {
     list-style: none;
@@ -48,8 +48,10 @@ footer {    margin-top: 150;
     padding-top: 150;}
 
 aside { 
-    float: right;   
-    margin-top: 150;
+    float: right;
+    position: relative;
+    width: 50%;
+    margin-top: 150 150 150 150;
     padding-top: 150;}
 
     article {margin-top: 150;
@@ -61,6 +63,7 @@ aside {
     margin-top: 150;
     padding-top: 150;
     float: right;
+    width: 50%;
 }
 
 #dgtl {margin-top: 150;
