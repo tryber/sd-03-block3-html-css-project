@@ -20,6 +20,7 @@ body{
 .lado-direito{
     float: right;
     text-align: right;
+    padding-right: 30px;
 }
 
 .lado-direito li{
