@@ -22,15 +22,17 @@ footer{
 
 }
 #lado-direito {
-    position: fixed;
+    position: relative;
+    float:right;
     width: 20%;
     right: 5px;
 }
 
 #lado-esquerdo {
-
+    position: relative;
+    float:left;
     top:300px;
-    width: 80%;
+    width: 70%;
     left: 5px;
 }
 
