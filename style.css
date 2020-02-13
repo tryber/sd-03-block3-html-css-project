@@ -29,7 +29,7 @@ ul {
     padding: 0px!important;
     list-style-type: none;
 }
-.cabecalho{
+#cabecalho{
     padding-top: 25px;
     padding-left: 1050px;
     position: fixed;
@@ -225,7 +225,7 @@ h2{
 .contact_submit:hover{
     font-weight: 800;
 }
-.rodape{
+#rodape{
     text-align: center;
     color: #4b4b4b;
     font-family: Helvetica, sans-serif;
