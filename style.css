@@ -6,18 +6,29 @@ body {
 
 #cabecalho {
     position: fixed;
-    top: 10px;
+    top: 5px;
     background-color: #7b9ea8;
 }
 
-#conhecendo {
+.lado-esquerdo {
     color: blue;
     font-size: 20px;
     text-align: justify;
+    position: relative;
+    float: left;
+
 }
 
 #foto {
     border: 5px solid #7b9ea8;
     padding: 5px;
     margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    float: left;
+}
+
+.lado-direito {
+    position: relative;
+    float: right;
 }
