@@ -4,5 +4,15 @@ body {
 header {
     background: black;
     color: white;
-    padding: 50px;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+#trybe-logo {
+    float: left;
+    width: 60px;
+    margin-top: 10px;
 }
