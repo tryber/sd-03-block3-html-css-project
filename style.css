@@ -1,9 +1,41 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    background-color: rgb(3, 3, 31);
 }
 
 #cabecalho {
-    position: fixed
+    color: rgb(245, 239, 239);
+    font-family: "Open Sans", sans-serif;
+    position: fixed;
+}
+
+#indice {
+    color: rgb(161, 145, 55);
+    font-family: "Roboto", sans-serif;
+    
+}
+
+#rodape {
+    color: rgb(245, 239, 239);
+    font-family: "Open Sans", sans-serif;
+}
+
+#background {
+    color: rgb(245, 239, 239);
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+#caracteristicas {
+    color: rgb(245, 239, 239);
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+#impacto {
+    color: rgb(245, 239, 239);
+    font-family: "Open Sans", sans-serif;
+    position: static;
 }
