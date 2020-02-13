@@ -1,9 +1,9 @@
+body{
+   background-color:lightgreen;
+}
+
 #cabecalho{
-   background-color:rgb(115,255,234);
-   border: 3px solid #73AD21;   
-   padding:15px;
    position:fixed;
-   width:600px;
 }
 
 .outline-title{
