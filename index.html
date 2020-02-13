@@ -7,24 +7,23 @@
     <meta name="viewport" content="width=device-width" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
     <style>
-        body {
-            width: 100%;
+        body {           
+            width: 960px;
             margin: 0;
-            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: Open Sans Condensed, sans-serif;
             background-color: #e7f4e4;
         }
-        /*  pesquisar */
-        
-        #fonte {
-            font-family: 'Open Sans Condensed', sans-serif;
-        }
-        
+                         
         #cabecalho {
             position: fixed;
             margin-top: 0;
             width: 100%;
             height: 40px;
-            background-color: rgb(200, 25, 25);
+            background-color: rgb(0, 0, 0);
+            z-index: 1;
+            text-align: center;
+            color: white;
+
         }
         
         #menu {
@@ -39,7 +38,7 @@
             width: 800px;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 45px;
+            margin-top: 55px;
         }
         
         #menu>ul>li {
@@ -51,14 +50,19 @@
         }
         
         #menu>ul>li:hover {
-            background-color: rgb(97, 97, 97);
+            background-color: rgb(26, 61, 28);
         }
         
         #menu>ul>li>a {
             margin: 0 auto;
-            color: rgb(182, 182, 182);
+            color: rgb(255, 255, 255);
             text-decoration: none;
             font-size: 24px;
+        }
+
+        #box {
+            display: inline;
+            margin: 50px;
         }
         
         #img {
@@ -78,19 +82,19 @@
             font-size: 24px;
         }
         
-        #container {
-            box-sizing: border-box;
-            position: float;
-            margin: auto;
+        .lado-esquerdo {letter-spacing: normal;
+            /* box-sizing: border-box; */
+            position: relative;cd
+            margin-left: 30px;
         }
         
-        #formacao {
-            position: float;
-            margin: auto;
+        .lado-direito {
+            position: relative;
+            margin-left: 900px;
             background-color: rgb(190, 190, 190);
             width: 650px;
             padding: 20px;
-            margin-top: 50px;
+            margin-top: 0px;
             border-radius: 5px;
             font-size: 24px;
         }
@@ -155,10 +159,11 @@
 </head>
 
 <body>
-    <header>
-        <div id="cabecalho">
-            <h2>Um título aqui!</h2>
+    <header id="cabecalho">
+        <div >
+            <h2>Paulo Lins</h2>
         </div>
+    </header>
         <nav id="menu">
             <ul>
                 <li><a href="#titulo">Sobre mim</a></li>
@@ -167,8 +172,10 @@
                 <li><a href="#habilidades">Habilidades e competências</a></li>
             </ul>
         </nav>
-        <div id="container">
+        
             <img id="img" src="images/paulo.png" alt="foto de Paulo Lins" />
+     <div id="box">
+            <div class="lado-esquerdo"></div>
             <div id="titulo">
                 <h2>Portfólio Web - Paulo Lins</h2>
                 <h3>Um pouco mais sobre mim</h3>
@@ -178,30 +185,27 @@
             </div>
         </div>
         <br>
-        <div id="formacao">
+        <div class="lado-direito">
             <h2>Formação</h2>
             <p>Me formei em Arquitetura, fiz pós-graduação em Educação. Fui professor universitário por quase 7 anos.Neste período fiz parte do grupo de pesquisa em multimídia e da equipe de professores que implementou o Nead (Núcleo de Educação à Distância)
-                da Universidade de Fortaleza.</p>
+                da <strong>Universidade de Fortaleza.</strong></p>
         </div>
+    </div>
         <br>
-        <!--<img src="images/unifor.jpg" alt="foto da Universidade de Fortaleza" width='300px'>-->
-        <article>
+       <article>
             <section>
                 <div id="trabalho">
                     <h2>Trabalhos</h2>
                     <p>Na <a class="link" href="https://www.unifor.br/" target="_blank">Universidade de Fortaleza</a> contribuí como professor e pesquisador de 2000 a 2006.<br> Lá pude contar com a generosidade de outros professores com os quais aprendi
-                        muito.
-                        <!--<img src="images/dojo.jpg" alt="foto da Universidade do Linsei Dojo em Fortaleza" width='300px'>-->
-                        Sou professor de <strong><a class="link" href="http://www.linseidojo.com.br" target="_blank">aikido</a></strong> e, há 20 anos, ministro aulas no Linsei Dojô em Fortaleza.
+                        muito.Sou professor de <strong><a class="link" href="http://www.linseidojo.com.br" target="_blank">aikido</a></strong> e, há 20 anos, ministro aulas no Linsei Dojô em Fortaleza.
                     </p>
                 </div>
             </section>
-            <!-- <img src="images/trybe.png" alt="logo da trybe" width='200px'>-->
             <br>
             <div id="trybe">
                 <p>
-                    Atualmente sou estudante da <strong> <a class="link-trybe" href="https://www.betrybe.com/" target="_blank">trybe.</a></strong><br> Empresa que busca a excelência na formação de desenvolvedores de software. Além de trabalhar na Universidade
-                    pude desenvolver diversos trabalhos nas áreas de: Computação gráfica Edição de vídeo Multimídia Criação de Identidade Visual para empresas
+                    Atualmente sou <strong>estudante</strong> da <strong> <a class="link-trybe" href="https://www.betrybe.com/" target="_blank">trybe.</a></strong></strong>><br> Empresa que busca a excelência na formação de desenvolvedores de software. Além de trabalhar na Universidade
+                    pude desenvolver diversos trabalhos nas áreas de: <em>Computação gráfica Edição de vídeo Multimídia Criação de Identidade Visual para empresas</em>
                 </p>
             </div>
             <br>
@@ -217,12 +221,8 @@
                 </p>
             </div>
         </article>
-        <footer>
-            <div id="rodape">
-                <p>No ©Copyright! </p>
-            </div>
+        <footer id="rodape">
+            <p>No ©Copyright!</p>
         </footer>
-
 </body>
-
 </html>
