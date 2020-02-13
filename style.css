@@ -1,0 +1,46 @@
+#cabecalho {  
+    position: fixed;
+    color: lightcoral;
+    background-color: lightcyan;
+    z-index: 1;
+    min-width: 100%;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#rodape {
+    text-align: center;
+    background-color: lightgrey;
+    z-index: 1;
+    font-size: 1.2em;
+    clear: both;
+}
+body {
+    background: linear-gradient(lightblue,mediumblue);
+    
+}
+.lado-esquerdo{
+    float: left;
+    margin-top: 0px;
+    margin-right:30%;
+
+}
+.lado-direito {
+    float: right;
+    margin-top: -30%;
+    width: 30%;
+    padding-left: 30%;
+    font-style: italic;
+}
+h1 {
+    margin-top: 0%;
+}
+#bloco {
+   
+    align-items: stretch;
+    
+}
+#imgsize {
+    width: 70%;
+}
