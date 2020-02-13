@@ -1,13 +1,16 @@
 body {
-  background-color: aquamarine;
+  background-color: black;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: 1fr 4fr;
   margin: 0;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
 }
 
 #cabecalho{
+    color: black;
     display: flex;
     position: fixed;
     background-color: aliceblue;
@@ -16,10 +19,15 @@ body {
 }
 
 .relative{
-    margin-top: 150px;
-    
+    margin-top: 150px;    
 }
 
 nav{
     display: flex;
+}
+
+#tabela{
+    margin: 1px;
+    padding: 2px;
+    border: black 3px solid;
 }
