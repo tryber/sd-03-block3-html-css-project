@@ -4,6 +4,7 @@ body{
 
 #cabecalho{
    position:fixed;
+   background-color:rgb(127,255,200);
 }
 
 .outline-title{
