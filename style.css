@@ -17,15 +17,16 @@ body{
     padding-top: 150px;
 }
 
-#lista-ul{
+.lado-direito{
     float: right;
     text-align: right;
 }
-#lista-ul li{
+
+.lado-direito li{
     list-style-type: none;
 }
 
-#lista-ol{
+.lado-esquerdo{
     float: left;
     padding-left: 30px;
 }
