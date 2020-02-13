@@ -39,3 +39,14 @@ body {
     border: 2px solid purple;
     float: right;
 }
+
+.caracteristicas {
+    margin: 1em;
+    padding: 4em;
+    border: 2px solid black;
+}
+
+.caracteristicas img {
+    float: left;
+    margin-right: 3em;
+}
