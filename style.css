@@ -1,33 +1,32 @@
-body{
+body {
     background-color: rgb(19, 98, 75);
     font-family: 'Quattrocento', serif;
     font-family: 'Lora', serif;
 }
-h1, h2, h3{
+h1, h2, h3 {
     display: block;
     color: rgb(255, 255, 255);
 }
-p, ul, ol{
+p, ul, ol {
     display: block;
     color: rgb(220, 220, 220);
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
 }
-#barraDeNavegacao{
-
+#barraDeNavegacao {
+    display: block;
 }
-#Rodape{
+#Rodape {
     position: fixed;
 }
-
-.Titulo{
+.Titulo {
     font-size: xxx-large;
     color: rgb(255, 255, 255);
 }
-.subTitulo{
+.subTitulo {
     color: rgb(255, 255, 255);
 }
-.Paragrafo{
+.Paragrafo {
     color: rgb(220, 220, 220);
 }
