@@ -4,7 +4,9 @@ body{
     margin: 0;    
 
 }
-
+#barra-inicial{
+    position: fixed;
+}
 #barra-inicial ul{
     background-color: black;
     list-style: none;
