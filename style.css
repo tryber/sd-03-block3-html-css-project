@@ -10,7 +10,7 @@
   width: auto;
 }
 
-#header-container {
+#cabecalho {
   position: fixed;
   background-color: cornflowerblue;
   color: black;
@@ -87,7 +87,7 @@ p {
   margin-top: 40px;
 }
 
-#footer {
+#rodape {
   background-color: cornflowerblue;
   color: black;
 }
