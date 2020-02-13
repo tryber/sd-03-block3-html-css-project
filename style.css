@@ -23,9 +23,10 @@ a {
   text-decoration: none;
 }
 
-header {
+#cabecalho {
   height: 100px;
   background-color: rgba( 0 , 0 , 0 );
+  position: fixed;
 }
 
 .default-width {
@@ -57,12 +58,12 @@ header {
   font-family: Lobster, cursive;
 }
 
-#cabecalho ul {
+#nav-hor ul {
   display: flex;
   justify-content: space-between;
 }
 
-#cabecalho ol {
+#nav-hor ol {
   display: flex;
   justify-content: space-between;
 }
@@ -75,7 +76,7 @@ header {
   color: blue;
 }
 
-#cabecalho a {
+#nav-hor a {
   color: black;
   background-size: 25px;
   padding: 13px 12px 10px 37px;
@@ -97,7 +98,7 @@ header {
   background: url('/images/icon-curiosidade.png') no-repeat 8px;
 }
 
-#cabecalho li {
+#nav-hor li {
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -105,7 +106,7 @@ header {
   background-color: white;
 }
 
-#cabecalho li:hover {
+#nav-hor li:hover {
   background-color: rgb( 226 , 197 , 35 );
 }
 
