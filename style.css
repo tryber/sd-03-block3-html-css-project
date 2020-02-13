@@ -1,7 +1,8 @@
 body {
-    background-color: darkslategrey;
+  background-color: rgb(29, 29, 29);
+  color: aliceblue;
 }
 
 #cabecalho {
-    position: fixed;
+  position: fixed;
 }
