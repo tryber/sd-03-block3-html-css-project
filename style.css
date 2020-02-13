@@ -29,6 +29,10 @@ ul {
     padding: 0px!important;
     list-style-type: none;
 }
+ol {
+    padding: 0px!important;
+    list-style-type: none;
+}
 #cabecalho{
     padding-top: 25px;
     padding-left: 1050px;
