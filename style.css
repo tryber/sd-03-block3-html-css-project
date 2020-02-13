@@ -1,8 +1,16 @@
 body{
     background-color: cadetblue;
+    height: 100%;
 }
 
 #cabecalho{
     background-color: chartreuse;
     position: fixed;
+}
+
+#rodape{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
