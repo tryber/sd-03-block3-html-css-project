@@ -5,7 +5,7 @@ h1 { font-size: 35px; }
 body {
   background-color: #e1d5c9;
   margin: 0;
-  font-family: "Times New Roma, Ancient Runes", serif;
+  font-family: 'Times New Roma, Ancient Runes', serif;
 }
 
 #imgandtitulo { text-align: center; }
