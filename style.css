@@ -2,17 +2,52 @@
 
 body {
   display: block;
-  padding: 10px;
-  background-color: #1d1d1d;
-  color: aliceblue;
+  background-color: rgb(29, 29, 29);
+  color: rgb(240, 248, 255);
   font-family: "Montserrat", sans-serif;
 }
 
-#cabecalho {
-  position: fixed;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 25px;
+  padding-top: 6em;
+}
+nav ul li {
+  display: block;
+  width: 120px;
+  float: left;
+  margin-left: 2px;
 }
 
+p {
+  padding-left: 2em;
+  padding-right: 3em;
+}
+
+nav {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main article {
+  padding-left: 2em;
+}
+#cabecalho {
+  padding-left: 50%;
+  padding-right: 50%;
+  position: fixed;
+  padding: 0px;
+  padding-top: 0px;
+}
+
+footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
 img {
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
 }
