@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(19, 98, 75);
+    font-family: 'Quattrocento', serif;
+    font-family: 'Lora', serif;
+}
+h1, h2, h3{
+    display: block;
+    color: rgb(255, 255, 255);
+}
+p, ul, ol{
+    display: block;
+    color: rgb(220, 220, 220);
+}
+#cabecalho{
+    position: fixed;
+}
+#barraDeNavegacao{
+
+}
+#Rodape{
+    position: fixed;
+}
+
+.Titulo{
+    font-size: xxx-large;
+    color: rgb(255, 255, 255);
+}
+.subTitulo{
+    color: rgb(255, 255, 255);
+}
+.Paragrafo{
+    color: rgb(220, 220, 220);
+}
