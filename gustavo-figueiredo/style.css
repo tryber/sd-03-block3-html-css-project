@@ -2,8 +2,9 @@ body {
     background-color: #3E885B;
 }
 #cabecalho {
-    position:fixed;
+    position:sticky;
     width:100%;
+    backgroud-color: yellow;
 }
 nav ul li {
     display:inline-block;
@@ -14,6 +15,12 @@ nav h2{
     display:inline-block;
 }
 nav ul{
+    list-style: none;
     margin: 4px;
-    display:inline-block;
+    display:block;
+}
+#grupo-foto {
+    width:100px;
+    float: left;
+    margin-right: 10%;
 }
