@@ -18,6 +18,12 @@ p {
     font-size: 10px;
 }
 
+table,
+th,
+td {
+    border: 1px double black;
+}
+
 body {
     margin-left: 20px;
     margin-right: 20px;
@@ -59,6 +65,17 @@ body {
     position: relative;
 }
 
+.lado-direito {
+    font-size: 10px;
+    width: 15%;
+    border-left: 1px double;
+    border-bottom: 1px double;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    float: right;
+}
+
 .picture-slide {
     border: 5px ridge;
     border-radius: 100%;
@@ -70,7 +87,7 @@ body {
     opacity: 65%;
 }
 
-.lado-direito {
+.main-content {
     font-size: 14px;
     width: 50%;
     display: inline-block;
