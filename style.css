@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(225,202,150);
+}
+#cabecalho {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+#rodape {
+    text-align: center;
+    width: 100%;
+}
