@@ -1,4 +1,50 @@
 #cabecalho{
     text-align: center;
-    position:fixed; 
+    position: fixed;
+    width: 100%;
+}
+    body{
+        margin:20;
+        max-height: 600px;
+    } 
+
+    #nav-container{
+    border-top: 2px black solid;
+    background-color: grey;
+    border-bottom: 2px black solid;
+    
     }
+    .botao{
+        background-color:black;
+        border-radius: 3px;
+        border:none;
+        color:white;
+        text-align: center;
+        padding: 10px 20px;
+        display:inline-block;
+        cursor:pointer;
+    }
+    .botao:hover{
+        background-color: rgb(53, 53, 53);
+    }    
+    .left-container{
+    font-size: 16px;
+    width: 33%;
+    border-right: 1px double;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    top:70px;
+    overflow:auto;
+    }
+    
+    #picture-slide{
+    border:5px ridge;
+    border-radius: 100%;
+    position: relative;
+    margin:5% 35%;   
+    }
+    #picture-slide:hover{
+        opacity: 65%;
+    }
+    
