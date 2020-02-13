@@ -1,16 +1,16 @@
 body {
-        background-color:  black;
-        color:  white;
-        font-family:  'Lato', sans-serif;
+        background-color: black;
+        color: white;
+        font-family: 'Lato', sans-serif;
 }
 
 #cabecalho {
-        top: 0;
-        left: 0;
-        right: 0;
+        top: 0px;
+        left: 0px;
+        right: 0px;
         height: 80px;
         position: fixed;
-        background-color:  #032701;
+        background-color: #032701;
         text-align: center;
 }
 
