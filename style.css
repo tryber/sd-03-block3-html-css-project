@@ -2,28 +2,19 @@
 body{
     background-color: #D9D9D9;
     margin: 0;    
+}
 
-}
-.lado-esquerdo{
-
-}
-.lado-direito{
-
-}
-#cabecalho{
-    position: fixed;
-}
-#cabecalho ul{
+#cabecalho nav ul{
     background-color: black;
     list-style: none;
     margin: 0;
 }
-#cabecalho ul li{
+#cabecalho nav ul li{
     color: orangered;
     display: inline;
     margin: 50px;
 }
-#cabecalho ul li a{
+#cabecalho nav ul li a{
     padding: 5px 5px;
     display: inline-block;
     color: orangered;
@@ -31,11 +22,11 @@ body{
     text-decoration: none;
     font-family: monospace, sans-serif;
 }
-#pagina-inicial{
+.pagina-inicial{
     margin: 0;
     display: inline-block;
 }
-#artigos{
+.artigos{
     display: inline-block;
     width: 200px;
     margin: 0;
