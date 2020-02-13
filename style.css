@@ -1,15 +1,26 @@
 body {
     background-color: lightgrey;
     color: rgb(7, 51, 51);
+}
 
+article {
+    margin-top: 3.5em;
+    border: rgb(161, 172, 178);
+    padding: 10px;
 }
-article{
-    margin-top: 2em;
+
+section {
+    border: 1px double rgb(123, 173, 96);
+    padding: 2px;
 }
+
+#explicacao {
+    max-width: 49%;
+}
+
 ul {
     display: flex;
     text-decoration: none;
-
 }
 
 li {
@@ -17,39 +28,36 @@ li {
     text-decoration: none;
 }
 
-nav{color: chartreuse;
-
+nav {
+    color: chartreuse;
     text-decoration: none;
 }
 
 header {
     position: fixed;
-    background-color:rgb(58, 66, 25);
+    background-color: rgb(58, 66, 25);
     display: inline-flex;
     top: 0em;
     width: 100%;
     color: rgb(208, 215, 174);
-
 }
 
 img {
     background-color: maroon;
-    border: 0.5em solid rgb(122, 135, 146);
-
+    border: 0.5em double rgb(122, 135, 146);
+    display: flex;
+    margin-top: 2em;
 }
 
 #rodape {
     background-color: rgb(208, 215, 174);
-    height: 100px;
-
+    height: 50px;
 }
 
 .lado-esquerdo {
     float: left;
-
 }
 
 .lado-direito {
     float: right;
-
 }
