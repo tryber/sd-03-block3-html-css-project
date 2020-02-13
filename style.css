@@ -1,17 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-section,
-article,
-aside,
-footer,
-header,
-nav {
-  display: block;
-}
 
 body {
   display: block;
-  width: 100%;
-  margin: auto;
   padding: 10px;
   background-color: #1d1d1d;
   color: aliceblue;
@@ -20,9 +10,6 @@ body {
 
 #cabecalho {
   position: fixed;
-}
-
-#rodape {
 }
 
 img {
