@@ -10,8 +10,8 @@ article { width: 50%; margin-left: auto; margin-right: auto; }
 section#post { width: fit-content; text-align: left; }
 footer { width: 100%; background-color: darkslategray; padding: 10px; margin-top: 20px; text-align: center; clear: both; }
 table { border-collapse: collapse; margin: 20px; }
-td, th { border-bottom: 1px solid #dddddd; text-align: center; padding: 10px; }
-section#sobre{ width: 50%; margin: 20px; }
+td, th { border-bottom: 1px solid #ddd; text-align: center; padding: 10px; }
+section#sobre { width: 50%; margin: 20px; }
 .fixed { position: fixed; }
 .left-side { float: left; }
-.right-side{ float: right; }
+.right-side { float: right; }
