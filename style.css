@@ -36,6 +36,7 @@ main article {
 }
 
 footer {
+  float: left;
   list-style-type: none;
   padding-top: 20px;
 }
