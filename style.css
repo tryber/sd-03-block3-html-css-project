@@ -21,5 +21,20 @@ body {
 }
 .relativo{
     display: block;
-    padding-top: 100px;
+    padding-top: 150px;
+}
+#fato {
+    margin: 10px;
+    padding: 10px;
+    border: 100px;
+    border: black;
+}
+h1{
+    font-size: 50px;
+    color: dimgray;
+    text-align: center;
+}
+#direito{
+    display: block;
+    margin-right: 0px;
 }
