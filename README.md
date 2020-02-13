@@ -47,7 +47,7 @@ Lembre-se de verificar sua página no [achecker](https://achecker.ca/checker/ind
 ### ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-03-week3-html-css-project.git`.
+  * `git clone https://github.com/tryber/sd-03-block3-html-css-project.git`.
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -60,7 +60,7 @@ Lembre-se de verificar sua página no [achecker](https://achecker.ca/checker/ind
 
 3. Crie uma pasta na raiz do projeto com o seu nome e um arquivo **README.md** dentro dessa pasta:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-03-week3-html-css-project**_
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-03-block3-html-css-project**_
   * Crie a pasta e o arquivo **README.md**
     * Exemplo:
       * `mkdir joaozinho`
