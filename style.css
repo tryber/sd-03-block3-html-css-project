@@ -3,7 +3,7 @@ html { overflow-x: hidden; }
 h1 { font-size: 35px; }
 
 body {
-  background-color: #e1d5c9;
+  background-color: rgb(225, 213, 201);
   margin: 0;
   font-family: 'Times New Roma, Ancient Runes', serif;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #283e4a;
+  background-color: rgb(40, 62, 74);
   width: 100%;
   text-align: center;
 }
