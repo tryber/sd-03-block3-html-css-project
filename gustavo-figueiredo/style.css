@@ -1,26 +1,37 @@
 body {
     background-color: #3E885B;
 }
+body *{
+    margin-left:10px;
+    margin-right:1px;
+}
 #cabecalho {
-    position:sticky;
-    width:100%;
-    backgroud-color: yellow;
+    position:fixed;
+    background-color: yellow;
+    width: 100%;
 }
 nav ul li {
     display:inline-block;
     margin: 0px 10px;
 }
-nav h2{
-    margin: 4px;
-    display:inline-block;
-}
 nav ul{
-    list-style: none;
-    margin: 4px;
-    display:block;
+    list-style: none;   
+    text-align:center;
 }
 #grupo-foto {
     width:100px;
     float: left;
     margin-right: 10%;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    margin-top:5%;
+    margin-left:auto;
+    background-color: #ff0201;
+    width: 100%;
+}
+#rodape ul{
+    margin-top: 5px;
+    list-style: none;
 }
