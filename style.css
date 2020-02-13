@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
 }
 
 body , html {
@@ -253,14 +253,6 @@ a {
   justify-content: space-between;
 }
 
-.content-item-text a {
-  text-align: center;
-  margin-top: 5px;
-  font-size: 14px;
-  text-decoration: underline;
-  color: blue;
-}
-
 #voce-sabia {
   width: 440px;
   height: fit-content;
@@ -374,7 +366,7 @@ table p {
 
 .lado-direito , .lado-esquerdo {
   width: 50%;
-  background-color: rgb( 255 , 255 , 240 );
+  background-color: rgb(255,255,240);
 }
 
 .address {
