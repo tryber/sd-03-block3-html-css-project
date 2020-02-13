@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 900;
+}
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+body , html {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#cabecalho {
+  height: 100px;
+  width: 100%;
+  background-color: rgba( 0 , 0 , 0 );
+  position: fixed;
+}
+
+.default-width {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  width: 210px;
+  height: 100px;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  color: rgb( 226 , 197 , 35 );
+  width: 130px;
+  height: fit-content;
+  font-family: Lobster, cursive;
+}
+
+#nav-hor ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-hor ol {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-item-text a {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  text-decoration: underline;
+  color: blue;
+}
+
+#nav-hor a {
+  color: black;
+  background-size: 25px;
+  padding: 13px 12px 10px 37px;
+}
+
+#link1 {
+  background: url('/images/icon-burger.png') no-repeat 8px;
+}
+
+#link2 {
+  background: url('/images/icon-menu.png') no-repeat 8px;
+}
+
+#link3 {
+  background: url('/images/icon-unidades.png') no-repeat 8px;
+}
+
+#link4 {
+  background: url('/images/icon-curiosidade.png') no-repeat 8px;
+}
+
+#nav-hor li {
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  margin: 7px;
+  background-color: white;
+}
+
+#nav-hor li:hover {
+  background-color: rgb( 226 , 197 , 35 );
+}
+
+.icons-nav {
+  width: 25px;
+}
+
+#box-main {
+  background-image: url('/images/burger.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#content {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 640px;
+  margin-bottom: 50px;
+}
+
+#about {
+  width: 450px;
+  background-color: rgba( 255 , 246 , 246 );
+  box-shadow: 5px 5px 5px;
+}
+
+#about h2 {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 10px 80px;
+  border-bottom: 3px solid black;
+}
+
+.content-item-text p {
+  font-size: 14px;
+}
+
+#about p {
+  text-align: justify;
+  padding: 10px 20px;
+  line-height: 20px;
+}
+
+#photos {
+  width: 600px;
+  height: 491px;
+  padding: 25px 10px;
+  background-color: rgba( 255 , 246 , 246 );
+  box-shadow: 5px 5px 5px;
+}
+
+.content-item img {
+  width: 150px;
+  padding: 10px 0;
+}
+
+#photo01 {
+  width: 580px;
+  margin: 0 auto;
+}
+
+#photo01 img {
+  width: 580px;
+}
+
+#photos p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.divisor {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divisor h1 {
+  color: white;
+  font-size: 42px;
+}
+
+#box-curiosidades {
+  background-image: url('/images/burger-02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#content-curiosidades {
+  width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#curiosidades-list {
+  background-color: white;
+  padding: 10px;
+  height: fit-content;
+  box-shadow: 5px 5px 5px;
+}
+
+#curiosidades-list h1 {
+  text-align: center;
+}
+
+.content-item {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  border-top: 2px solid black;
+  margin: 0 10px;
+}
+
+#the-first-content-item {
+  border-top: none;
+}
+
+.content-item-text {
+  width: 350px;
+  padding: 10px 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#voce-sabia {
+  width: 440px;
+  height: fit-content;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 5px;
+}
+
+#voce-sabia h2 {
+  border-bottom: 2px black solid;
+  margin: 0 auto 10px;
+  width: fit-content;
+  padding: 0 10px;
+}
+
+#voce-sabia p {
+  text-align: justify;
+}
+
+#voce-sabia , #curiosidades-list {
+  margin-top: 20px;
+}
+
+#rodape {
+  background-color: black;
+  color: white;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+#content-footer {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content-footer a {
+  width: fit-content;
+}
+
+#box-table {
+  background-image: url('/images/burger-03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#table-menu {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: fit-content;
+  margin-top: 47px;
+  background-color: white;
+  color: black;
+  box-shadow: 5px 5px 5px;
+}
+
+table th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table p {
+  padding: 5px;
+  text-align: center;
+}
+
+#table-menu td {
+  border: 1px solid black;
+}
+
+#table-menu img {
+  width: 100%;
+  padding: 2px;
+}
+
+.cell-table-photo {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cell-table-ingredients {
+  width: 490px;
+  padding: 10px;
+}
+
+.cell-table-price {
+  width: 100px;
+  text-align: center;
+}
+
+#box-unidades {
+  display: flex;
+  width: 100%;
+}
+
+#box-unidades img {
+  width: 100%;
+  height: 400px;
+}
+
+.lado-direito , .lado-esquerdo {
+  width: 50%;
+  background-color: ivory;
+}
+
+.address {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address h1 {
+  border-bottom: 3px solid black;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.text-address {
+  width: 300px;
+  padding: 10px 20px;
+}
+
+.text-address p {
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px 0;
+}
+
+.address-p {
+  border-top: 3px solid black;
+}
+
+#buttom-menu {
+  float: left;
+  color: white;
+  position: fixed;
+  margin-left: 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: black;
+  box-shadow: 3px 5px 5px rgb( 49 , 48 , 48 );
+}
+
+#buttom-menu:hover {
+  color: black;
+  background-color: rgb( 226 , 197 , 35 );
+  border-color: rgb( 226 , 197 , 35 );
+}
