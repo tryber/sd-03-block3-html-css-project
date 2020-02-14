@@ -1,7 +1,9 @@
 body {
     background-image: url(home/william/Imagens/sh_uva.jpg);
-    margin:30px;
-    background-color: beige;
+    margin:0px;
+    top:1;
+    background-color:#040d85;
+
 }
 
 h1 {
@@ -9,40 +11,36 @@ h1 {
     text-align: center;
 }
 
-#cabecalho {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-bottom: 100px; 
-    padding: 0px;
-    background-color: rgb(114, 12, 197)
-    
-}
-
-#cabecalho ul {
-    padding: 10px;
-    max-width: 100%;
-    top: 1px;
-    position: fixed;
-    background-color: rgb(114, 12, 197);
-    line-height: 50px;
-    left: 300px;
-}
-
 #cabecalho ul li {
-    display: inline;
+    background-color: blueviolet;
+    color:black;
+    float: left;
+    width: 400px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    font-size:30px;
+    line-height: 40px;
+    top:1;
+    position: relative;
+
 }
+
 
 #cabecalho ul li a {
-    padding: 10px 30px;
-    display: inline-block;
-    color: white;
-    text-align: center
+    padding: 0;
+    display: inline;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}    
+#cabecalho ul {
+    padding: 0;
+
 }
 
 #cabecalho ul li a:hover {
-    color: red;
+    color: #bab4b3;
 }
 
 #rodape {
