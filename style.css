@@ -24,12 +24,6 @@ body{
 
 .bordas{
     border: 10px solid black;
+    float: left;
 }
 
-.moldagem{
-    display: inline;
-}
-#titulo-noticia{
-    position: top;
-    width: 300px;
-}
