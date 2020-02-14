@@ -1,40 +1,27 @@
-
-body{
+body {
     background: rgb(201, 201, 119);
 }
 
-#titulo{
+#titulo {}
 
-}
+#titulopagina {}
 
-#titulopagina{
-
-}
-
-#cabecalho{
+#cabecalho {
     position: fixed;
 }
 
-.barra{
+.barra {
     display: inline-block;
 }
 
-#imagem{
+#imagem {
     width: 50px;
 }
 
-#lista1{
+#lista1 {}
 
-}
+#lista2 {}
 
-#lista2{
+#link {}
 
-}
-
-#link{
-
-}
-
-#rodape{
-    
-}
+#rodape {}
