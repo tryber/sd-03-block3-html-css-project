@@ -10,6 +10,11 @@ body{
    position:fixed;
 }
 
+h2{
+   font-style: italic;
+   font-weight: bold;
+}
+
 .lado-direito{
    background-color:#fdfd96;
    float:right;
@@ -19,6 +24,12 @@ body{
 .lado-esquerdo{
    float:left;
    width:60%;
+}
+
+table,tr,td{
+   border:1px solid black;
+   color:black;
+   padding:3px;
 }
 
 .outline-title{
