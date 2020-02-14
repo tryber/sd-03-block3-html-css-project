@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Projeto HTML CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
     <header id="cabecalho">
         <h1>Jogos de tabuleiros modernos</h1>
-        <ul>
-            <li><a href="#historia">Breve historia</a></li>
-            <li><a href="#ExA">Euro x Ameritrash</a></li>
-            <li><a href="#lista-jogo">listas de jogos</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#historia">Breve historia</a></li>
+                <li><a href="#ExA">Euro x Ameritrash</a></li>
+                <li><a href="#lista-jogo">listas de jogos</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section id="historia">
+
+
+    <article id="historia">
+        <section>
             <h2>breve historia dos jogos modernos</h2>
             <p>Jogos de tabuleiros ja existem a muitos tempos, passando pelo milenar Xadrez, e pelos jogos, detetive, banco imobiliario, entre suas varias verções.<br>
                 Mas é em 1995 com o jogo Catan, tambêm conhecido como colonizadores de catan no Brasil, que o cenario de Jogos de Tabuleiros (boardgames) Começam a mudar.<br>
@@ -27,6 +29,7 @@
                 Cada um com suas dividas peculiaridades
             </p>
         </section>
+
         <section id="ExA">
             <h3>Euro x Ameritrash</h3>
             <ul>
@@ -40,67 +43,26 @@
                 </ul>
             </ul>
         </section>
+    </article>
 
-        <section id="lista-jogo">
-            <h3>listas de jogos</h3>
-            <ol>
-                <li>Jogos Introdutorios</li>
-                <ul>
-                    <li>ticket to ride</li>
-                    <li>Catan</li>
-                    <li>Carcasone</li>
-                </ul>
-                <li>Top 5 <a href="https://boardgamegeek.com/browse/boardgame?sort=rank&rankobjecttype=subtype&rankobjectid=1&rank=1#1" target="_blank" rel="noopener noreferrer">BGG</a> </li>
-                <ol>
-                    <li>Gloomhaven</li>
-                    <li>Pandemic Legacy: season 1</li>
-                    <li>through the Ages</li>
-                    <li>Terraforming mars</li>
-                    <li>brass</li>
-                </ol>
-                <aside>
-                    <li>meu top 5</li>
-                    <ol>
-                        <li>Resistence <img src="https://storage.googleapis.com/ludopedia-capas/780_t.jpg" alt="capa resistance"></li>
-                        <li>descent <img src="https://storage.googleapis.com/ludopedia-capas/23_t.jpg" alt="capa descent"></li>
-                        <li>PowerGrid <img src="https://storage.googleapis.com/ludopedia-capas/111_t.jpg" alt="capa PowerGrid"> </li>
-                        <li>7Wonder <img src="https://storage.googleapis.com/ludopedia-capas/8_t.jpg" alt="capa 7 7Wonder"></li>
-                        <li>Pandemic <img src="https://storage.googleapis.com/ludopedia-capas/107_t.jpg" alt="capa Pandemic"></li>
-                    </ol>
-                </aside>
-            </ol>
-        </section>
+    <aside>
+        <h3>meu top 5</h3>
+        <ol>
+            <li>Resistence <img src="https://storage.googleapis.com/ludopedia-capas/780_t.jpg" alt="capa resistance"></li>
+            <li>descent <img src="https://storage.googleapis.com/ludopedia-capas/23_t.jpg" alt="capa descent"></li>
+            <li>PowerGrid <img src="https://storage.googleapis.com/ludopedia-capas/111_t.jpg" alt="capa PowerGrid"> </li>
+            <li>7Wonder <img src="https://storage.googleapis.com/ludopedia-capas/8_t.jpg" alt="capa 7 7Wonder"></li>
+            <li>Pandemic <img src="https://storage.googleapis.com/ludopedia-capas/107_t.jpg" alt="capa Pandemic"></li>
+        </ol>
+    </aside>
 
-        <table>
-            <tr>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-        </table>
+    <div class="lado-direito">lado direito</div>
+    <div class="lado-esquerdo">lado esquerdo</div>
 
-        <div class="lado-direito">lado direito</div>
-        <div class="lado-esquerdo">lado esquerdo</div>
-
-
-
-
-    </main>
 
     <footer id="rodape">
         <p> &copy; Thiago Tavares - 2020 </p>
     </footer>
-
 </body>
 
 </html>
