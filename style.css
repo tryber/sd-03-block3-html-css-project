@@ -12,6 +12,7 @@ h3 {
 
 .lado-direito {
     float: right;
+    margin-right: 100px;
 }
 
 .clear {
@@ -90,12 +91,17 @@ h2 {
 
 .intro-picture {
     border-radius: 18px;
-    width: 35%;
-    margin-left: 50px;
+    margin-left: 100px;
+    width: 320px;
+}
+
+.foto {
+    width: 100px;
 }
 
 .introduction-text {
     font-size: 20px;
+    width: 40%;
 }
 
 .proj-text {
