@@ -76,8 +76,11 @@ td , th {
 
 .lado-esquerdo {
   float: left;
-  width: 45%;
+  width: 30%;
   margin-left: 100px;
 }
 
-.lado-direito { float: right; }
+.lado-direito {
+  float: right;
+  width: 20%;
+}
