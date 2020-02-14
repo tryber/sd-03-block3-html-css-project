@@ -1,0 +1,50 @@
+body{
+    background-color: cornflowerblue;
+}
+#cabecalho {
+    position: fixed;
+    margin: 0,0,0;
+    padding: 0,0,0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+    border-spacing: 5px;
+}
+
+/* artigo */
+.artigo { 
+    display: flex;
+    justify-content: flex-start;
+}
+
+#lista-direita { 
+    width: 66%;
+    justify-content: right;
+    
+} 
+
+#lista-esquerda { 
+    width: 66%;
+    justify-content: left;
+}
+
+#lista-de-itens {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-grow: 1;
+    padding: -20px;
+    width: -200px;
+}
