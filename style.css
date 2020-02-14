@@ -74,10 +74,10 @@ td , th {
 
 .fixed { position: fixed; }
 
-.lado-esquerdo {
+#lado-esquerdo {
   float: left;
   width: 45%;
   margin-left: 100px;
 }
 
-.lado-direito { float: right; }
+#lado-direito { float: right; }
