@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+nav {
+  position: absolute;
+  top: -15px;
+  padding-right: 50px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: black 2px 3px 2px;
+  font: italic small-caps 600 16px/3 cursive;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(173 , 173 , 173);
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(255 , 193 , 193);
+}
+
+#cabecalho {
+  position: fixed;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#rodape {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
+}
