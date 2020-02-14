@@ -1,22 +1,33 @@
 body {
     background-color: rgb(2 ,2 ,75);
+    background-image: url(Images/sonic.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 p{
     color: white;
+    padding: 1%;
 }
 h2{
     color: white;
+    padding: 1%;
+
 }
 li{
     color: white;
 }
-img{
+#fundo{
     position:absolute;
     z-index: -1;
     left: 0%;
     top: 0%;
     height: 100%;
     position: fixed;
+}
+
+article{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 40%;
 }
 #cabecalho {
     background-color: rgba(255,255,255,0.75);
@@ -40,10 +51,18 @@ img{
 }
 #lista{
     margin-top: 100px;
-    position: absolute;
+    width: 20%;
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.75);
 }
 #characterslink{
     color: white;
+}
+
+.lado-esquedo{
+    float: left;
+    width: 100%;
+}
+.lado-direito{
+    float: right;
 }
