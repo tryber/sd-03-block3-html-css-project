@@ -11,13 +11,25 @@ body{
     list-style: none;
 }
 #menu ul li{ 
-  display: inline; 
+  display: inline;
+  padding: 0; 
 }
 #menu ul li a{
     color: orangered;
     display: inline-block;
-    padding: 10px 183.3px;
+    padding: 10px 181px;
     text-decoration: none;
-    
+    font-weight: bold;
+}
 
+.bordas{
+    border: 10px solid black;
+}
+
+.moldagem{
+    display: inline;
+}
+#titulo-noticia{
+    position: top;
+    width: 300px;
 }
