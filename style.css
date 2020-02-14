@@ -12,7 +12,7 @@
 
 
 }
-#id-cabecalho
+#cabecalho
 {
 	
 	color: white;
@@ -46,7 +46,7 @@
 	padding-left: 30px;
 }
 
-#id-footeer
+#rodape
 {
 	text-align: center;
 	background-color:#443E4A;
