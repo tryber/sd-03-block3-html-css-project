@@ -36,16 +36,6 @@ td, th{
     text-align: left;
     padding: 8px;
 }
-.lado-esquerdo{
-    position: absolute;
-    left: 600px;
-    top:50px;
-}
-.lado-direito{
-    position: absolute;
-    left: 700px;
-    top:-300px;
-}
 #rodape{
     clear:both;
 }
