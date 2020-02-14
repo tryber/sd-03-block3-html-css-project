@@ -1,20 +1,20 @@
 body {
-    background-color: #386288;
+    background-color: rgb(56, 98, 136);
     font-family: 'Roboto';
     text-align: justify;
 }
 
 #cabecalho {
-    background-color: #2B4767;
+    background-color: #2b4767;
     height: 60px;
     left: 0;
     position: fixed;
     top: 0;
-    width: 1440px; 
+    width: 1440px;
 }
 
 #cabecalho ul {
-    padding: 0 65px ;
+    padding: 0 65px;
 }
 
 #cabecalho ul li {
@@ -23,20 +23,20 @@ body {
 }
 
 #cabecalho ul li a {
-    color: #FFC342;
+    color: #ffc342;
     font-family: 'Cinzel';
     text-decoration: none;
 }
 
 #pjo-title {
     display: block;
-    margin: 90px auto 30px auto;
+    margin: 90px auto 30px;
 }
 
 .lado-esquerdo {
     margin-left: 65px;
-    background-color: #E5E5F8;
-    border: 2px solid #80C0E0;
+    background-color: #e5e5f8;
+    border: 2px solid #80c0e0;
     float: left;
     margin-bottom: 30px;
     padding: 0 20px;
@@ -44,11 +44,11 @@ body {
 }
 
 .lado-direito {
-    background-color: #E5E5F8;
-    border: 2px solid #80C0E0;
+    background-color: #e5e5f8;
+    border: 2px solid #80c0e0;
     float: right;
     margin-right: 65px;
-    padding: 0 20px 10px 20px;
+    padding: 0 20px 10px;
     width: 30%;
 }
 
@@ -68,12 +68,12 @@ ol li {
 
 ul li {
     height: 21px;
-    margin: 0px auto;
+    margin: 0 auto;
     width: 75px;
 }
 
 .heroi {
-    padding: 10px 77.25px 0 77.25px;
+    padding: 10px 77.25px 0;
 }
 
 #galeria p {
@@ -82,14 +82,14 @@ ul li {
 }
 
 h1, h2, h3, h4, h5 {
-    background-color: #2B4767;
-    color: #FFC342;
+    background-color: #2b4767;
+    color: #ffc342;
     font-family: 'Cinzel';
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 a {
-    color: #80C0E0;
+    color: #80c0e0;
     text-decoration: none;
 }
 
