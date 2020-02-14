@@ -10,13 +10,10 @@ body {
     background-color: #7b9ea8;
 }
 
-.lado-esquerdo {
+#conhecendo {
     color: blue;
     font-size: 20px;
     text-align: justify;
-    position: relative;
-    float: left;
-
 }
 
 #foto {
@@ -24,11 +21,17 @@ body {
     padding: 5px;
     margin-left: 10px;
     margin-bottom: 10px;
-    position: relative;
-    float: left;
 }
 
 .lado-direito {
-    position: relative;
     float: right;
+}
+  
+.lado-esquerdo {
+    float: left;
+}
+
+#rodape {
+    clear: both;
+    padding: 5px;
 }
