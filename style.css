@@ -43,7 +43,6 @@ li a:visited {
 }
 
 .table {
-    border: solid green 2px;
     padding: 2px;
 }
 
@@ -128,5 +127,12 @@ h2 {
 }
 
 .jogo-iframe {
-    s box-sizing: unset;
+    box-sizing: unset;
+}
+
+tr,
+th,
+td {
+    border: solid darkorange;
+    padding: 8px;
 }
