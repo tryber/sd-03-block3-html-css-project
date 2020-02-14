@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(178, 247, 209);
 }
 
 .container{
@@ -12,14 +12,13 @@ body{
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.navbar{
+#cabecalho{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.navbar a{
+#cabecalho a{
     margin-left: 40px;
     text-decoration: none;
     background-color: rgb(33, 211, 77);
@@ -32,7 +31,7 @@ body{
     border-color: rgb(33, 211, 77);
 }
 
-.navbar a:hover{
+#cabecalho a:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: 1px solid;
@@ -155,7 +154,7 @@ body{
     animation-delay: 20s;
 }
 
-.rodape{
+#rodape{
     clear: both;
 }
 
