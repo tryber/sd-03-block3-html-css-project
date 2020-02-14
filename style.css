@@ -14,3 +14,22 @@ display:inline-block;
 position: fixed;
 
 }
+
+.lado-esquerdo{
+
+float: left;
+width: 80%
+}
+
+
+.lado-direito{
+
+
+float: right;
+width: 20%;
+
+}
+
+#capa{
+    width: 70%;
+}
