@@ -17,6 +17,17 @@ body {
   margin-top: 60px;
   margin-bottom: 30px;
   position: fixed;
+  list-style: none;
+}
+
+#cabecalho ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+#cabecalho ul li {
+  display: inline;
 }
 
 #cabecalho a {
@@ -67,7 +78,13 @@ body {
   text-align: center;
   text-shadow: 5px 5px 5px rbga(0, 0, 0, 0.5);
 }
-
+a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgb(33, 211, 77);
+}
 .foto img {
   max-width: 100px;
   border-radius: 50px;
@@ -196,11 +213,28 @@ body {
 
 #rodape a {
   text-decoration: none;
+  background-color: rgb(33, 211, 77);
+  font-size: large;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-shadow: 5px 5px 5px rbga(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid;
+  border-color: rgb(33, 211, 77);
+}
+
+#rodape a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgb(33, 211, 77);
 }
 
 ul,
 li {
   list-style: none;
+  padding: 10px;
 }
 
 .tabela {
