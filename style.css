@@ -13,12 +13,6 @@ body {
     height: 100px;
 }
 
-article {
-    width: 60%;
-    margin: auto;
-    border: 1px solid black;
-}
-
 article img {
     width: 500px;
 }
