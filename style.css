@@ -9,43 +9,51 @@ h1, h2, h3 {
 #cabecalho {
 	background-color: #578c3e;
 	display: flex;
-	justify-content: space-around;
+  height: 80px;
+  justify-content: space-evenly;
 	left: 0%;
 	position: fixed;
 	top: 0%;
 	width: 100%;
-	z-index: 10;
 }
 
-#imgAntes {
+img {
+  padding: 10px;
+}
+
+.lado-esquerdo {
   position: relative;
   left: 0%;
 }
 
-#imgDepois {
-  position: relative;
-  left: 50%;
+.lado-direito {
+  position: absolute;
+  right: 0%;
 }
 
 article {
 	background-color: salmon;
-	height: auto;
-	position: relative;
+  height: auto;
+  position: relative;
+  top: 80px;
 }
 
 footer {
 	background-color: #d4daf2;
 }
 
-#fotos {
-	height: 300px;
+#info {
+  background-color: steelblue;
+  margin: 10px 10px 10px 10px;
 }
 
 #fatos {
-	background-color: sandybrown;
+  background-color: sandybrown;
+  margin: 10px 10px 10px 10px;
 }
 
 #curiosidades {
 	background-color: #4a484b;
-	color: snow;
+  color: snow;
+  margin: 10px 10px 10px 10px;
 }
