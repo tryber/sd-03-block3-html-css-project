@@ -1,64 +1,58 @@
-*{
-    margin: 2px;
-    padding: 2px;
-    border: 1px;
+* {
+  margin: 2px;
+  padding: 2px;
+  border: 1px;
 }
 
 #cabecalho {
-    font-size: 30px;
-    position: fixed;
-    top: 5px;
-    background-color: aqua;
-    width: 100%;
-    height: auto;
-    z-index: 2;
+  font-size: 30px;
+  position: fixed;
+  top: 5px;
+  background-color: aqua;
+  width: 100%;
+  height: auto;
+  z-index: 2;
 }
 footer {
-    margin: 0;
+  margin: 0;
 }
 
 #rodape {
-    font-size: 30px;
-
+  font-size: 30px;
 }
 #lado-direito {
-    position: relative;
-    float: right;
-    width: 20%;
-    right: 5px;
+  float: right;
+  width: 20%;
+  right: 5px;
 }
 
 #lado-esquerdo {
-    float: left;
-    top: 300px;
-    width: 70%;
-    left: 5px;
+  float: left;
+  top: 300px;
+  width: 40%;
+  left: 5px;
 }
 
 #primeiro-artigo {
-
-    margin-top:100px;
-    border: darkred;
-    font-size: 29px;
-    
+  margin-top: 100px;
+  border: darkred;
+  font-size: 29px;
 }
 
-.artigo{
-    width: 400px;
-    text-align: center;
+.artigo {
+  width: 400px;
+  text-align: center;
 }
 
 body {
-
-    background-color: azure;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: darkred;
+  background-color: azure;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkred;
 }
 li {
-    list-style: none;
-    
+  list-style: none;
 }
-ul li{
-    display: inline-block;
+ul li {
+  display: inline-block;
 }
