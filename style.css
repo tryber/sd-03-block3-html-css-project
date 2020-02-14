@@ -71,7 +71,6 @@ body {
   }
   
   #images {
-    float: right;
     position: absolute;
     top: 17%;
     left: 50%;
@@ -84,4 +83,3 @@ body {
   .lado-esquerdo {
     float: left;
   }
-  
