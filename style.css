@@ -1,18 +1,39 @@
 body {
     background-color: rgb(126, 91, 26);
+    margin: 0;
+    display: grid;
 }
 
 #cabecalho{
-    border: 2px dashed rgb(218, 146, 14);
+    display: flex;
+    border: 0.1em dashed rgb(218, 146, 14);
     position: fixed; 
     background-color: rgb(95, 70, 25); 
-    width: 12%; 
-    text-align: center; 
+    width:50em; 
+    text-align: center;
+    font-size: 2em; 
+    
 }
 #rodape{
+    display: flex;
     border: 2px dashed rgb(218, 146, 14);
-    
     background-color: rgb(95, 70, 25); 
-    width: 12%; 
+    width:30em; 
     text-align: center; 
+}
+#lado-direito {
+    float: right;
+    width:10em;
+  }
+
+  h1{
+      color: rgb(36, 26, 7)
+  }
+
+  a{
+    color: rgb(36, 26, 7)
+  }
+
+#margem-topo{
+    margin-top: 12em;
 }
