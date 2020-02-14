@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#centro
+{
+	margin: 0 auto;
+	width: 700px;
+	padding-left: 50px;
+	background-color: #443E4A;
+
+
+}
+#id-cabecalho
+{
+	
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	background-color:#6A5E76; 
+	width: 600px;
+	position: fixed;
+	
+
+}
+#controlaAside
+{
+	padding-top:70px;
+	height: 200px;
+    width: 600px;
+    padding-bottom: 50px;
+    
+}
+
+.lado-esquerdo
+{
+		
+	float: left;
+	width: 300px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.lado-direito
+{
+	
+	float: left;
+	width: 300px;
+	padding-left: 30px;
+}
+
+#id-footeer
+{
+	text-align: center;
+	background-color:#443E4A;
+	
+	font-size: 30px;
+}
+#link-wik
+{
+	color: white;
+	text-decoration: none;
+}
