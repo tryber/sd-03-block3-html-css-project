@@ -1,66 +1,58 @@
 
-h1{
-
-color: whitesmoke;
-font-family: cursive;
-text-align: center;
+h1 {
+  color: whitesmoke;
+  font-family: cursive;
+  text-align: center;
 }
-h2{
-
-    text-align: center;
-
+h2 {
+  text-align: center;
 }
 
-body{
-
-background-color:aliceblue;
+body {
+  background-color: aliceblue;
 
 }
-#cabecalho h2{
-display:inline-block;
-margin-right: 50px;
-color: white;
-border-right: 5px dashed white;
-border-left: 5px dashed white;
+#cabecalho h2 {
+  display: inline-block;
+  margin-right: 50px;
+  color: white;
+  border-right: 5px dashed white;
+  border-left: 5px dashed white;
 
 }
 
 
 
-#cabecalho{
-padding: 1%;    
-position: fixed;
-background-color: darkolivegreen;
-
+#cabecalho {
+  padding: 1%;    
+  position: fixed;
+  background-color: darkolivegreen;
 
 }
 
-.lado-esquerdo{
-
-float: left;
-width: 60%
+.lado-esquerdo { 
+  float: left;
+  width: 60%;
 }
 
-
-.footer-id{
-
-width: 10px;
-}
-    #rodape{
-    background-color: darkslategray;
-}
-.lado-direito{
-
-float: right;
-width: 21%;
-margin-top: 30px;
-background-color: darkgray;
-padding: 10px;
-height: 100%;
+.footer-id {
+  width: 10px;
 }
 
-#capa{
+#rodape {
+  background-color: darkslategray;
+}
+.lado-direito {
+  float: right;
+  width: 21%;
+  margin-top: 30px;
+  background-color: darkgray;
+  padding: 10px;
+  height: 100%;
+}
 
-    width: 60%;
-    margin-top: 100px;
+#capa {
+
+  width: 60%;
+  margin-top: 100px;
 }
