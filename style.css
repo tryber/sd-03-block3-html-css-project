@@ -30,7 +30,7 @@ ul {
 }
 
 li a:visited {
-    color: blue
+    color: blue;
 }
 
 .lists {
@@ -42,12 +42,12 @@ tr,
 th,
 td {
     width: 50%;
-    border: solid rgb(59, 146, 95) 2px;
+    border: solid green 2px;
     padding: 2px;
 }
 
 h2 {
-    background-color: rgba(131, 128, 128, 0.712);
+    background-color: gray;
     border-radius: 32px;
     text-align: center;
 }
@@ -70,7 +70,7 @@ h2 {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(15, 15, 15);
+    background-color: black;
     overflow-y: hidden;
     padding-top: 10px;
     display: block;
@@ -85,7 +85,7 @@ h2 {
 }
 
 .sidenav a:hover {
-    color: rgb(255, 94, 0);
+    color: darkorange;
 }
 
 .intro-picture {
