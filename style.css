@@ -7,17 +7,12 @@ body {
   background-color: rgb(178, 247, 209);
 }
 
-.naoaparece {
-  display: none;
-}
-
 .container {
   width: 1024px;
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
 }
 #cabecalho {
-  margin-left: 22%;
   margin-top: 60px;
   margin-bottom: 30px;
   position: fixed;
@@ -35,7 +30,7 @@ body {
 }
 
 #cabecalho a {
-  margin-left: 40px;
+  margin-left: 20px;
   text-decoration: none;
   background-color: rgb(33, 211, 77);
   font-size: large;
