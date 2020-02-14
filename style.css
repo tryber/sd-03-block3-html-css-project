@@ -59,7 +59,7 @@ header {
     margin-right: 30%;
 }
 
-#textosobre {
+.textosobre {
     margin-bottom: 10px;
     margin-left: 30%;
     margin-right: 30%;
@@ -109,7 +109,7 @@ td {
     background-color: #6595ed;
 }
 
-.titulointegrates {
+.titulointegrantes {
     background-color: #6595ed;
     color: white;
     font-family: sans-serif;
