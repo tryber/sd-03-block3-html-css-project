@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 p {
     padding-bottom: 2px;
 }
@@ -38,11 +42,7 @@ li a:visited {
     margin-bottom: -200px;
 }
 
-table,
-tr,
-th,
-td {
-    width: 50%;
+.table {
     border: solid green 2px;
     padding: 2px;
 }
@@ -93,6 +93,7 @@ h2 {
 
 .proj-text {
     font-size: 20px;
+    width: 50%;
 }
 
 .quotation {
@@ -117,4 +118,15 @@ h2 {
     overflow-y: hidden;
     padding-top: 10px;
     display: block;
+}
+
+.jogo {
+    overflow: hidden;
+    width: 600px;
+    float: right;
+    box-sizing: unset;
+}
+
+.jogo-iframe {
+    s box-sizing: unset;
 }
