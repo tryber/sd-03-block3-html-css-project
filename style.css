@@ -24,7 +24,7 @@ body {
     grid-template-columns: 1fr 2fr 4fr 4fr 1fr;
     grid-template-rows: 2fr 0.5fr;
     grid-template-areas: ". logo . nav ." ". . . deco deco";
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 100;
     background: #f9edcd;
