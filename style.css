@@ -197,3 +197,11 @@ td {
     margin-bottom: 5px;
     margin-left: 5px;
 }
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
+}
