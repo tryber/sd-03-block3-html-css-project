@@ -8,11 +8,11 @@ body {
 
 /*MAIN PAGE*/
 
-#main-page {
+#grid-main-page {
     display: grid;
     grid-template-columns: 1fr 2fr 4fr 4fr 1fr;
     grid-template-rows: 1fr 6fr 1fr;
-    grid-template-areas: "cab cab cab cab cab" ". hero hero photo1 ." ". . . . ."
+    grid-template-areas: "cab cab cab cab cab" ". hero hero photo1 ." "rank rank . . ."
 }
 
 
@@ -27,6 +27,9 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+    background: #f9edcd;
+    /* GAMBS: background changed on "cabecalho" from #f9edcc to #f9edcD to hide content below on scroll*/
+    ;
 }
 
 #logo {
@@ -44,7 +47,7 @@ body {
     list-style: none;
     align-self: flex-end;
     margin: 0;
-    padding: 0;
+    padding: 0.2em;
 }
 
 #navbar ul li {
@@ -64,4 +67,8 @@ body {
     grid-area: photo1;
     width: 300px;
     height: auto;
+}
+
+#rank {
+    grid-area: rank;
 }
