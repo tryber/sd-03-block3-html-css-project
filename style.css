@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(56, 98, 136);
-    font-family: 'Roboto';
+    background-color: rgb(56 , 98 , 136);
+    font-family: "Roboto";
     text-align: justify;
 }
 
 #cabecalho {
-    background-color: rgb(43,71,103);
+    background-color: rgb(43 , 71 , 103);
     height: 60px;
     left: 0;
     position: fixed;
@@ -23,8 +23,8 @@ body {
 }
 
 #cabecalho ul li a {
-    color: rgb(255,195,66);
-    font-family: 'Cinzel';
+    color: rgb(255 , 195 , 66);
+    font-family: "Cinzel";
     text-decoration: none;
 }
 
@@ -35,8 +35,8 @@ body {
 
 .lado-esquerdo {
     margin-left: 65px;
-    background-color: rgb(229,229,248);
-    border: 2px solid rgb(128,192,224);
+    background-color: rgb(229 , 229 , 248);
+    border: 2px solid rgb(128 , 192 , 224);
     float: left;
     margin-bottom: 30px;
     padding: 0 20px;
@@ -44,10 +44,10 @@ body {
 }
 
 .lado-direito {
-    background-color: rgb(229,229,248);
-    border: 2px solid rgb(128,192,224);
+    background-color: rgb(229 , 229 , 248);
+    border: 2px solid rgb(128 , 192 , 224);
     float: right;
-    margin-right: 65px;
+    margin: 0px 65px 20px 0px;
     padding: 0 20px 10px;
     width: 30%;
 }
@@ -82,14 +82,14 @@ ul li {
 }
 
 h1, h2, h3, h4, h5 {
-    background-color: rgb(43,71,103);
-    color: rgb(255,195,66);
-    font-family: 'Cinzel';
+    background-color: rgb(43 , 71 , 103);
+    color: rgb(255 , 195 , 66);
+    font-family: "Cinzel";
     font-weight: 100;
 }
 
 a {
-    color: rgb(128,192,224);
+    color: rgb(128 , 192 , 224);
     text-decoration: none;
 }
 
