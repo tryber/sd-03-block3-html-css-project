@@ -22,3 +22,29 @@ table, th, td {
     text-align: left;
     border-spacing: 5px;
 }
+
+/* artigo */
+.artigo { 
+    display: flex;
+    justify-content: flex-start;
+}
+
+#lista-direita { 
+    width: 66%;
+    justify-content: right;
+    
+} 
+
+#lista-esquerda { 
+    width: 66%;
+    justify-content: left;
+}
+
+#lista-de-itens {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-grow: 1;
+    padding: -20px;
+    width: -200px;
+}
