@@ -1,38 +1,49 @@
 body {
     background-color: black;
     color:whitesmoke;
+    margin: 0 auto;
 }
     
-#cabecalho {
+#cabecalho {  
+    position: fixed;  
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: green; 
-    width: 100%;
-    position: fixed;
+    width: 100%;   
 }
-        
-.principal {
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-    color: whitesmoke;
-    text-align: justify;
-}
-    
-a {
-    text-decoration: none;
-}
-    
+
 #ul_list {    
     list-style-type: none;
     position: relative; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif; 
     text-align: right;
-    display:block;
+    float: right;
+    display:inline;
+}
+
+a {
+    text-decoration: none;
 }
     
-#ol_list {
-    display: block; 
+.lado-esquerdo {
+    float: left;
+    padding: 5px;
+    font-size: 18px;
+    text-align: justify;
 }
-    
+
+.lado_direito {
+    float: right;
+}
+
 #rodape {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    }
+
+#ol_list {
+    display: block;
+    }
+
+.contato {
+    text-align: right;
     }
     
