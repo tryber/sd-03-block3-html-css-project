@@ -1,5 +1,6 @@
 body {
-	font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: snow;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3 {
@@ -8,13 +9,18 @@ h1, h2, h3 {
 
 #cabecalho {
 	background-color: #578c3e;
-	display: flex;
-  height: 80px;
-  justify-content: space-evenly;
-	left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  left: 0%;
 	position: fixed;
 	top: 0%;
-	width: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+#cabecalho li a {
+  display: block;
 }
 
 img {
@@ -33,27 +39,26 @@ img {
 
 article {
 	background-color: salmon;
-  height: auto;
-  position: relative;
+  position: absolute;
   top: 80px;
-}
-
-footer {
-	background-color: #d4daf2;
 }
 
 #info {
   background-color: steelblue;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
 }
 
 #fatos {
   background-color: sandybrown;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
 }
 
 #curiosidades {
 	background-color: #4a484b;
   color: snow;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
+}
+
+#rodape {
+  background-color: #d4daf2;
 }
