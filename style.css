@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+	background-color: #cddfa0;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 5px;
+    background-color: #7b9ea8;
+}
+
+#conhecendo {
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#foto {
+    border: 5px solid #7b9ea8;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.lado-direito {
+    float: right;
+}
+  
+.lado-esquerdo {
+    float: left;
+}
+
+#rodape {
+    clear: both;
+    padding: 5px;
+}
