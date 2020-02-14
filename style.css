@@ -5,7 +5,7 @@ body {
 }
 
 #cabecalho {
-    background-color: #2b4767;
+    background-color: rgb(43,71,103);
     height: 60px;
     left: 0;
     position: fixed;
@@ -23,7 +23,7 @@ body {
 }
 
 #cabecalho ul li a {
-    color: #ffc342;
+    color: rgb(255,195,66);
     font-family: 'Cinzel';
     text-decoration: none;
 }
@@ -35,8 +35,8 @@ body {
 
 .lado-esquerdo {
     margin-left: 65px;
-    background-color: #e5e5f8;
-    border: 2px solid #80c0e0;
+    background-color: rgb(229,229,248);
+    border: 2px solid rgb(128,192,224);
     float: left;
     margin-bottom: 30px;
     padding: 0 20px;
@@ -44,8 +44,8 @@ body {
 }
 
 .lado-direito {
-    background-color: #e5e5f8;
-    border: 2px solid #80c0e0;
+    background-color: rgb(229,229,248);
+    border: 2px solid rgb(128,192,224);
     float: right;
     margin-right: 65px;
     padding: 0 20px 10px;
@@ -82,14 +82,14 @@ ul li {
 }
 
 h1, h2, h3, h4, h5 {
-    background-color: #2b4767;
-    color: #ffc342;
+    background-color: rgb(43,71,103);
+    color: rgb(255,195,66);
     font-family: 'Cinzel';
     font-weight: 100;
 }
 
 a {
-    color: #80c0e0;
+    color: rgb(128,192,224);
     text-decoration: none;
 }
 
