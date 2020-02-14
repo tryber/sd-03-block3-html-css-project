@@ -6,7 +6,7 @@
 
 nav {
   position: absolute;
-  top: 5px;
+  top: -15px;
   padding-right: 50px;
   right: 0;
 }
@@ -18,15 +18,15 @@ nav li {
 
 nav a {
   text-transform: uppercase;
-  color: #ffffff;
-  text-shadow: #000000 2px 3px 2px;
-  font-weight: bold;
+  color: white;
+  text-shadow: black 2px 3px 2px;
+  font: italic small-caps 600 16px/3 cursive;
   font-size: 22px;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #adadad;
+  color: rgb(173 , 173 , 173);
   text-decoration: underline;
 }
 
