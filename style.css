@@ -11,9 +11,16 @@ h2{
 li{
     color: white;
 }
+img{
+    position:absolute;
+    z-index: -1;
+    left: 0%;
+    top: 0%;
+
+}
 
 #cabecalho {
-    background-color: white;
+    background-color: rgba(255,255,255,0.75);
     color: blue;
     font-family: fantasy;
     text-decoration: underline;
@@ -24,13 +31,17 @@ li{
     left: 0px;
     width: 100%;
     text-align: center;
+    z-index: 1;
 }
 #rodape{
     position: fixed;
     width: 100%;
     bottom: 0px;
-    text-align: right;
+    text-align: center;
 }
 #lista{
     margin-top: 100px;
+    position: absolute;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.75);
 }
