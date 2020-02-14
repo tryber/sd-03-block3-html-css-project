@@ -3,6 +3,11 @@ h1{
 
 color: whitesmoke;
 font-family: cursive;
+text-align: center;
+}
+h2{
+
+    text-align: center;
 
 }
 
@@ -15,26 +20,25 @@ background-color:aliceblue;
 display:inline-block;
 margin-right: 50px;
 color: white;
-padding:auto;
-padding-left:10px ;
-border-right: 2px dashed white;
-border-left: 2px dashed white;
-
-
-
+border-right: 5px dashed white;
+border-left: 5px dashed white;
 
 }
 
+
+
 #cabecalho{
+padding: 1%;    
 position: fixed;
 background-color: darkolivegreen;
+
 
 }
 
 .lado-esquerdo{
 
 float: left;
-width: 80%
+width: 60%
 }
 
 
@@ -44,24 +48,22 @@ footer{
     
     } 
 
-    #footer-id{
+    #rodape{
     background-color: darkslategray;
-
-
-    }
+}
 .lado-direito{
 
-
 float: right;
-width: 20%;
+width: 21%;
 margin-top: 30px;
 background-color: darkgray;
-
+padding: 10px;
+height: 100%;
 }
 
 #capa{
-    width: 70%;
-    padding-top: 120px;
+    
+    width: 60%;
     margin-top: 100px;
 
 }
