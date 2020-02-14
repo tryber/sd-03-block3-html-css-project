@@ -1,11 +1,78 @@
+html {
+  scroll-padding-top: 140px;
+}
+
 body {
-  background-color: rgb(225 , 202 , 150);
+  background-color: rgb(233 , 241 , 247);
+  margin: 0;
 }
 
 #cabecalho {
+  background-image: url(images/background.jpg);
+  color: rgb(255 , 255 , 255);
+  height: 130px;
   position: fixed;
   text-align: center;
+  top: 0;
   width: 100%;
+}
+
+#titulo_principal {
+  font-family: 'Lemonada', cursive;
+  font-weight: 400;
+}
+
+a {
+  color: azure;
+  text-decoration: none;  
+}
+
+a:hover  {color: rgb(0, 0, 0)}
+
+.blocos {
+  background-color: rgb(87, 115 , 153);
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: justify;
+  width: 60%;
+}
+
+#razoes {
+  margin-top: 150px;
+}
+
+.animais {
+  border-color: rgb(233 , 241 , 247);
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 20%;
+}
+
+.lado-direito {
+  float: right;
+  width: 75%;
+}
+
+#tabela {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(233 , 241 , 247);
 }
 
 #rodape {
