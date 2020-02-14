@@ -14,27 +14,29 @@ body{
 nav{
     background-color: darkolivegreen;
     position: absolute;
-    margin-top: 120px;
+    margin-top: 115px;
     padding-top: 0;
+    border: double;
+}
+
+a{
+    font-size: 20px;
+    color: lime;
 }
 
 #s01{
     background-color: darkorange;
     position: absolute;
-    margin-top: 280px;
-}
-
-figure{
-    border: double;
-    background-color: khaki;
-    margin-left: 320px;
-    margin-top: -80px;
+    margin-top: 300px;
 }
 
 table{
     background-color: lightgreen;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 12px;
+    margin-left: -5px;
+    font-size: 25px;
+    border-style: double;
 }
 
 #rodape{
@@ -45,23 +47,22 @@ table{
 }
 
 img{
-    margin-top: 300px;
+    border: double;
+    margin-left: 275px;
+    margin-top: -80px;
 }
 
 section{
     position: absolute;
     margin-top: 100px;
+    border: double;
 }
 
-h1, h2{
+h1, h2, h3{
     font-size: x-large;
     font-family: sans-serif;
     font-weight: bold;
     font-style: italic;
     color: darkblue;
     text-align: center;
-}
-
-table{
-    border-style: dashed;
 }
