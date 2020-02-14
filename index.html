@@ -1,253 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <title>Paulo Lins</title>
-    <meta charset='utf-8'>
-    
-    <meta name="viewport" content="width=device-width" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            display:block;
-            width: 100%;
-            margin: 0;
-            font-family: Open Sans Condensed, sans-serif;
-            background-color: #e7f4e4;
-        }
-                         
-        #cabecalho {
-            position: fixed;
-            margin-top: 0;
-            width: 100%;
-            height: 40px;
-            background-color: rgb(0, 0, 0);
-            z-index: 1;
-            text-align: center;
-            color: white;
-
-        }
-        
-        #menu {
-            position: fixed;
-            margin-top: 40;
-            width: 100%;
-            height: 100px;
-            background-color: black;
-        }
-        
-        #menu>ul {
-            width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 55px;
-        }
-        
-        #menu>ul>li {
-            display: inline;
-            padding: 20px;
-            font-family: 'Open Sans Condensed', sans-serif;
-            /* font-size: 24px; */
-            font-weight: bold;
-        }
-        
-        #menu>ul>li:hover {
-            background-color: rgb(26, 61, 28);
-        }
-        
-        #menu>ul>li>a {
-            margin: 0 auto;
-            color: rgb(255, 255, 255);
-            text-decoration: none;
-            font-size: 24px;
-        }
-       
-        #img {
-            width: 300px;
-            position: float;
-            margin-top: 70px;
-            margin-left: 30%;
-        }
-        
-        #titulo {
-            position: float;
-            margin-left: 100px;
-            background-color: rgb(190, 190, 190);
-            width: 650px;
-            padding: 20px;
-            border-radius: 5px;
-            font-size: 24px;
-        }
-        
-      
-        
-        /* .lado-direito {
-            position: float;
-            margin-right: 100px;
-            background-color: rgb(0, 44, 4);
-            width: 650px;
-            padding: 20px;
-            margin-top: 0px;
-            border-radius: 5px;
-            font-size: 24px;
-            color:white;
-        } */
-        
-        #formacao{
-            position: float;
-            margin-left: 900px;
-            background-color: rgb(0, 44, 4);
-            width: 650px;
-            padding: 20px;
-            margin-top: 50px;
-            border-radius: 5px;
-            font-size: 24px;
-            color: white;
-        }
-        #trabalho {
-            position: float;
-            margin: auto;
-            background-color: rgb(0, 44, 4);
-            width: 650px;
-            padding: 20px;
-            margin-top: 50px;
-            border-radius: 5px;
-            font-size: 24px;
-            color:white;
-        }
-        
-        .link {
-            text-decoration: none;
-            color: rgb(53, 109, 83);
-            font-weight: bold;
-        }
-        
-        .link-trybe {
-            text-decoration: none;
-            color: rgb(255, 255, 255);
-            font-weight: bold;
-        }
-        
-        #trybe {
-            position: float;
-            margin: auto;
-            background-color: rgb(53, 109, 83);
-            width: 650px;
-            padding: 20px;
-            margin-top: 50px;
-            color: white;
-            border-radius: 5px;
-            font-size: 24px;
-        }
-        
-        #habilidades {
-            position: float;
-            margin: auto;
-            background-color: rgb(0, 44, 4);
-            width: 650px;
-            padding: 20px;
-            margin-top: 50px;
-            border-radius: 5px;
-            font-size: 24px;
-            color:white;
-        }
-        
-        #rodape {
-            position: float;
-            margin-bottom: 0;
-            width: 100%;
-            height: 40px;
-            background-color: rgb(53, 109, 83);
-            color: white;
-            font-size: 24px;
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body>
-    <header id="cabecalho">
-        <div >
-            <h2>Paulo Lins</h2>
-        </div>
-    </header>
-        <nav id="menu">
-            <ul>
-                <li><a href="#titulo">Sobre mim</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#trabalho">Trabalhos</a></li>
-                <li><a href="#habilidades">Habilidades e competências</a></li>
-            </ul>
-        </nav>        
-            <img id="img" src="images/paulo.png" alt="foto de Paulo Lins" />             
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nova estrutura html</title>
+    </head>
+    <body>
+        <header>
+            <hgroup>
+                <h1>Título 1</h1>
+                <h2>Subtítulo</h2>
+            </hgroup>
+            <nav>
+                <ul>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                    <li><a href="#">link</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <header>
+                    <h2>Título</h2>
+                    <h3>Subtítulo</h3>
+                    <figure>
+                        <img src="" alt="descrição" width="300px" height="300px"/>
+                    </figure>
+                    <aside>
+                        <p>Descrição da imagem</p>
+                    </aside>
+                </header>
+            </article>
+        </main>
         <aside>
-            <div id="titulo">
-                <h2>Portfólio Web - Paulo Lins</h2>
-                <h3>Um pouco mais sobre mim</h3>
-                <p>
-                    Sou brasileiro, nasci e moro em Fortaleza no estado do Ceará. Adoro tecnologia e acredito que ela pode nos levar à resolução de diversos problemas. Propiciando uma vida mais tranquila e o desenvolvimento sustentável.
-                </p>
-            </div>
-        </aside>
-            
-            <div id="formacao">
-            <h2>Formação</h2>
-            <p>Me formei em Arquitetura, fiz pós-graduação em Educação. Fui professor universitário por quase 7 anos.Neste período fiz parte do grupo de pesquisa em multimídia e da equipe de professores que implementou o Nead (Núcleo de Educação à Distância)
-                da <strong>Universidade de Fortaleza.</strong></p>
-            </div>    
-        
-    </div>
-        <br>
-       <article>
             <section>
-                <div id="trabalho">
-                    <h2>Trabalhos</h2>
-                    <p>Na <a class="link" href="https://www.unifor.br/" target="_blank">Universidade de Fortaleza</a> contribuí como professor e pesquisador de 2000 a 2006.<br> Lá pude contar com a generosidade de outros professores com os quais aprendi
-                        muito.Sou professor de <strong><a class="link" href="http://www.linseidojo.com.br" target="_blank">aikido</a></strong> e, há 20 anos, ministro aulas no Linsei Dojô em Fortaleza.
-                    </p>
-                </div>
+                <h2>Seção relacionada ao artigo</h2>
+                <p>Conteúdo 1</p>
             </section>
-            <br>
-            <div id="trybe">
-                <p>
-                    Atualmente sou <strong>estudante</strong> da <strong> <a class="link-trybe" href="https://www.betrybe.com/" target="_blank">trybe.</a></strong></strong>><br> Empresa que busca a excelência na formação de desenvolvedores de software. Além de trabalhar na Universidade
-                    pude desenvolver diversos trabalhos nas áreas de: <em>Computação gráfica Edição de vídeo Multimídia Criação de Identidade Visual para empresas</em>
-                </p>
-                <p>
-                    <table>
-                        <tr>
-                            <td>Nome</td>
-                            <td>Idade</td>
-                            <td>Profissão</td>
-                        </tr>
-                        <tr>
-                            <td>Ted</td>
-                            <td>22</td>
-                            <td>Estudante</td>
-                        </tr>
-                        <tr>
-                            <td>Ralf</td>
-                            <td>26</td>
-                            <td>Designer</td>
-                        </tr>
-                    </table>
-                </p>
-            </div>
-            <br>
-            <div id="habilidades">
-                <p>
-                    <h2>Habilidades e competências</h2>
-                    <ol>
-                        <li>Trabalho em equipe</li>
-                        <li>Photoshop</li>
-                        <li>After Effects</li>
-                        <li>Illustrator</li>
-                    </ol>
-                </p>
-            </div>
-        </article>
-        <footer id="rodape">
-            <p>No ©Copyright!</p>
+            <section>
+                <h2>Novidades</h2>
+                <p>Conteúdo 2</p>
+            </section>
+            <section>
+                <h2>História</h2>
+                <p>Conteúdo 3</p>
+            </section>
+        </aside>
+        <footer>
+            <p>Postado por Paulo</p>
+            <address a href=##>contato</address>
         </footer>
-</body>
+
+    </body>
 </html>
