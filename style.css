@@ -1,0 +1,63 @@
+* {
+  margin: 2px;
+  padding: 0px;
+  border: 1px;
+}
+
+#cabecalho {
+  font-size: 30px;
+  position: fixed;
+  top: 5px;
+  background-color: aqua;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+footer {
+  margin: 0;
+}
+
+#rodape {
+  font-size: 30px;
+}
+#lado-direito {
+  float: right;
+  width: 30%;
+  right: 5px;
+  border: brown double;
+}
+
+#lado-esquerdo {
+  float: left;
+  top: 300px;
+  width: 30%;
+  left: 5px;
+  border: brown double;
+}
+
+#primeiro-artigo {
+  margin-top: 100px;
+
+  font-size: 29px;
+}
+
+.artigo {
+  width: 400px;
+  text-align: center;
+}
+
+body {
+  background-color: azure;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: darkred;
+}
+section {
+  margin-top: 30px;
+}
+li {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
