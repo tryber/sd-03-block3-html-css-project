@@ -1,17 +1,16 @@
 
 body{
 
-background-color: aliceblue;
+background-color:aliceblue;
 
 }
 #cabecalho h2{
 display:inline-block;
-position: fixed;
+
 
 }
 
-#cabecalho {
-    display:inline-block;
-    
+#cabecalho{
+position: fixed;
 
-    }
+}
