@@ -9,28 +9,44 @@
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
   #rodape {
+=======
+ #rodape {
+>>>>>>> parent of 643e6de... Ajustando pro code climate parte 7
   text-align: center;
   background-color: lightgrey;
   z-index: 1;
   font-size: 1.2em;
   clear: both;
 }
+<<<<<<< HEAD
   body {
   background: linear-gradient(lightblue , mediumblue);
 }
   .lado-esquerdo {
+=======
+ body {
+  background: linear-gradient(lightblue , mediumblue);
+}
+ .lado-esquerdo {
+>>>>>>> parent of 643e6de... Ajustando pro code climate parte 7
   background-color: blueviolet;
   float: left;
   margin-top: 30%;
 }
+<<<<<<< HEAD
   .lado-direito {
+=======
+ .lado-direito {
+>>>>>>> parent of 643e6de... Ajustando pro code climate parte 7
   background-color: crimson;
   float: right;
   max-width: 30%;
   font-style: italic;
   margin-top: 30%;
 }
+<<<<<<< HEAD
   h1 {
   padding-top: 10px;
 }
@@ -41,5 +57,17 @@
   width: 50%;
 }
   footer {
+=======
+ h1 {
+  padding-top: 10px;
+}
+ #bloco {
+  display: flex;
+}
+ #imgsize {
+  width: 50%;
+}
+ footer {
+>>>>>>> parent of 643e6de... Ajustando pro code climate parte 7
   border: 5px , black , dotted;
 }
