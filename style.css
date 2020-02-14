@@ -60,11 +60,13 @@ aside {
 
 .lado-direito {
     position: relative;
+    float: right;
     margin-top: 150;
     padding-top: 150;
 }
 .lado-esquerdo {margin-top: 150;
-    padding-top: 150;}
+    padding-top: 150;
+    float: left;}
 
 #dgtl {margin-top: 150;
     padding-top: 150;
