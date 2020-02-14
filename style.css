@@ -1,8 +1,8 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
-body {
+body{
     background-color: #C0A9B0;
 }
 #cabecalho{
@@ -18,5 +18,14 @@ body {
 }
 .teste-lista{
     position: relative;
-    left: 300px;
+    left: 80px;
+}
+#tabela{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
