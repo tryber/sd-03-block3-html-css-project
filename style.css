@@ -26,12 +26,6 @@ h2{
    width:60%;
 }
 
-table,tr,td{
-   border:1px solid black;
-   color:black;
-   padding:3px;
-}
-
 .outline-title{
           display:none;
 }
@@ -42,4 +36,10 @@ p{
 
 #rodape{
    clear:both;
+}
+
+table,tr,td{
+   border:1px solid black;
+   color:black;
+   padding:3px;
 }
