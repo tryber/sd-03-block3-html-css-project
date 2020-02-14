@@ -19,6 +19,11 @@ body{
 .teste-lista{
     position: relative;
     left: 80px;
+    font-size: 15px;
+    color: tomato;
+    text-align: center;
+    font-weight: bold;
+
 }
 #tabela{
     border-collapse: collapse;
