@@ -1,22 +1,26 @@
-* {
-    font-family: 'Oswald', sans-serif;
-}
-
 p {
-    font-size: 20px;
     padding-bottom: 2px;
-    margin-left: 20px;
 }
 
 h3 {
     text-align: center;
 }
 
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
 ol {
-    position: relative;
-    left: 700px;
-    top: -200px;
     font-size: 20px;
+    margin-right: 50px;
 }
 
 ul {
@@ -38,7 +42,7 @@ tr,
 th,
 td {
     width: 50%;
-    border: solid rgb(59, 146, 93) 2px;
+    border: solid rgb(59, 146, 95) 2px;
     padding: 2px;
 }
 
@@ -46,9 +50,6 @@ h2 {
     background-color: rgba(131, 128, 128, 0.712);
     border-radius: 32px;
     text-align: center;
-    font-style: bold;
-    width: 90%;
-    margin-left: 55px;
 }
 
 .body {
@@ -89,24 +90,16 @@ h2 {
 
 .intro-picture {
     border-radius: 18px;
-    margin-left: 150px;
-    margin-top: 40px;
+    width: 35%;
+    margin-left: 50px;
 }
 
 .introduction-text {
-    text-align: justify;
     font-size: 20px;
-    float: right;
-    position: relative;
-    right: 350px;
 }
 
 .proj-text {
-    float: left;
-    width: 42%;
     font-size: 20px;
-    padding-right: 25px;
-    margin-left: 90px;
 }
 
 .quotation {
@@ -115,13 +108,10 @@ h2 {
 }
 
 #rodape {
-    position: relative;
-    left: -650px;
-    bottom: -474px;
-    text-align: justify;
+    text-align: left;
     color: lightslategray;
 }
 
-#i-frame {
-    margin-top: -50px;
+#cabecalho {
+    font-family: sans-serif;
 }
