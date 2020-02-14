@@ -66,3 +66,16 @@ h1, h2, h3{
     color: darkblue;
     text-align: center;
 }
+
+.lado-esquerdo{
+    border: double;
+    background-color: maroon;
+    float: left;
+    margin-left: 120px;
+}
+
+.lado-direito{
+    border: double;
+    background-color: rgb(214, 24, 151);
+    float: right;
+}
