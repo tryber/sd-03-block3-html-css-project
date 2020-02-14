@@ -28,8 +28,6 @@ body{
 #tabela{
     border-collapse: collapse;
     width: 100%;
-    position: absolute;
-    top:1000px;
 }
 td, th{
     border: 1px solid #dddddd;
@@ -37,22 +35,19 @@ td, th{
     padding: 8px;
 }
 .imagens{
-    position: absolute;
+    padding: 0 8px;
+    float: left;
+    width: 50%;
 }
-#lado-esquerdo{
-    position: absolute;
-    top: 500px;
-    left: 700px;
-    width: 20px;
+.lado-esquerdo{
+    border: 1px solid #ccc;
 }
-#lado.direito{
-    position: absolute;
-    top: 500px;
-    left: 500px;
-    width: 10px;
+.lado.direito{
+    border: 1px solid #ccc;
 }
-#rodape{
-    clear:both;
-    position:absolute;
-    top:1080px;
+.lado-esquerdo:hover{
+    border: 1px solid #777;
+}
+.lado.direito:hover{
+    border: 1px solid #777;
 }
