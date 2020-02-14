@@ -1,6 +1,6 @@
 body {
     background-color: rgb(56 , 98 , 136);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     text-align: justify;
 }
 
@@ -24,7 +24,7 @@ body {
 
 #cabecalho ul li a {
     color: rgb(255 , 195 , 66);
-    font-family: "Cinzel";
+    font-family: "Cinzel", serif;
     text-decoration: none;
 }
 
@@ -46,6 +46,7 @@ body {
 .lado-direito {
     background-color: rgb(229 , 229 , 248);
     border: 2px solid rgb(128 , 192 , 224);
+    clear: inherit;
     float: right;
     margin: 0px 65px 20px 0px;
     padding: 0 20px 10px;
@@ -84,7 +85,7 @@ ul li {
 h1, h2, h3, h4, h5 {
     background-color: rgb(43 , 71 , 103);
     color: rgb(255 , 195 , 66);
-    font-family: "Cinzel";
+    font-family: "Cinzel", serif;
     font-weight: 100;
 }
 
