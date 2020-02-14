@@ -1,24 +1,27 @@
 body {
-    background-color: rgb(19, 98, 75);
+    background-color: rgb(19 ,98 ,75);
 }
-h1, h2, h3 {
+h1 ,h2 ,h3 {
     display: block;
     color: white;
-    font-family: 'Quattrocento', serif;
+    font-family: "Quattrocento", serif;
 }
-p, ul, ol {
+p ,ul ,ol {
     display: block;
     color: gainsboro;
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
 }
 #cabecalho {
     position: fixed;
 }
 #barraDeNavegacao {
-    display: block;
+    display: inline-block;
 }
 #Rodape {
     position: fixed;
+}
+#Imagem {
+    width: 300px;
 }
 .Titulo {
     font-size: xxx-large;
