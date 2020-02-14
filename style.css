@@ -29,30 +29,19 @@ body{
     border-collapse: collapse;
     width: 100%;
     position: absolute;
-    top:1000px;
+    top:800px;
 }
 td, th{
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
-.imagens{
-    position: absolute;
-}
 #lado-esquerdo{
-    position: absolute;
-    top: 500px;
-    left: 700px;
-    width: 20px;
+    
 }
 #lado.direito{
-    position: absolute;
-    top: 500px;
-    left: 500px;
-    width: 10px;
+    
 }
 #rodape{
     clear:both;
-    position:absolute;
-    top:1080px;
 }
