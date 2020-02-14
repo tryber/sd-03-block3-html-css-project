@@ -1,0 +1,95 @@
+* {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.articles {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.article {
+  padding: 30px;
+}
+
+#cabecalho {
+  position: fixed;
+  background-color: cornflowerblue;
+  color: black;
+  width: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  flex-grow: 1;
+}
+
+.first-line {
+  background-color: cornflowerblue;
+  color: black;
+  width: auto;
+}
+
+.footer-blue {
+  background-color: cornflowerblue;
+  color: black;
+  position: absolute;
+  width: 100%;
+}
+
+.jobs {
+  margin-top: 40px;
+}
+
+.lado-direito {
+  background-color: lightgrey;
+  padding: 20px;
+  width: 200px;
+}
+
+.lado-esquerdo {
+  width: 80%;
+}
+
+.navigation {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+.navigation ul {
+  display: flex;
+  padding: 5px 0;
+}
+
+.navigation li {
+  margin-right: 40px;
+  list-style-type: none;
+}
+
+.navigation li a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.picture {
+  border-radius: 100%;
+  width: 150px;
+  margin: 40px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.reference1 {
+  background-color: chartreuse;
+  font-family: Helvetica, serif;
+}
