@@ -1,15 +1,159 @@
 * {
-    background-color: teal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#titulodapagina {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    color: white;
-    background-color: black;
+header {
+    background-color: #6595ed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 #cabecalho {
-    position: static;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100px;
+}
+
+.logo {
+    margin: 10px 50px;
+    height: 60px;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+
+.menu li a:hover {
+    background: #fff;
+    transition: .4s;
+    color: black;
+}
+
+#borda {
+    background-color: #6595ed;
+    border: 1px solid white;
+}
+
+#imagembanda {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#textosobre {
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+}
+
+.integrantes_sec {
+    margin-top: 10%;
+    background-color: #6595ed;
+}
+
+.titulointegrates {
+    background-color: #6595ed;
+    color: white;
+    font-family: sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.integrantes_sec {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.integrantes_sec .membros {
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #3b3a3a;
+    position: relative;
+    text-align: center;
+}
+
+.membros h3 {
+    color: black;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.posicao {
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0px;
+}
+
+.foto_membros {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #6595ed;
+}
+
+.foto_membros img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.rodape {
+    display: flex;
+    background-color: #6595ed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 25vh;
+    padding: 10px;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.conteudorodape {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.conteudorodape p {
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    padding: 2px;
+}
+
+.imgrodape {
+    width: inherit;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
