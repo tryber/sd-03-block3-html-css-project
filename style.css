@@ -4,6 +4,10 @@
   border: 0;
 }
 
+body {
+  background-color: rgb(254, 255, 255);
+}
+
 .main-title {
   text-align: center;
   margin-top: 30px;
@@ -30,12 +34,8 @@
 }
 
 .cab-text li:hover {
-  color: rgb(0, 179, 30);
+  color: rgb(0 , 179 , 30);
   font-weight: 700;
-}
-
-body {
-  background-color: rgb(97, 86, 86);
 }
 
 #rodape {
@@ -45,7 +45,7 @@ body {
   width: 100%;
   background-size: 100%;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.856);
+  background-color: rgba(255 , 255 , 255 , 0.856);
 }
 
 img {
@@ -73,21 +73,20 @@ ul, ol {
   font-style: italic;
 }
 
-body article {
-  padding-bottom: 200px;
-}
-
 .explanation {
+  background-color: rgb(218, 255, 242);
+  padding-top: 20px;
   margin: auto;
-  border: black;
-  border-style: dotted;
+  border: rgba(180, 180, 180, 0.658);
+  border-style: solid;
   width: 80%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .explanation h2 {
-  padding: 30px 0 10px 50px;
-  color: ;
+  padding: 20px;
+  text-indent: 5%;
+  background-color: rgba(112, 191, 255, 0.13);
 }
 
 .explanation p {
@@ -97,6 +96,7 @@ body article {
   letter-spacing: 2px;
   line-height: 20px;
   text-indent: 20px;
+  font-weight: 300;
 }
 
 .explanation img {
