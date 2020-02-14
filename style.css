@@ -1,17 +1,17 @@
-
 h1 {
   color: whitesmoke;
   font-family: cursive;
   text-align: center;
 }
+
 h2 {
   text-align: center;
 }
 
 body {
   background-color: aliceblue;
-
 }
+
 #cabecalho h2 {
   display: inline-block;
   margin-right: 50px;
@@ -21,16 +21,14 @@ body {
 
 }
 
-
-
 #cabecalho {
-  padding: 1%;    
+  padding: 1%;
   position: fixed;
   background-color: darkolivegreen;
 
 }
 
-.lado-esquerdo { 
+.lado-esquerdo {
   float: left;
   width: 60%;
 }
@@ -42,6 +40,7 @@ body {
 #rodape {
   background-color: darkslategray;
 }
+
 .lado-direito {
   float: right;
   width: 21%;
@@ -52,7 +51,6 @@ body {
 }
 
 #capa {
-
   width: 60%;
   margin-top: 100px;
 }
