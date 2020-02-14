@@ -6,10 +6,12 @@ background-color: aliceblue;
 }
 #cabecalho h2{
 display:inline-block;
-
+position: fixed;
 
 }
 
-#cabecalho{
-    position: fixed;
+#cabecalho {
+    display:inline-block;
+    
+
     }
