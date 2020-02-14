@@ -6,10 +6,25 @@ body{
 }
 
 #cabecalho{
-   position:fixed;
    background-color:rgb(127,255,200);
+   position:fixed;
+}
+
+.lado-direito{
+   background-color:#fdfd96;
+   float:right;
+   width:30%;
+}
+
+.lado-esquerdo{
+   float:left;
+   width:60%;
 }
 
 .outline-title{
           display:none;
-       }
+}
+
+#rodape{
+   clear:both;
+}
