@@ -9,36 +9,36 @@
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
 }
-#rodape {
+ #rodape {
   text-align: center;
   background-color: lightgrey;
   z-index: 1;
   font-size: 1.2em;
   clear: both;
 }
-body {
+ body {
   background: linear-gradient(lightblue , mediumblue);
 }
-.lado-esquerdo {
+ .lado-esquerdo {
   float: left;
   margin-right: 30%;
 }
-.lado-direito {
+ .lado-direito {
   float: right;
   margin-top: -50%;
   width: 30%;
   padding-left: 30%;
   font-style: italic;
 }
-h1 {
+ h1 {
   padding-top: 10px;
 }
-#bloco {
-  align-items: stretch;
+ #bloco {
+display: inline;
 }
-#imgsize {
+ #imgsize {
   width: 50%;
 }
-footer {
+ footer {
   border: 5px , black , dotted;
 }
