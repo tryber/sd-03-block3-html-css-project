@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(2 ,2 ,75);
+    background-color: rgb(2, 2, 75);
     background-image: url(Images/sonic.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -24,15 +24,17 @@ body {
   section {
     float: left;
   }
-
-  nav{
-      border: solid;
+  
+  nav {
+    border: solid;
   }
-  footer{
-      clear: both;
+  
+  footer {
+    clear: both;
   }
-  table{
-      color: white;
+  
+  table {
+    color: white;
   }
   
   #fundo {
@@ -50,7 +52,7 @@ body {
   }
   
   #cabecalho {
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     color: blue;
     font-family: fantasy;
     text-decoration: underline;
@@ -95,3 +97,4 @@ body {
   .lado-esquerdo {
     float: left;
   }
+  
