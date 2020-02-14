@@ -3,33 +3,37 @@ body {
     background-image: url(Images/sonic.jpg);
     background-attachment: fixed;
     background-size: cover;
-}
-p{
+  }
+  
+  p {
     color: white;
     padding: 1%;
-}
-h2{
+  }
+  
+  h2 {
     color: white;
     padding: 1%;
-
-}
-li{
+  }
+  
+  li {
     color: white;
-}
-#fundo{
-    position:absolute;
+  }
+  
+  #fundo {
+    position: absolute;
     z-index: -1;
     left: 0%;
     top: 0%;
     height: 100%;
     position: fixed;
-}
-
-article{
+  }
+  
+  article {
     background-color: rgba(0, 0, 0, 0.75);
     width: 40%;
-}
-#cabecalho {
+  }
+  
+  #cabecalho {
     background-color: rgba(255,255,255,0.75);
     color: blue;
     font-family: fantasy;
@@ -42,27 +46,34 @@ article{
     width: 100%;
     text-align: center;
     z-index: 1;
-}
-#rodape{
+  }
+  
+  #rodape {
     position: fixed;
     width: 100%;
     bottom: 0px;
     text-align: center;
-}
-#lista{
+  }
+  
+  #lista {
     margin-top: 100px;
     width: 20%;
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.75);
-}
-#characterslink{
+  }
+  
+  #characterslink {
     color: white;
-}
-
-.lado-esquedo{
+  }
+  
+  .lado-esquerdo {
     float: left;
-    width: 100%;
-}
-.lado-direito{
+  }
+  
+  .lado-direito {
     float: right;
-}
+    position: absolute;
+    top: 17%;
+    left: 50%;
+  }
+  
