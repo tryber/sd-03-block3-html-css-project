@@ -22,6 +22,12 @@ body {
   section {
     float: left;
   }
+  footer{
+      clear: both;
+  }
+  table{
+      color: white;
+  }
   
   #fundo {
     position: absolute;
