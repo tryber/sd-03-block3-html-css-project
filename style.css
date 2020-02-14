@@ -87,7 +87,7 @@ p {
   margin-top: 40px;
 }
 
-#rodape {
+.footer-blue {
   background-color: cornflowerblue;
   color: black;
   position: absolute;
