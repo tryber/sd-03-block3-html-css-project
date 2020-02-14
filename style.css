@@ -7,6 +7,10 @@ body {
   background-color: rgb(178, 247, 209);
 }
 
+.naoaparece {
+    display: none;
+}
+
 .container {
   width: 1024px;
   margin: auto;
