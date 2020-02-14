@@ -1,22 +1,36 @@
 body{
     background-color: cadetblue;
-    height: 100%;
+    font-family: sans-serif;
 }
 
 #cabecalho{
     background-color: chartreuse;
+    width: 99%;
     position: fixed;
     padding: 0;
     margin-top: -10px;
     border: double;
 }
 
+#rodape{
+    background-color: mediumpurple;
+    width: 99%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border:double; 
+    font-weight: bold;
+}
+
 nav{
     background-color: darkolivegreen;
+    width: 99%;
     position: absolute;
     margin-top: 115px;
     padding-top: 0;
     border: double;
+    font-weight: bolder;
+    font-size: 17px;
 }
 
 a{
@@ -24,58 +38,55 @@ a{
     color: lime;
 }
 
+p{
+    font-weight: bolder;
+}
+
 #s01{
     background-color: darkorange;
+    width: 99%;
     position: absolute;
     margin-top: 300px;
 }
 
 table{
     background-color: lightgreen;
-    position: absolute;
-    margin-top: 12px;
+    margin-top: 90px;
     margin-left: -5px;
     font-size: 25px;
     border-style: double;
 }
 
-#rodape{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
 img{
     border: double;
-    margin-left: 315px;
-    margin-top: -80px;
+    margin-top: 90px;
 }
 
 section{
     position: absolute;
-    margin-top: 100px;
+    margin-top: 110px;
     border: double;
 }
 
 h1, h2, h3{
     font-size: x-large;
-    font-family: sans-serif;
     font-weight: bold;
     font-style: italic;
     color: darkblue;
-    text-align: center;
 }
 
 .lado-esquerdo{
+    background-color: navajowhite;
+    width: 49%;
     border: double;
-    background-color: maroon;
     float: left;
-    margin-left: 120px;
+    margin-top: 390px;
 }
 
 .lado-direito{
-    border: double;
     background-color: rgb(214, 24, 151);
+    width: 50%;
+    border: double;
     float: right;
+    margin-top: 390px;
 }
