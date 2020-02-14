@@ -196,3 +196,7 @@ body{
     background-color: rgba(33, 211, 77, 0.404);
     color: black;
 }
+
+.tabela{
+    display: none;
+}
