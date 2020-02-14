@@ -90,4 +90,6 @@ p {
 #rodape {
   background-color: cornflowerblue;
   color: black;
+  position: absolute;
+  width: 100%;
 }
