@@ -2,6 +2,7 @@ body {
     background-color: rgb(126, 91, 26);
     margin: 0;
     display: grid;
+    size:10em
 }
 
 #cabecalho{
@@ -23,6 +24,11 @@ body {
 }
 #lado-direito {
     float: right;
+    width:10em;
+  }
+}
+#lado-esquerdo {
+    float: left;
     width:10em;
   }
 
