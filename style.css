@@ -8,38 +8,38 @@
   display: block;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
-} 
-#rodape {
+}
+ #rodape {
   text-align: center;
   background-color: lightgrey;
   z-index: 1;
   font-size: 1.2em;
   clear: both;
-} 
-body {
+}
+ body {
   background: linear-gradient(lightblue , mediumblue);
-} 
-.lado-esquerdo {
+}
+ .lado-esquerdo {
   background-color: blueviolet;
   float: left;
   margin-top: 30%;
-} 
-.lado-direito {
+}
+ .lado-direito {
   background-color: crimson;
   float: right;
   max-width: 30%;
   font-style: italic;
   margin-top: 30%;
-} 
-h1 {
+}
+ h1 {
   padding-top: 10px;
-} 
-#bloco {
+}
+ #bloco {
   display: flex;
-} 
-#imgsize {
+}
+ #imgsize {
   width: 50%;
-} 
-footer {
+}
+ footer {
   border: 5px , black , dotted;
 }
