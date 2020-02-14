@@ -1,6 +1,6 @@
 body {
     font-family: Roboto, Helvetica, sans-serif;
-    background: #F9EDCC;
+    background: #f9edcc;
     color: black;
     height: 100vh;
 }
@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 4fr 4fr 1fr;
     grid-template-rows: 1fr 6fr 1fr;
-    grid-template-areas: "cab cab cab cab cab" ". hero hero photo1 ." "rank rank . . ."
+    grid-template-areas: "cab cab cab cab cab" ". lado-esquerdo lado-esquerdo photo1 ." "rank rank . . .";
 }
 
 
@@ -27,9 +27,9 @@ body {
     position: fixed;
     top: 0;
     z-index: 100;
+    width: 100%;
     background: #f9edcd;
     /* GAMBS: background changed on "cabecalho" from #f9edcc to #f9edcD to hide content below on scroll*/
-    ;
 }
 
 #logo {
@@ -56,16 +56,17 @@ body {
 
 #deco {
     grid-area: deco;
-    background: #EF4F2B;
+    background: #ef4f2b;
+    border: solid #ef4f2b;
 }
 
-#hero {
-    grid-area: hero;
+.lado-esquerdo {
+    grid-area: lado-esquerdo;
 }
 
-#photo1 {
+.photo1 {
     grid-area: photo1;
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
