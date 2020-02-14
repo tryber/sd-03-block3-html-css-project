@@ -42,12 +42,10 @@ width: 60%
 }
 
 
-footer{
+.footer-id{
 
-    margin-top: 50px;
-    
-    } 
-
+width: 10px;
+}
     #rodape{
     background-color: darkslategray;
 }
@@ -62,7 +60,7 @@ height: 100%;
 }
 
 #capa{
-    
+
     width: 60%;
     margin-top: 100px;
 
