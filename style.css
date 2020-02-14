@@ -19,6 +19,10 @@ body {
     color: white;
   }
   
+  section {
+    float: left;
+  }
+  
   #fundo {
     position: absolute;
     z-index: -1;
@@ -66,14 +70,18 @@ body {
     color: white;
   }
   
-  .lado-esquerdo {
-    float: left;
-  }
-  
-  .lado-direito {
+  #images {
     float: right;
     position: absolute;
     top: 17%;
     left: 50%;
+  }
+  
+  .lado-direito {
+    float: right;
+  }
+  
+  .lado-esquerdo {
+    float: left;
   }
   
