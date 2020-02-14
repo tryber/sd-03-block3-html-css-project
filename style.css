@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(126, 91, 26);
+    margin: 0;
+    display: grid;
+    size:10em
+    
+}
+
+#cabecalho{
+    display: flex;
+    border: 0.1em dashed rgb(218, 146, 14);
+    position: fixed; 
+    background-color: rgb(95, 70, 25); 
+    font-size: 2em; 
+    margin-inline-start: 10em;
+    margin-inline-end: 10em;
+    
+}
+#rodape{
+    display: flex;
+    border: 2px dashed rgb(218, 146, 14);
+    background-color: rgb(95, 70, 25); 
+    text-align: center; 
+    margin-inline-start: 47%;
+    margin-inline-end: 47%;
+    margin-top: 12em;
+    
+    
+}
+.lado-direito {
+    float: right;
+    width:10em;
+  }
+}
+.lado-esquerdo {
+    float: left;
+    width:10em;
+  }
+
+  h1{
+      color: rgb(36, 26, 7)
+      
+  }
+  h2{
+
+  }
+
+  a{
+    color: rgb(36, 26, 7)
+  }
+
+.margem-topo{
+    margin-top: 12em;
+    text-align: center;
+}
+p{
+font-size: 1.5em;
+}
+a{
+
+}
