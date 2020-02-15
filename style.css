@@ -42,24 +42,24 @@ section{
        justify-content: space-between;
        align-items: center;
 }
-section .content
+section .lado-esquerdo
 {
     padding: 150px;
     box-sizing: border-box;
     padding: 100px 50px 100px 150px;
 }
-section .content h2
+section .lado-esquerdo h2
 {
     color: #fff;
     font-size: 3em;
     font-weight: 800;
 }
-section .content p
+section .lado-esquerdo p
 {
     color: #fff;
     font-size: 1.2em;
 }
-section .content a
+section .lado-esquerdo a
 {
     position: relative;
     display: inline-block;
@@ -73,12 +73,12 @@ section .content a
     font-weight:700;
     letter-spacing: 2px;
 }
-section .imgBx
+section .lado-direito
 {
     position: relative;
     padding-right: 100px;
 }
-section .imgBx img
+section .lado-direito img
 {
     max-width: 500px;
 }
