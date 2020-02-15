@@ -5,10 +5,11 @@
 }
 #centro
 {
-	margin: 0 auto;
+	margin:  auto;
 	width: 700px;
 	padding-left: 50px;
 	background-color: #443E4A;
+	
 
 
 }
@@ -19,8 +20,9 @@
 	font-size: 50px;
 	text-align: center;
 	background-color:#6A5E76; 
-	width: 600px;
+	width: 700px;
 	position: fixed;
+	margin-left: 363px;
 	
 
 }
@@ -50,8 +52,9 @@
 {
 	text-align: center;
 	background-color:#6A5E76; 
-	width: 600px;
+	width: 700px;
 	font-size: 30px;
+	margin-left: 363px;
 }
 #link-wik
 {
