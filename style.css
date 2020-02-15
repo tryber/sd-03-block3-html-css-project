@@ -9,15 +9,26 @@
             background-color: #8DA9C4;
             width: 100%;
             border-bottom: 2px solid #134074;
+            z-index: 2;
         }
-        .lado-esquerdo{
+        .lado-esquerdo {
             float: left;
         }
-        .lado-direito{
+        .lado-direito1 {
             float: right;
             padding-top: 10px;
             padding-right: 1025px;
             margin-bottom: -100px;
+        }
+        .lado-direito {
+            float: right;
+            margin-right: 250px;
+            position: relative;
+            top: -1300px;
+            z-index: 1;
+        }
+        td {
+            text-align: center;
         }
         .azulNFL{
             color: white;
