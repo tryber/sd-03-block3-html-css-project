@@ -39,7 +39,7 @@ a {
 }
 
 p {
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 #s01 {
@@ -68,7 +68,7 @@ section {
   border: double;
 }
 
-h1, h2, h3 {
+h1,h2,h3 {
   font-size: x-large;
   font-weight: 700;
   font-style: italic;
@@ -84,6 +84,6 @@ h1, h2, h3 {
 
 .lado-direito {
   border: double;
-  background-color: rgb(214, 24, 151);
+  background-color: rgb(214,24,151);
   float: right;
 }
