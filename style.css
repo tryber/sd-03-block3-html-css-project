@@ -59,7 +59,7 @@ table{
 
 img{
     border: double;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 section{
@@ -80,13 +80,13 @@ h1, h2, h3{
     width: 49%;
     border: double;
     float: left;
-    margin-top: 390px;
+    margin-top: 540px;
 }
 
 .lado-direito{
-    background-color: rgb(214, 24, 151);
+    background-color:lightpink;
     width: 50%;
     border: double;
     float: right;
-    margin-top: 390px;
+    margin-top: 540px;
 }
