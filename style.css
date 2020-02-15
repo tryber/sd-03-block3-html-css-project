@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif;
 }
 
 #cabecalho {
@@ -91,6 +91,12 @@ main {
 
 .lado-direito img {
   max-width: 500px;
+}
+
+#tabela {
+  align-items: center;
+  box-sizing: border-box;
+  padding: 50px;
 }
 
 #rodape {
