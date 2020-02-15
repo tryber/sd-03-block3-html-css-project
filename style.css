@@ -1,5 +1,5 @@
 body {
-  background-color: #586F6B;
+  background-color: #586f6b;
   margin: 0;
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
@@ -15,10 +15,10 @@ li {
 #cabecalho {
   top: 0;
   width: 100%;
-  overflow: hidden;  
+  overflow: hidden;
   position: fixed;
   color: black;
-  background-color: #7F9183;
+  background-color: #7f9183;
 }
 
 .logo {
@@ -31,7 +31,8 @@ li {
   border: 0;
   text-align: justify;
 }
-#navbar::after, article p::after{
+#navbar::after,
+article p::after {
   display: inline-block;
   height: 0%;
   width: 100%;
@@ -42,39 +43,37 @@ li {
   display: inline-block;
 }
 
-.nav-item a::hover{
+.nav-item a::hover {
   background-color: black;
 }
 
-section{
+section {
   margin-top: 230px;
 }
 
-article{
+article {
   border: solid 0px;
   border-radius: 15px;
-  background-color: #B8B8AA;
+  background-color: #b8b8aa;
   color: black;
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-article p{
+article p {
   margin-left: 1em;
   margin-bottom: 1em;
 }
 
-
-article h2{
+article h2 {
   text-align: center;
 }
 
-article h3, h4{
+article h3,
+h4 {
   margin-left: 1em;
 }
-
-
 
 #tabela {
   margin: 1px;
