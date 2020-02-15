@@ -8,13 +8,12 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: 20px;
   position: fixed;
-  background-color: black;
+  background-color: transparent;
 }
-#cabecalho h2{
-  text-align: center;
-  
+#cabecalho h1{
+  display: none;
 }
 
 #barranav
