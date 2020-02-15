@@ -9,9 +9,6 @@
 	width: 700px;
 	padding-left: 50px;
 	background-color: #443E4A;
-	
-
-
 }
 #cabecalho
 {
@@ -23,10 +20,7 @@
 	width: 700px;
 	position: fixed;
 	margin-left: 363px;
-	
-
 }
-
 
 .lado-esquerdo
 {
@@ -35,6 +29,7 @@
 	width: 300px;
 	padding-left: 15px;
 	padding-bottom: 35px;
+	padding-top: 70px;
 }
 .lado-direito
 {
@@ -42,6 +37,7 @@
 	float: left;
 	width: 300px;
 	padding-left: 30px;
+	padding-top: 70px;
 }
 
 #rodape
