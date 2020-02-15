@@ -6,7 +6,7 @@ body{
 
 #cabecalho{
    background-color:rgb(127,255,200);
-   border:10px solid blue;
+   border:10px solid #fdfd96;
    padding:10px;
    position:fixed;
 }
@@ -25,6 +25,10 @@ h2{
 .lado-esquerdo{
    float:left;
    width:60%;
+}
+
+.links-relacionados{
+   padding:10px;
 }
 
 .outline-title{
