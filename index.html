@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A Evolução das Criptomoedas</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header id="cabecalho">
-      <img src="img/bitcoin.png" alt="Logo do Bitcoin" width="150px" />
-      <h1>A Evolução das Criptomoedas</h1>
       <nav>
-        <ul>
-          <li><a href="#bitcoin">A primeira criptomoeda</a></li>
-          <li><a href="#ethereum">Ethereum e o contrato inteligente</a></li>
-          <li><a href="">Outra criptomoedas</a></li>
-          <li><a href="https://coinmarketcap.com" target="_blank">Confira todas as criptomoedas</a></li>
-        </ul>        
+        <ul id="navbar">
+          <li class="nav-item">
+            <img class="logo" src="img/bitcoin.png" alt="Logo do Bitcoin"/>
+          </li>
+          <li class="nav-item"><h1>A Evolução das Criptomoedas</h1></li>
+          <li class="nav-item"><a href="#bitcoin">A primeira criptomoeda</a></li>
+          <li class="nav-item"><a href="#ethereum">Ethereum e o contrato inteligente</a></li>
+          <li class="nav-item"><a href="#outras_criptomoedas">Outra criptomoedas</a></li>
+          <li class="nav-item">
+            <a href="https://coinmarketcap.com" target="_blank"
+              >Confira todas as criptomoedas</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <section class="relative">
@@ -68,24 +77,23 @@
           Há mais de 20 anos atrás, um jurista Nick Szabo, definiu um contrato
           inteligente. Ele dizia que um contrato escrito como um programa de
           computador para uma rede é muito mais inteligente que seu ancestral
-          inanimado, o papel. Um código executado pelo
-          computador não tem espaço para qualquer interpretação por que ele sempre executa o programa
-          exatamente como foi definido.  
+          inanimado, o papel. Um código executado pelo computador não tem espaço
+          para qualquer interpretação por que ele sempre executa o programa
+          exatamente como foi definido.
         </p>
         <p>
-          O Ethereum é uma plataforma blockchain
-          que executa contratos inteligentes, que podem ser escritos em
-          linguagem de programação, potencializados pelas propriedades de
-          descentralização de poder, imutabilidade e outras presentes em uma
-          rede blockchain.
+          O Ethereum é uma plataforma blockchain que executa contratos
+          inteligentes, que podem ser escritos em linguagem de programação,
+          potencializados pelas propriedades de descentralização de poder,
+          imutabilidade e outras presentes em uma rede blockchain.
         </p>
       </article>
       <article>
-        <h2>Outras criptomoedas</h2>
+        <h2 id="outras_criptomoedas">Outras criptomoedas</h2>
 
         <div class="lado-esquerdo">lado esquerdo</div>
         <div class="lado-direito">lado direito</div>
-        
+
         <table id="tabela">
           <tr>
             <td>1</td>
@@ -102,8 +110,9 @@
           <tr>
             <td>7</td>
             <td>8</td>
-          </tr>          
+          </tr>
         </table>
+
         <ol>
           <li>1</li>
           <li>2</li>
