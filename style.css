@@ -44,13 +44,15 @@ body {
 #barra ul li a:hover {
   color: red;
 }
-section {
-}
 .lado-esquerdo{
+  padding: 50px 600px 100px 150px;
+  float: left;
 }
 
 .lado-direito{
+  float: right;
 }
+
 #rodape {
   width: 100%;
   text-align: center;
