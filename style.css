@@ -48,6 +48,11 @@ caption	{
 	font-weight: bold;
 }
 
+th , td {
+	border-bottom-style: solid;
+	text-align: center;
+  }
+
 p	{
 	padding-right: 35px;
 }
