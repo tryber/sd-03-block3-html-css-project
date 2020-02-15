@@ -4,15 +4,17 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-#cabecalho
- {
+#cabecalho {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 50px;
   position: fixed;
   background-color: black;
+}
+#cabecalho h2{
   text-align: center;
+  
 }
 
 #barranav
