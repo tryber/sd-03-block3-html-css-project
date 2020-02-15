@@ -1,0 +1,42 @@
+body {
+    background-color: olive;
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.principal {
+    padding: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#fotos {
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado_direito {
+    float: right;
+}
+
+#rodape {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contato {
+    text-align: right;
+    padding: 5px;
+}
