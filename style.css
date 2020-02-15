@@ -8,11 +8,10 @@ h1, h2, h3 {
 }
 
 #cabecalho {
-	background-color: #578c3e;
+  background-color: #578c3e;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  left: 0%;
 	position: fixed;
 	top: 0%;
   width: 100%;
@@ -39,8 +38,13 @@ img {
 
 article {
 	background-color: salmon;
-  position: absolute;
+  position: relative;
   top: 80px;
+}
+
+section {
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 #info {
@@ -61,4 +65,5 @@ article {
 
 #rodape {
   background-color: #d4daf2;
+  border: 5px;
 }
