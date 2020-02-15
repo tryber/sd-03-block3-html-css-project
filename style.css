@@ -1,3 +1,7 @@
 body {
     background-color: #F4E7D3;
 }
+
+#cabecalho {
+    position: fixed;
+}
