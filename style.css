@@ -13,6 +13,10 @@ li {
 }
 
 #cabecalho {
+  top: 0;
+  width: 100%;
+  overflow: hidden;  
+  position: fixed;
   color: black;
   background-color: #7F9183;
 }
@@ -40,6 +44,10 @@ li {
 
 .nav-item a::hover{
   background-color: black;
+}
+
+section{
+  margin-top: 230px;
 }
 
 article{
