@@ -1,12 +1,12 @@
 body {
     background-color: olive;
-    color:whitesmoke;
-    margin: 0 auto;    
+    color: whitesmoke;
+    margin: 0 auto;
 }
 
 #cabecalho {
-    position:fixed;    
-    background-color:black;
+    position: fixed;
+    background-color: black;
     width: 100%;
     height: 150px;
     text-align: center;
@@ -24,8 +24,8 @@ body {
     border-radius: 20%;
 }
 
-.lado-esquerdo {   
-    float: left; 
+.lado-esquerdo {
+    float: left;
 }
 
 .lado_direito {
@@ -34,12 +34,9 @@ body {
 
 #rodape {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-#ol_list {    
-    }
+}
 
 .contato {
     text-align: right;
     padding: 5px;
-    }
+}
