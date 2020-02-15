@@ -49,30 +49,30 @@ main {
   display: flex;
 }
 
-article .lado-esquerdo {
+.lado-esquerdo {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 100px 600px 100px 150px
+  padding: 50px;
 }
 
-article .lado-esquerdo h2 {
+.lado-esquerdo h2 {
   color: white;
   font-size: 3em;
   font-weight: 800;
 }
 
-article .lado-esquerdo p {
+.lado-esquerdo p {
   color: white;
   font-size: 1.2em;
 }
 
-article .lado-esquerdo a {
+.lado-esquerdo a {
   display: inline-block;
   padding: 15px 30px;
   margin-top: 20px;
-  background: #ff2562;
-  color: #fff;
+  background: red;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.95em;
@@ -81,7 +81,7 @@ article .lado-esquerdo a {
 }
 
 .lado-direito {
-  padding-right: 200px;
+  padding-right: 150px;
 }
 
 .lado-direito h2 {
