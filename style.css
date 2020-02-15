@@ -81,6 +81,7 @@ h1, h2, h3{
     border: double;
     float: left;
     margin-top: 540px;
+    margin-left: auto;
 }
 
 .lado-direito{
@@ -89,4 +90,5 @@ h1, h2, h3{
     border: double;
     float: right;
     margin-top: 540px;
+    margin-right: auto;
 }
