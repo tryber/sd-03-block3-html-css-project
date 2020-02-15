@@ -6,3 +6,16 @@ body {
   margin-left: 25px;
   position: fixed;
 }
+
+#tabela {
+  border: 2px solid rgb(15, 15, 15);
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 2px solid rgb(15, 15, 15);
+  border-collapse: collapse;
+  padding: 5px;
+  border-spacing: 0px;
+  margin: 0;
+}
