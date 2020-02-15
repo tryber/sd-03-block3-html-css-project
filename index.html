@@ -1,19 +1,172 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <title>Paulo</title>
+        <meta charset='utf-8'>
+        
+        <meta name="viewport" content="width=device-width" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                display:block;
+                width: 100%;
+                margin: 0;
+                font-family: Open Sans Condensed, sans-serif;
+                background-color: #e7f4e4;
+            }
+                             
+            #cabecalho {
+                position: fixed;
+                margin-top: 0;
+                width: 100%;
+                height: 40px;
+                background-color: rgb(0, 0, 0);
+                z-index: 1;
+                text-align: center;
+                color: white;
+    
+            }
+            
+            #menu {
+                position: fixed;
+                margin-top: 40;
+                width: 100%;
+                height: 100px;
+                background-color: black;
+            }
+            
+            #menu>ul {
+                width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 55px;
+            }
+            
+            #menu>ul>li {
+                display: inline;
+                padding: 20px;
+                font-family: 'Open Sans Condensed', sans-serif;
+                /* font-size: 24px; */
+                font-weight: bold;
+            }
+            
+            #menu>ul>li:hover {
+                background-color: rgb(26, 61, 28);
+            }
+            
+            #menu>ul>li>a {
+                margin: 0 auto;
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                font-size: 24px;
+            }
+           
+            #img {
+                width: 300px;
+                position: float;
+                margin-top: 70px;
+                margin-left: 30%;
+            }
+            
+            #titulo {
+                position: float;
+                margin-left: 100px;
+                background-color: rgb(190, 190, 190);
+                width: 650px;
+                padding: 20px;
+                border-radius: 5px;
+                font-size: 24px;
+            }
+            
+          
+            
+            /* .lado-direito {
+                position: float;
+                margin-right: 100px;
+                background-color: rgb(0, 44, 4);
+                width: 650px;
+                padding: 20px;
+                margin-top: 0px;
+                border-radius: 5px;
+                font-size: 24px;
+                color:white;
+            } */
+            
+            #formacao{
+                position: float;
+                margin-left: 900px;
+                background-color: rgb(0, 44, 4);
+                width: 650px;
+                padding: 20px;
+                margin-top: 50px;
+                border-radius: 5px;
+                font-size: 24px;
+                color: white;
+            }
+            #trabalho {
+                position: float;
+                margin: auto;
+                background-color: rgb(0, 44, 4);
+                width: 650px;
+                padding: 20px;
+                margin-top: 50px;
+                border-radius: 5px;
+                font-size: 24px;
+                color:white;
+            }
+            
+            .link {
+                text-decoration: none;
+                color: rgb(53, 109, 83);
+                font-weight: bold;
+            }
+            
+            .link-trybe {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+            }
+            
+            #secao {
+                position: float;
+                margin: auto;
+                background-color: rgb(53, 109, 83);
+                width: 650px;
+                padding: 20px;
+                margin-top: 50px;
+                color: white;
+                border-radius: 5px;
+                font-size: 24px;
+            }
+            
+         
+            
+            #rodape {
+                position: fixed;
+                margin-bottom: 0;
+                width: 100%;
+                height: 40px;
+                background-color: rgb(0, 0, 0);
+                color: white;
+                font-size: 24px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    
 <header>
-    <meta charset="utf-8">
-    <title>Título da página</title>
-    <div id="cabecalho"><h1>Título principal</h1></div>
-
-</header>
-
-    <nav>
+    <div id="cabecalho">
+        <h1>Blues</h1>
+    <nav id="menu">
         <ul>
           <li><a href="#">blues</a></li>
           <li><a href="#">blue note</a></li>
           
         </ul>
       </nav>
+    <div></div>
+</header>
+<body>
 
 <article><h2>Subtitulo 1</h2>
     <section><h2>Foto jlh</h2>
@@ -35,7 +188,37 @@
     </p>
     </div>
 </aside>
-<body>
+<section>
+    <div id="secao"></div>
+    <h2>Grandes cantores</h2>
+    <ol>
+        <li>BB king</li>
+        <li>JJ</li>
+        <li>CC</li>
+    </ol>
+</div>
+</section>
+<section>
+
+<table>
+    <tr>
+        <td>Nome</td>
+        <td>Idade</td>
+        <td>Profissão</td>
+    </tr>
+    <tr>
+        <td>Origem</td>
+        <td>s</td>
+        <td>ddd</td>
+    </tr>
+    <tr>
+        <td>ggg</td>
+        <td>rrr</td>
+        <td>gggr</td>
+    </tr>
+</table>
+</section>
+
 
 </body>
 <footer id="rodape"></footer>
