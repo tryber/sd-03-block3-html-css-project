@@ -12,7 +12,6 @@
 }
 #cabecalho
 {
-	
 	color: white;
 	font-size: 50px;
 	text-align: center;
@@ -21,10 +20,8 @@
 	position: fixed;
 	margin-left: 363px;
 }
-
 .lado-esquerdo
 {
-		
 	float: left;
 	width: 295px;
 	padding-left: 20px;
@@ -33,7 +30,6 @@
 }
 .lado-direito
 {
-	
 	float: right;
 	width: 295px;
 	padding-left: 30px;
@@ -42,7 +38,6 @@
 #tabela
 {
 	width: 600px;
-	
 }
 caption	
 {
@@ -51,7 +46,6 @@ caption
 p{
 	padding-right: 35px;
 }
-
 #rodape
 {
 	text-align: center;
