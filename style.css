@@ -8,7 +8,7 @@
 	margin:  auto;
 	width: 700px;
 	padding-left: 50px;
-	background-color: #443E4A;
+	background-color: rgb(148, 144, 163);
 }
 #cabecalho
 {
@@ -42,7 +42,6 @@
 #tabela
 {
 	width: 600px;
-	border: 2px;
 }
 
 #rodape
