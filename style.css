@@ -44,13 +44,46 @@ body {
 #barra ul li a:hover {
   color: red;
 }
+main {
+  display: flex;
+}
 .lado-esquerdo{
-  padding: 50px 600px 100px 150px;
+  display: relative;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 100px 600px 100px 150px;
   float: left;
+}
+.lado-esquerdo h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 800;
+}
+.lado-esquerdo p {
+  color: #fff;
+  font-size: 1.2em;
+}
+.lado-esquerdo a {
+  display: inline-block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background: #ff2562;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.95em;
+  font-weight:700;
+  letter-spacing: 2px;
 }
 
 .lado-direito{
   float: right;
+  padding-right: 200px;
+}
+
+.lado-direito img {
+  max-width: 500px;
 }
 
 #rodape {
