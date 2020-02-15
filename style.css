@@ -76,19 +76,14 @@ h1, h2, h3{
 }
 
 .lado-esquerdo{
-    background-color: navajowhite;
-    width: 49%;
     border: double;
+    background-color: maroon;
     float: left;
-    margin-top: 540px;
-    margin-left: auto;
+    margin-left: 120px;
 }
 
 .lado-direito{
-    background-color:lightpink;
-    width: 50%;
     border: double;
+    background-color: rgb(214, 24, 151);
     float: right;
-    margin-top: 540px;
-    margin-right: auto;
 }
