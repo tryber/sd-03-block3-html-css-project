@@ -1,0 +1,51 @@
+
+        *{
+            margin-left: 0px;
+        }
+        #cabecalho{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: #8DA9C4;
+            width: 100%;
+            border-bottom: 2px solid #134074;
+        }
+        .lado-esquerdo{
+            float: left;
+        }
+        .lado-direito{
+            float: right;
+            padding-top: 10px;
+            padding-right: 1025px;
+            margin-bottom: -100px;
+        }
+        .azulNFL{
+            color: white;
+            background-color: #134074;
+            width: 50%;
+            margin-top: 125px;
+            padding: 25px 800px 25px 100px;
+            text-align: justify;
+            display: inline-block;
+        }
+        #nav{
+            display: inline-block;
+            margin-top: -100px;
+            padding-left: 150px;
+            padding-top: 12px;
+            text-decoration: none;  
+            margin-bottom: 15px;
+            border-top: 2px solid #134074;
+            width: 100%;
+        }
+        .navesquerda{
+            text-decoration: none;
+        }
+        .direita {
+            padding-left: 50px;
+            text-decoration: none;
+        }
+        .direita2 {
+            padding-left: 50px;
+            text-decoration: none;
+        }
