@@ -1,5 +1,5 @@
 body {
-  background-color: #586f6b;
+  background-color: rgb(88, 111, 107);
   margin: 0;
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
@@ -18,7 +18,7 @@ li {
   overflow: hidden;
   position: fixed;
   color: black;
-  background-color: #7f9183;
+  background-color: rgb(127, 145, 131);
 }
 
 .logo {
@@ -51,7 +51,7 @@ section {
 article {
   border: solid 0;
   border-radius: 15px;
-  background-color: #b8b8aa;
+  background-color: rgb(184, 184, 170);
   color: black;
   margin-top: 5%;
   margin-left: 10%;
