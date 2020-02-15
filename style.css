@@ -21,13 +21,20 @@
 	position: fixed;
 	margin-left: 363px;
 }
+#controle
+{
+	
+	height: 350px;
+	border: 5px solid;
+	width: 600px;
+}
 
 .lado-esquerdo
 {
 		
 	float: left;
-	width: 300px;
-	padding-left: 15px;
+	width: 295px;
+	padding-left: 20px;
 	padding-bottom: 35px;
 	padding-top: 70px;
 }
@@ -35,13 +42,14 @@
 {
 	
 	float: left;
-	width: 300px;
+	width: 295px;
 	padding-left: 30px;
 	padding-top: 70px;
 }
 #tabela
 {
 	width: 600px;
+	border: 2px solid;
 }
 caption	
 {
