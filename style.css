@@ -1,0 +1,89 @@
+body {
+  background-color: cadetblue;
+  font-family: sans-serif;
+}
+
+#cabecalho {
+  background-color: chartreuse;
+  width: 99%;
+  position: fixed;
+  padding: 0;
+  margin-top: -10px;
+  border: double;
+}
+
+#rodape {
+  background-color: mediumpurple;
+  width: 99%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border: double;
+  font-weight: 700;
+}
+
+nav {
+  background-color: darkolivegreen;
+  width: 99%;
+  position: absolute;
+  margin-top: 115px;
+  padding-top: 0;
+  border: double;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+a {
+  font-size: 20px;
+  color: lime;
+}
+
+p {
+  font-weight: 700;
+}
+
+#s01 {
+  background-color: darkorange;
+  width: 99%;
+  position: absolute;
+  margin-top: 300px;
+}
+
+table {
+  background-color: lightgreen;
+  margin-top: 90px;
+  margin-left: -5px;
+  font-size: 25px;
+  border-style: double;
+}
+
+img {
+  border: double;
+  margin-top: 10px;
+}
+
+section {
+  position: absolute;
+  margin-top: 110px;
+  border: double;
+}
+
+h1 , h2 , h3 {
+  font-size: x-large;
+  font-weight: 700;
+  font-style: italic;
+  color: darkblue;
+}
+
+.lado-esquerdo {
+  border: double;
+  background-color: maroon;
+  float: left;
+  margin-left: 120px;
+}
+
+.lado-direito {
+  border: double;
+  background-color: lightsalmon;
+  float: right;
+}
