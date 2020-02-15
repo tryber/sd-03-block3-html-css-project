@@ -9,10 +9,12 @@ body {
 header, h1, h2, h3, h4 {
   font-family: 'VT323', monospace;
   color: rgb(62, 112, 66);
+  font-weight: 200;
 }
 
 h1 {
   font-size: 96px;
+  padding-left: 30px;
 }
 
 h2 {
@@ -26,6 +28,16 @@ h3 {
 h4 {
   font-size: 20px;
   color: rgb(227 , 229 , 227);
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+}
+
+a {
+  color: rgb(198, 19, 85);
+  font-weight: 900;
 }
 
 #cabecalho {
@@ -53,10 +65,11 @@ h4 {
 #cabecalho a{
   color: rgb(227 , 229 , 227);
   text-decoration: none;
+  font-weight: 200;
 }
 
 #cabecalho a:hover {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #footer {
@@ -69,5 +82,19 @@ h4 {
 }
 
 .cover {
+  display: inline-block;
+}
+
+.cover img {
   width: 400px;
+}
+
+.asideImg {
+  width: 400px;
+}
+
+.profile img{
+  border-radius: 100%;
+  width: 200px;
+  display: inline-block;
 }
