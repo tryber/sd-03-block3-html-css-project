@@ -34,7 +34,7 @@
 .lado-direito
 {
 	
-	float: left;
+	float: right;
 	width: 295px;
 	padding-left: 30px;
 	padding-top: 70px;
@@ -42,7 +42,7 @@
 #tabela
 {
 	width: 600px;
-	border: 2px solid;
+	
 }
 caption	
 {
