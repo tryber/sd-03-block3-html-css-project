@@ -1,7 +1,60 @@
-/* font-family: 'Raleway', sans-serif; font-family: 'Amatic SC', cursive; */
+/* font-family: 'Raleway', sans-serif; font-family: 'VT323', monospace; */
 
-* {
+body {
   margin: 0;
   padding: 0;
-  background-color: rgb(227, 229, 227);
+  background-color: rgb(227 , 229 , 227);
+}
+
+header, h1, h2, h3, h4 {
+  font-family: 'VT323', monospace;
+  color: rgb(62, 112, 66);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 66px;
+}
+
+h3 {
+  font-size: 46px;
+}
+
+h4 {
+  font-size: 26px;
+  color: rgb(227 , 229 , 227);
+}
+
+#cabecalho {
+	background-color: rgb(198, 19, 85);
+	clear: both;
+	height: 80px;
+	position: absolute;
+  width: 100%;
+}
+
+#cabecalho ul {
+  list-style-type: none;
+  text-align: right;
+  padding-right: 40px;
+}
+
+#cabecalho li {
+  position: relative;
+  margin-left: 18px;
+  text-align: center;
+  font-size: 48px;
+  display: inline;
+}
+
+#cabecalho a{
+  color: rgb(227 , 229 , 227);
+  text-decoration: none;
+}
+
+#cabecalho a:hover {
+  font-weight: bold;
 }
