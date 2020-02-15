@@ -24,7 +24,7 @@ h3 {
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 20px;
   color: rgb(227 , 229 , 227);
 }
 
@@ -57,4 +57,17 @@ h4 {
 
 #cabecalho a:hover {
   font-weight: bold;
+}
+
+#footer {
+	background-color: rgb(198, 19, 85);
+	height: 50px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.cover {
+  width: 400px;
 }
