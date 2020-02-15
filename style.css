@@ -13,29 +13,34 @@
         }
         .lado-esquerdo {
             float: left;
+            clear: left;
         }
         .lado-direito1 {
             float: right;
+            clear: right;
             padding-top: 10px;
             padding-right: 1025px;
             margin-bottom: -100px;
         }
         .lado-direito {
             float: right;
-            margin-right: 250px;
-            position: relative;
-            top: -1300px;
-            z-index: 1;
+            clear: right;
+            
         }
-        td {
-            text-align: center;
+        .box-white {
+            height: 500px;
+            width: 290px;
+            background: rgb(204, 210, 216);
+            position: absolute;
+            top: 235px;
+            left: 1005px;
         }
         .azulNFL{
             color: white;
             background-color: #134074;
             width: 50%;
             margin-top: 125px;
-            padding: 25px 800px 25px 100px;
+            padding: 25px 100% 25px 100px;
             text-align: justify;
             display: inline-block;
         }
@@ -59,4 +64,7 @@
         .direita2 {
             padding-left: 50px;
             text-decoration: none;
+        }
+        html {
+            scroll-padding-top: 150px;
         }
