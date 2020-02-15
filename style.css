@@ -9,20 +9,23 @@ body {
 header, h1, h2, h3, h4 {
   font-family: 'VT323', monospace;
   color: rgb(62, 112, 66);
-  font-weight: 200;
+  font-weight: 300;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 56px;
   padding-left: 30px;
+  position: absolute;
+  top: -38px;
+  color: rgb(227 , 229 , 227);
 }
 
 h2 {
-  font-size: 66px;
+  font-size: 46px;
 }
 
 h3 {
-  font-size: 46px;
+  font-size: 38px;
 }
 
 h4 {
@@ -41,24 +44,26 @@ a {
 }
 
 #cabecalho {
-	background-color: rgb(198, 19, 85);
+	background-color: rgba(198, 19, 85, 0.8);
 	clear: both;
 	height: 80px;
-	position: absolute;
+  position: fixed;
+  top: 0;
   width: 100%;
 }
 
 #cabecalho ul {
   list-style-type: none;
   text-align: right;
-  padding-right: 40px;
+  padding-right: 20px;
+  margin-top: 25px;
 }
 
 #cabecalho li {
   position: relative;
   margin-left: 18px;
   text-align: center;
-  font-size: 48px;
+  font-size: 30px;
   display: inline;
 }
 
@@ -79,6 +84,10 @@ a {
   width: 100%;
   text-align: center;
   margin: auto;
+}
+
+article {
+  padding-top: 80px;
 }
 
 .cover {
