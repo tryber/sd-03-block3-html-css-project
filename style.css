@@ -84,6 +84,10 @@ article .lado-esquerdo a {
   padding-right: 200px;
 }
 
+.lado-direito h2 {
+  display: none;
+}
+
 .lado-direito img {
   max-width: 500px;
 }
