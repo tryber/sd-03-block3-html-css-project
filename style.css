@@ -6,8 +6,8 @@ body {
   color: white;
 }
 
-ul, 
-ol, 
+ul,
+ol,
 li {
   list-style: none;
 }
@@ -32,8 +32,9 @@ li {
   text-align: justify;
 }
 #navbar::after,
+#navbar::before,
 article p::after {
-  display: inline-block;  
+  display: inline-block;
   width: 100%;
   content: "";
 }
