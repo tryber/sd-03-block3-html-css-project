@@ -5,17 +5,15 @@ html, body{
     background: yellow;
 }
 body{
-    
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 20vh 70vh 10vh;
     grid-template-areas: "header header"
-                          "nav aside"
                           "article aside"
                           "footer footer"
 }
 header{
-    background: tomato;
+    background:;
     grid-area: header;
 }
 nav{
