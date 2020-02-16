@@ -18,12 +18,14 @@
 #cabecalho {
   color: white;
   text-align: center;
-  background-color: #808080;
+  background-color: gray;
   width: 700px;
   position: fixed;
   margin-left: 363px;
 }
-
+a {
+  text-decoration: none;	
+}
 .lado-esquerdo {
   float: left;
   width: 295px;
@@ -54,7 +56,7 @@ p {
 
 #rodape {
   text-align: center;
-  background-color: #808080;
+  background-color: gray;
   width: 700px;
   font-size: 30px;
   margin-left: 363px;
