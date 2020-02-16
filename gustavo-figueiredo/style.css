@@ -1,5 +1,5 @@
 #cabecalho {
-    background-color: yellow;
+    background-color: #f1f155;
     margin: auto;
     position: fixed;
     text-align: center;
@@ -33,21 +33,21 @@ body {
     top: 85px;
     margin: 0px;
 }
-.lado-esquerdo {
+aside {
     float: left;
     position: sticky;
     background-color: aqua;
     width: 20%;
     padding: 10px;
 }
-.lado-direito {
+main {
     float: right;
     width: 70%;
     padding: 10px;
 }
 #rodape {
     clear: both;
-    background-color: #f18500;
+    background-color: #fb5616;
     text-align: center;
 }
 #grupo-stunt {
@@ -55,11 +55,11 @@ body {
     float: left;
 }
 #base-dupla {
-    width: 10%;
+    width: 15%;
     float: right;
 }
 #foto-partner {
-    width: 10%;
+    width: 20%;
     float: left;
 }
 h3 {
