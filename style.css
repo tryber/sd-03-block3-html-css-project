@@ -23,9 +23,11 @@
   position: fixed;
   margin-left: 363px;
 }
+
 a {
   text-decoration: none;	
 }
+
 .lado-esquerdo {
   float: left;
   width: 295px;
