@@ -1,49 +1,91 @@
-* {
-    font-family:Arial, Helvetica, sans-serif;
+body {
+    background-color: rgb(209, 94, 0);
+    font-family: 'Odibee Sans', cursive;
+    text-align: justify;
+}
+
+  
+#cabecalho {
+    background-color: rgb(0, 88, 62);
+    height: 50px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+}
+
+#cabecalho ul {
+    padding: 0 65px;
+}
+
+ul li {
+    height: 21px;
     margin: 0;
-    box-sizing: border-box;
+    width: 75px;
 }
 
-body{
-    background-color: aquamarine;
+#foto {
+    display: block;
+    margin: 90px auto 30px;
+    width: 150px;
+    border-radius: 50%;
 }
 
-#cabecalho{
-    background-color: teal;
-    color: whitesmoke;
-    position: fixed, center;
-
+ol li {
+    position: rigth;
+    margin: 0;
+    width: 75px;
 }
 
-.title{
-    padding: 10px 30px 0;
+#cabecalho ul li {
+    display: inline-block;
+    margin-right: 65px;
 }
 
-h2, h3{
-    margin: 0 0 20px;
-}
-
-p {
-    margin-bottom: 5px;
-}
-
-.nav{
-    background-color: cornflowerblue;
-    padding: 0 30px;
-    
-}
-
-.cabecalho ul{
-    display: flex;
-    padding: 5px 0;
-}
-
-.cabecalho li{
-    margin-right: 40px;
-    list-style-type: none;
-}
-
-.cabecalho li a{
-    color: white;
+#cabecalho ul li a {
+    color: rgb(255 , 195 , 66);
+    font-family: Cinzel, serif;
     text-decoration: none;
+    font-family: 'Odibee Sans', cursive;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 49%;
+}
+
+.lado-direito {
+    float: right;
+    width: 49%;
+}
+
+#about {
+    margin-left: 65px;
+    background-color: rgb(249, 249, 253);
+    border: 2px solid rgb(249, 249, 253);
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+#aside {
+    background-color: rgb(249, 249, 253);
+    border: 2px solid rgb(249, 249, 253);
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    margin: 0 65px 25px;
+}
+
+
+
+h1 , h2 , h3{
+    background-color: rgb(43 , 71 , 103);
+    color: rgb(255 , 195 , 66);
+    font-family: Cinzel, serif;
+    font-weight: 100;
+    font-family: 'Odibee Sans', cursive;
 }
