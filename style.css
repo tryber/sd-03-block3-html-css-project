@@ -21,8 +21,7 @@ article h2{
   margin-top: 5%;
   border-top:9px ridge rgb(93, 105, 72) ;
   border-bottom:9px ridge rgb(93, 105, 72)  ;
-  }
-      
+  }      
 #ajuste-direita{
   margin-top: 18%;
   display: block;
@@ -48,10 +47,7 @@ body {
   margin-right: 30px;
   color: blanchedalmond;
   border-right: 5px dashed blanchedalmond;
- 
-
-
-}
+ }
 
 #cabecalho h2 a{
   font-size: 90%;
@@ -60,7 +56,7 @@ body {
   padding-right: 1%; 
   text-decoration: none;
   color: blanchedalmond;
- }
+}
 
 #cabecalho {
   margin-top: -76px;
@@ -193,7 +189,6 @@ table.table-cheats tfoot td {
 
  .title-hidde{
   display: none;
-
   }
 
 .thumbnails{
@@ -226,5 +221,3 @@ table.table-cheats tfoot td {
 #rodape h2{
   color: blanchedalmond;
 }
-
-
