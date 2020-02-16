@@ -50,23 +50,28 @@ a {
         margin: 90px auto 30px;
 }
 
-.lado-esquerdo {
+#artigo {
         margin-left: 65px;
         background-color: rgb(229 , 229 , 248);
         border: 2px solid rgb(128 , 192 , 224);
-        float: left;
         margin-bottom: 30px;
         padding: 0 20px;
+}
+
+.lado-esquerdo {
+        float: left;
         width: 50%;
 }
 
-.lado-direito {
+#aside {
         background-color: rgb(229 , 229 , 248);
         border: 2px solid rgb(128 , 192 , 224);
-        clear: inherit;
-        float: right;
         margin: 0 65px 20px 0;
         padding: 0 20px 10px;
+}
+
+.lado-direito {
+        float: right;
         width: 30%;
 }
 
