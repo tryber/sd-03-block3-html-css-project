@@ -34,12 +34,18 @@ h4 {
 
 p {
   font-family: Raleway, sans-serif;
-  text-align: justify;
+  text-align: left;
 }
 
 a {
   color: rgb(198 , 19 , 85);
   font-weight: 900;
+}
+
+main {
+  padding-top: 80px;
+  max-width: 90%;
+  margin: auto;
 }
 
 #cabecalho {
@@ -84,8 +90,18 @@ a {
   margin: auto;
 }
 
-article {
-  padding-top: 80px;
+.intro {
+  display: flex;
+
+}
+
+.lado-esquerdo {
+  margin-left: 100px;
+  padding-right: 40px;
+}
+.lado-direito {
+  margin-right: 100px;
+  padding-left: 40px;
 }
 
 .cover {
