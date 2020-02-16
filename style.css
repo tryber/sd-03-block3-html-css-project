@@ -1,39 +1,39 @@
-#article-top{
+#article-top {
   text-indent: 10%;
 
 
 }
-article{
-
+article {
   margin-top: 20%;
   margin-bottom: 20%;
-  }
+}
 
-aside h2{
-  border-top:9px ridge rgb(93, 105, 72)  ;
-  border-bottom:9px ridge rgb(93, 105, 72)  ;
-  }
+aside h2 {
+  border-top: 9px ridge rgb(93, 105, 72);
+  border-bottom: 9px ridge rgb(93, 105, 72);
+}
 
-article h2{
-  color:rgb(93, 105, 72) ;
+article h2 {
+  color: rgb(93, 105, 72);
   text-decoration: darkgrey;
   margin-bottom: 5%;
   margin-top: 5%;
-  border-top:9px ridge rgb(93, 105, 72) ;
-  border-bottom:9px ridge rgb(93, 105, 72)  ;
-  }      
-#ajuste-direita{
+  border-top: 9px ridge rgb(93, 105, 72);
+  border-bottom: 9px ridge rgb(93, 105, 72);
+} 
+
+#ajuste-direita {
   margin-top: 18%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  }
+}
 
 body {
   background-color: aliceblue;
-  margin:2%;
+  margin: 2%;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier New, Courier, monospace;
   font-size: 115%;
 }
 
@@ -47,13 +47,13 @@ body {
   margin-right: 30px;
   color: blanchedalmond;
   border-right: 5px dashed blanchedalmond;
- }
+}
 
-#cabecalho h2 a{
+#cabecalho h2 a {
   font-size: 90%;
   text-align: center;
   padding-left: 0%;
-  padding-right: 1%; 
+  padding-right: 1%;
   text-decoration: none;
   color: blanchedalmond;
 }
@@ -79,7 +79,7 @@ body {
   margin-right: auto;
 }
 
-#character img{
+#character img {
   width: 80%;
   margin: 8%;
   display: block;
@@ -87,18 +87,17 @@ body {
   margin-right: auto;
 }
 
-.firstLetter{
+.firstLetter {
   font-size: 70px;
-  font-weight: lighter;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
   color: rgb(93, 105, 72);;
 }
 
-#gameplay{
+#gameplay {
   text-align: justify;
   text-indent: 10%;
 }
-#stages img{
+#stages img {
   width: 80%;
   margin: 8%;
   display: block;
@@ -133,23 +132,21 @@ h2 {
   height: 100%;
 }
 li{
-
   text-align: center;
   list-style: none;
   margin-top: 3%;
-  
-  }
+}
 
 nav {
   text-align: center;
-  }
+}
    
 table.table-cheats {
   border: 3px solid rgb(93, 105, 72);
   width: 100%;
   text-align: left;
   border-collapse: collapse;
-  align-self:center;
+  align-self: center;
 }
 
 table.table-cheats td, table.cheats th {
@@ -162,36 +159,33 @@ table.table-cheats tbody td {
 }
 
 table.table-cheats thead {
-  background: #CFCFCF;
-  background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
-  background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
-  background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
-  border-bottom: 3px solid rgb(93, 105, 72);
+  background: #cfcfcf;
+ border-bottom: 3px solid rgb(93, 105, 72);
 }
 
 table.table-cheats thead th {
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 100;
   color: rgb(93, 105, 72);
   text-align: left;
 }
 
 table.table-cheats tfoot {
   font-size: 14px;
-  font-weight: bold;
-  color: #000000;
-  border-top: 3px solid #000000;
+  font-weight: 100;
+  color: black;
+  border-top: 3px solid black;
 }
 
 table.table-cheats tfoot td {
   font-size: 14px;
 }
 
- .title-hidde{
+.title-hidde {
   display: none;
-  }
+}
 
-.thumbnails{
+.thumbnails {
   width: 80%;
   display: inline-block;
   margin-top: 20%;
@@ -208,16 +202,16 @@ table.table-cheats tfoot td {
   float: left;
 }
 
-#rodape p{
+#rodape p {
   text-align: center;
   color: blanchedalmond;
 }
 
-#rodape p a{
+#rodape p a {
   text-align: center;
   color: blanchedalmond;
     }
 
-#rodape h2{
+#rodape h2 {
   color: blanchedalmond;
 }
