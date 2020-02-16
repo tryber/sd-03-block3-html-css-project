@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+#rodape a {
+  padding: 0 20px;
+}      
+
 #cabecalho ul li a {
   color: rgb(255 , 195 , 66);
   font-family: Cinzel, serif;
@@ -73,13 +77,7 @@ a {
 #rodape {
   clear: both;
   text-align: center;
-  margin-bottom: 25px;
-  padding: 0 65px;
-}
-
-#rodape a {
-  padding: 0 20px;
-  text-align: center;
+  margin: 0 65px 25px;
 }
 
 #pjo-title {
