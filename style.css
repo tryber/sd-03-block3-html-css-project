@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+#cabecalho {
+  top: 0;
+  margin-top: 5px;
+  padding-top: 15px;
+  font-size: 15px;
+  width: 200px;
+  height: 50px;
+  position: fixed;
+  background-color: black;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.lado-esquerdo {
+  left: 0;
+  width: 65%;
+  margin-top: 85px;
+}
+
+.lado-direito {
+  position: absolute;
+  right: 0;
+  top: 105px;
+  width: 25%;
+  text-align: left;
+}
+
+#tabela {
+  border-collapse: collapse;
+  border: 2px solid gray;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+th , td {
+  border-collapse: collapse;
+  border: 2px solid gray;
+  padding: 5px;
+  margin: 0;
+}
+
+h2 , h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: indigo;
+}
+
+#rodape {
+  margin-bottom: 40px;
+}
+
+.images {
+  margin: 0;
+  width: 100%;
+}
