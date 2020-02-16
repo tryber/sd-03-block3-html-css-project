@@ -1,6 +1,6 @@
 body {
         background-color: rgb(56 , 98 , 136);
-        font-family: "Roboto", sans-serif;
+        font-family: Roboto, sans-serif;
         text-align: justify;
 }
 
@@ -17,11 +17,6 @@ body {
         padding: 0 65px;
 }
 
-#cabecalho ul li {
-        display: inline-block;
-        margin-right: 65px;
-}
-
 ul li {
         height: 21px;
         margin: 0 auto;
@@ -34,10 +29,9 @@ ol li {
         width: 160px;
 }
 
-#cabecalho ul li a {
-        color: rgb(255 , 195 , 66);
-        font-family: "Cinzel", serif;
-        text-decoration: none;
+#cabecalho ul li {
+        display: inline-block;
+        margin-right: 65px;
 }
 
 a {
@@ -45,17 +39,10 @@ a {
         text-decoration: none;
 }
 
-#pjo-title {
-        display: block;
-        margin: 90px auto 30px;
-}
-
-#artigo {
-        margin-left: 65px;
-        background-color: rgb(229 , 229 , 248);
-        border: 2px solid rgb(128 , 192 , 224);
-        margin-bottom: 30px;
-        padding: 0 20px;
+#cabecalho ul li a {
+        color: rgb(255 , 195 , 66);
+        font-family: Cinzel, serif;
+        text-decoration: none;
 }
 
 .lado-esquerdo {
@@ -63,44 +50,9 @@ a {
         width: 50%;
 }
 
-#aside {
-        background-color: rgb(229 , 229 , 248);
-        border: 2px solid rgb(128 , 192 , 224);
-        margin: 0 65px 20px 0;
-        padding: 0 20px 10px;
-}
-
 .lado-direito {
         float: right;
         width: 30%;
-}
-
-#pjo-logo {
-        padding: 0 75.25px;
-}
-
-#dados {
-        margin: 0 auto;
-}
-
-.heroi {
-        padding: 10px 77.25px 0;
-}
-
-#galeria p {
-        text-align: center;
-        margin: 0;
-}
-
-h1 , h2 , h3 , h4 , h5 {
-        background-color: rgb(43 , 71 , 103);
-        color: rgb(255 , 195 , 66);
-        font-family: "Cinzel", serif;
-        font-weight: 100;
-}
-
-.profecia {
-        text-align: center;
 }
 
 #rodape {
