@@ -9,26 +9,25 @@ article{
   margin-bottom: 20%;
   }
 
- aside h2{
-   border-top:9px ridge rgb(93, 105, 72)  ;
-   border-bottom:9px ridge rgb(93, 105, 72)  ;
+aside h2{
+  border-top:9px ridge rgb(93, 105, 72)  ;
+  border-bottom:9px ridge rgb(93, 105, 72)  ;
   }
 
-  article h2{
-
-    color:rgb(93, 105, 72) ;
-    text-decoration: darkgrey;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    border-top:9px ridge rgb(93, 105, 72) ;
-    border-bottom:9px ridge rgb(93, 105, 72)  ;
-    }
+article h2{
+  color:rgb(93, 105, 72) ;
+  text-decoration: darkgrey;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-top:9px ridge rgb(93, 105, 72) ;
+  border-bottom:9px ridge rgb(93, 105, 72)  ;
+  }
       
-  #ajuste-direita{
-    margin-top: 18%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#ajuste-direita{
+  margin-top: 18%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 body {
@@ -84,12 +83,12 @@ body {
   margin-right: auto;
 }
 
- #character img{
-   width: 80%;
-   margin: 8%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+#character img{
+  width: 80%;
+  margin: 8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .firstLetter{
@@ -145,9 +144,9 @@ li{
   
   }
 
-  nav {
-    text-align: center;
-      }
+nav {
+  text-align: center;
+  }
    
 table.table-cheats {
   border: 3px solid rgb(93, 105, 72);
@@ -193,9 +192,9 @@ table.table-cheats tfoot td {
 }
 
  .title-hidde{
-      display: none;
+  display: none;
 
-    }
+  }
 
 .thumbnails{
   width: 80%;
@@ -215,8 +214,8 @@ table.table-cheats tfoot td {
 }
 
 #rodape p{
-text-align: center;
-color: blanchedalmond;
+  text-align: center;
+  color: blanchedalmond;
 }
 
 #rodape p a{
@@ -225,7 +224,7 @@ color: blanchedalmond;
     }
 
 #rodape h2{
-color: blanchedalmond;
+  color: blanchedalmond;
 }
 
 
