@@ -18,7 +18,7 @@
 #cabecalho {
   color: white;
   text-align: center;
-  background-color: #6a5e76;
+  background-color: #808080;
   width: 700px;
   position: fixed;
   margin-left: 363px;
@@ -46,7 +46,7 @@
 th , td {
   border-bottom-style: solid;
   text-align: center;
-  }
+}
 
 p {
   padding-right: 35px;
@@ -54,7 +54,7 @@ p {
 
 #rodape {
   text-align: center;
-  background-color: #6a5e76;
+  background-color: #808080;
   width: 700px;
   font-size: 30px;
   margin-left: 363px;
