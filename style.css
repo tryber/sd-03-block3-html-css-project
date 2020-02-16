@@ -42,6 +42,7 @@ body {
   border: 2px solid gray;
   margin-top: 20px;
   margin-bottom: 40px;
+  max-width: 100%;
 }
 
 th, td {
@@ -62,3 +63,8 @@ h2, h3 {
   margin-top: 15px;
   text-align: left;
 }
+
+.images {
+  width: 100%;
+}
+
