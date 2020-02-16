@@ -77,36 +77,40 @@ a {
   padding: 0 65px;
 }
 
+#rodape a {
+  padding: 0 20px;
+  text-align: center;
+}
+
 #pjo-title {
   display: block;
   margin: 90px auto 30px;
 }
-    
+
 #pjo-logo {
   padding: 0 75.25px;
 }
-    
+
 #dados {
   margin: 0 auto;
 }
-    
+
 .heroi {
   padding: 10px 77.25px 0;
 }
-    
+
 #galeria p {
   text-align: center;
   margin: 0;
 }
-    
+
 h1 , h2 , h3 , h4 , h5 {
   background-color: rgb(43 , 71 , 103);
   color: rgb(255 , 195 , 66);
   font-family: Cinzel, serif;
   font-weight: 100;
 }
-    
+
 .profecia {
   text-align: center;
 }
-
