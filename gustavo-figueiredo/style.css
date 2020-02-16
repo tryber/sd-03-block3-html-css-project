@@ -1,33 +1,70 @@
-body {
-    background-color: #3E885B;
-}
 #cabecalho {
-    position:fixed;
     background-color: yellow;
-    width: 90%;
-}
-nav ul li {
-    display:inline-block;
-    margin: 0px 10px;
-}
-nav ul{
-    list-style: none;   
-    text-align:center;
-}
-#grupo-foto {
-    width:100px;
-    float: left;
-    margin-right: 10%;
-}
-#rodape{
-    clear: both;
+    margin: auto;
+    position: fixed;
     text-align: center;
-    margin-top:5%;
-    margin-left:auto;
-    background-color: #ff0201;
+    top: 0px;
     width: 100%;
+    z-index: 1;
 }
-#rodape ul{
-    margin-top: 5px;
-    list-style: none;
+#cabecalho h1{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+#cabecalho li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+#cabecalho ul {
+    border: 2px solid black;
+    margin: 0px;
+    text-align: center;
+}
+#cabecalho h2 {
+    border: 2px solid black;
+    margin: 0px;
+}
+body {
+    background-color: green;
+    position: relative;
+    top: 85px;
+    margin: 0px;
+}
+aside {
+    float: left;
+    position: sticky;
+    background-color: aqua;
+    width: 20%;
+    padding: 10px;
+}
+main{
+    float: right;
+    width: 70%;
+    padding: 10px;
+}
+#rodape {
+    clear: both;
+    background-color: #ffffbb;
+    text-align: center;
+}
+#grupo-stunt {
+    width: 10%;
+    float: left;
+}
+#base-dupla {
+    width: 10%;
+    float: right;
+}
+#foto-partner {
+    width: 10%;
+    float: left;
+}
+h3 {
+    clear: both;
+}
+p {
+    padding: 10px;
 }
