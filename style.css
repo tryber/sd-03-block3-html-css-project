@@ -23,6 +23,11 @@ h2 {
   font-size: 46px;
 }
 
+.align {
+  text-align: center;
+  border-bottom: 2px dotted rgb(198 , 19 , 85);
+}
+
 h3 {
   font-size: 38px;
 }
@@ -36,6 +41,7 @@ p {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   text-align: left;
+  line-height: 30px;
 }
 
 a {
@@ -43,13 +49,9 @@ a {
   font-weight: 900;
 }
 
-li {
-  list-style-type: ;
-}
-
 main {
   padding-top: 80px;
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -131,8 +133,18 @@ main {
   width: 400px;
 }
 
+.lista li {
+  font-family: Raleway, sans-serif;
+  line-height: 30px;
+}
+
+.about {
+  text-align: center;
+}
+
 .profile img {
   border-radius: 100%;
-  width: 200px;
+  width: 175px;
   display: inline-block;
+  padding: 10px;
 }
