@@ -1,5 +1,5 @@
 #article-top{
-text-indent: 10%;
+  text-indent: 10%;
 
 
 }
@@ -7,15 +7,12 @@ article{
 
   margin-top: 20%;
   margin-bottom: 20%;
-  
   }
 
  aside h2{
-  border-top:9px ridge rgb(93, 105, 72)  ;
-  border-bottom:9px ridge rgb(93, 105, 72)  ;
-
-
- }
+   border-top:9px ridge rgb(93, 105, 72)  ;
+   border-bottom:9px ridge rgb(93, 105, 72)  ;
+  }
 
   article h2{
 
@@ -25,19 +22,15 @@ article{
     margin-top: 5%;
     border-top:9px ridge rgb(93, 105, 72) ;
     border-bottom:9px ridge rgb(93, 105, 72)  ;
-    
     }
-    
-    
-  
-  
+      
   #ajuste-direita{
-  margin-top: 18%;
-   display: block;
+    margin-top: 18%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-  
   }
+
 body {
   background-color: aliceblue;
   margin:2%;
@@ -68,11 +61,8 @@ body {
   padding-right: 1%; 
   text-decoration: none;
   color: blanchedalmond;
- 
- 
+ }
 
-
-}
 #cabecalho {
   margin-top: -76px;
   width: 95%;
@@ -94,28 +84,24 @@ body {
   margin-right: auto;
 }
 
-
  #character img{
-width: 80%;
-margin: 8%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-
-
-
+   width: 80%;
+   margin: 8%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .firstLetter{
-font-size: 70px;
-font-weight: lighter;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: rgb(93, 105, 72);;
+  font-size: 70px;
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(93, 105, 72);;
 }
 
 #gameplay{
-text-align: justify;
-text-indent: 10%;
+  text-align: justify;
+  text-indent: 10%;
 }
 #stages img{
   width: 80%;
@@ -160,11 +146,8 @@ li{
   }
 
   nav {
-
     text-align: center;
-    
-    }
-
+      }
    
 table.table-cheats {
   border: 3px solid rgb(93, 105, 72);
@@ -173,13 +156,16 @@ table.table-cheats {
   border-collapse: collapse;
   align-self:center;
 }
+
 table.table-cheats td, table.cheats th {
   border: 1px solid rgb(93, 105, 72);
   padding: 5px 4px;
 }
+
 table.table-cheats tbody td {
   font-size: 16px;
 }
+
 table.table-cheats thead {
   background: #CFCFCF;
   background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
@@ -187,35 +173,36 @@ table.table-cheats thead {
   background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
   border-bottom: 3px solid rgb(93, 105, 72);
 }
+
 table.table-cheats thead th {
   font-size: 15px;
   font-weight: bold;
   color: rgb(93, 105, 72);
   text-align: left;
 }
+
 table.table-cheats tfoot {
   font-size: 14px;
   font-weight: bold;
   color: #000000;
   border-top: 3px solid #000000;
 }
+
 table.table-cheats tfoot td {
   font-size: 14px;
 }
 
  .title-hidde{
       display: none;
-  
-  
-    }  
+
+    }
+
 .thumbnails{
   width: 80%;
   display: inline-block;
   margin-top: 20%;
   border: 7px  ridge  blue;
-
 }
-
 
 #rodape {
   background-color: rgb(93, 105, 72);
@@ -225,25 +212,17 @@ table.table-cheats tfoot td {
   border-width: 20%;
   margin-bottom: 15px;
   float: left;
-
 }
 
-
 #rodape p{
-
 text-align: center;
 color: blanchedalmond;
-
 }
 
 #rodape p a{
-
   text-align: center;
   color: blanchedalmond;
-  
-  }
-
-
+    }
 
 #rodape h2{
 color: blanchedalmond;
