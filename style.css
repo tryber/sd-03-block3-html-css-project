@@ -40,6 +40,9 @@ article {
 
 .lista-de-videos{
     display: block;
+    clear: both;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .lista-de-videos h2 {
@@ -76,6 +79,8 @@ article {
 
 table {
     width: 100%;
+    margin-top: 3em;
+    margin-bottom: 4em;
 }
 
 table, th, td {
@@ -101,4 +106,14 @@ th {
     font-weight: bold;
     padding: 1em;
     background-color: #0D3A5F;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 40%;
+}
+
+.lado-direito {
+    float: right;
+    width: 40%;
 }
