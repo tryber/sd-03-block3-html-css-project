@@ -19,11 +19,11 @@ body {
   overflow: hidden;
   background-color: white;
   position: fixed;
-  /* */
-  /* Set the navbar to fixed position */
+  /*
+  Set the navbar to fixed position */
   top: 0;
-  /* */
-  /* Position the navbar at the top of the page */
+  /*
+  Position the navbar at the top of the page */
   width: 100%;
   /* */
   /* Full width */
