@@ -1,200 +1,229 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Paulo</title>
-        <meta charset='utf-8'>
 
-        <meta name="viewport" content="width=device-width" />
-        <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap"
-            rel="stylesheet">
-        <style>
-            body {
-                display:float;
-                width: 100%;
-                margin: 0;
-                font-family: Open Sans Condensed, sans-serif;
-                background-color: #000000;
-            }
-                             
-            #cabecalho {
-                position: fixed;
-                margin-top: 0;
-                width: 100%;
-                height: 40px;
-                background-color: rgb(0, 0, 0);
-                z-index: 1;
-                text-align: center;
-                color: white;
+<head>
+    <title>Paulo</title>
+    <meta charset='utf-8'>
     
-            }
-            
-            #menu {
-                position: fixed;
-                margin-top: 40;
-                width: 100%;
-                height: 100px;
-                background-color: black;
-            }
-            
-            #menu>ul {
-                width: 800px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 55px;
-            }
-            
-            #menu>ul>li {
-                display: inline;
-                padding: 20px;
-                font-family: 'Open Sans Condensed', sans-serif;
-                /* font-size: 24px; */
-                font-weight: bold;
-            }
-            
-            #menu>ul>li:hover {
-                background-color: rgb(26, 61, 28);
-            }
-            
-            #menu>ul>li>a {
-                margin: 0 auto;
-                color: rgb(255, 255, 255);
-                text-decoration: none;
-                font-size: 24px;
-            }
-           
-            #img {
-                width: 300px;
-                position: float;
-                margin-top: 70px;
-                margin-left: 30%;
-            }
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display:inline-block;
+            width: 100%;
+            margin: 0;
+            font-family: Open Sans Condensed, sans-serif;
+            background-color: #e7f4e4;
+        }
+                         
+        #cabecalho {
+            position: fixed;
+            margin-top: 0;
+            width: 100%;
+            height: 40px;
+            background-color: rgb(0, 0, 0);
+            z-index: 1;
+            text-align: center;
+            color: white;
 
-            .lado-esquerdo {
-                position: float;
-                margin-left: 100px;
-                background-color: rgb(20, 20, 20);
-                width: 650px;
-                padding: 20px;
-                border-radius: 5px;
-                font-size: 24px;
-                color: white;
-            }  
+        }
+        
+        #menu {
+            position: fixed;
+            margin-top: 40;
+            width: 100%;
+            height: 100px;
+            background-color: black;
+        }
+        
+        #menu>ul {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 55px;
+        }
+        
+        #menu>ul>li {
+            display: inline;
+            padding: 20px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            /* font-size: 24px; */
+            font-weight: bold;
+        }
+        
+        #menu>ul>li:hover {
+            background-color: rgb(26, 61, 28);
+        }
+        
+        #menu>ul>li>a {
+            margin: 0 auto;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 24px;
+        }
+        * {
+  box-sizing: border-box;
+}
 
-            .lado-direito {
-                position: float;
-                margin-left: 100px;
-                background-color: rgb(20, 20, 20);
-                width: 650px;
-                padding: 20px;
-                border-radius: 5px;
-                font-size: 24px;
-                color: white;
-            }            
-                      
-          
-            #trabalho {
-                position: float;
-                margin: auto;
-                background-color: rgb(0, 44, 4);
-                width: 650px;
-                padding: 20px;
-                margin-top: 50px;
-                border-radius: 5px;
-                font-size: 24px;
-                color:white;
-            }
-            
-            
-            
-            #cantores {
-                position: float;
-                margin: auto;
-                background-color: rgb(53, 109, 83);
-                width: 650px;
-                padding: 20px;
-                margin-top: 50px;
-                color: white;
-                border-radius: 5px;
-                font-size: 24px;
-            }
-            
-         
-            
-            #rodape {
-                position:fixed;
-                margin-bottom: 0;
-                width: 100%;
-                height: 40px;
-                background-color: rgb(0, 0, 0);
-                color: white;
-                font-size: 24px;
-                text-align: center;
-            }
-        </style>
-    </head>
+.box {
+  float: left;
+  margin: 20px;
+  width: 30%;
+  padding: 50px;
+  background-color: black;
+   color:white;
+}
 
-    <header>
-        <div id="cabecalho">
-            <h1>Blues</h1>
-        </header>
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+       
+        #img {
+            width: 80%;
+            margin:0 auto;
+            margin-top: 150px;
+            
+        }
+        
+        #titulo {
+            float:left;
+            margin-left: 100px;
+            background-color: rgb(0, 0, 0);
+            width: 650px;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 24px;
+            color:white;
+        }        
+       
+        #formacao{
+            
+            margin-left: 900px;
+            background-color: rgb(0, 0, 0);
+            width: 650px;
+            padding: 20px;
+            margin-top: 0px;
+            border-radius: 5px;
+            font-size: 24px;
+            color: white;
+        }
+        #trabalho {
+            clear: left: ;
+            float:left;
+            margin-left: 100px;
+            background-color: rgb(0, 0, 0);
+            width: 650px;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 5px;
+            font-size: 24px;
+            color:white;
+        }
+        
+       
+        #trybe {
+            clear:right;
+            float:
+            margin-left: 100px;
+            Margin-top:500px;
+            width: 650px;
+            padding: 20px;
+            margin-top: 50px;
+            color: white;
+            border-radius: 5px;
+            font-size: 24px;
+            background-color: black;
+        }
+        
+        #habilidades {
+            position: float;
+            margin: auto;
+            background-color: rgb(0, 44, 4);
+            width: 650px;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 5px;
+            font-size: 24px;
+            color:white;
+        }
+        
+        #rodape {
+            position: fixed;
+            margin-bottom: 0;
+            width: 100%;
+            height: 40px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="cabecalho">
         <nav id="menu">
             <ul>
-                <li><a href="https://pt.wikipedia.org/wiki/Blues" target="_blank">blues</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Blues" target="_blank">Blues</a></li>
+                <li><a href="https://www.ranker.com/crowdranked-list/the-best-blues-artists-of-all-time" target="_blank">Músicos</a></li>
+                <li><a href="https://bluenotesp.com/" target="_blank">Blue Note</a></li>
             </ul>
-        </nav>
-        <div>
-            <body>
-                <article>
-                    <section>
-                        <div class="lado-esquerdo">
-                            <figure>
-                                <img src="images/hooker.jpg" alt="Foto do cartor e compositor Jhon Lee Hooker">
-                            </figure>
-                            <figcaption>Jhon Lee Hooker</figcaption>
-                        </div>
-                    </section>
-                </article>
-                <aside>
-                    <div class="lado-direito">
-                        <p>O <b>blues</b> é um gênero e forma musical originado por afro-americanos no extremo sul dos Estados Unidos em torno do fim do século XIX. O gênero se desenvolveu a partir de <em>raízes das tradições musicais africanas, canções de trabalho afro-americanas, spirituals e música tradicional</em>.</p>
-                    </div>
-                </aside>
+        </nav> 
+    </header>
+   
+               
+               
+        <aside>
+            
+
+            <article>
                 <section>
-                    <div id="cantores">
-                    <h2>Grandes cantores</h2>
-                    <ol>
-                        <li>BB king</li>
-                        <li>JJ</li>
-                        <li>CC</li>
-                    </ol>
+                    <div id="img">
+                    <figure><img src="images/Blues.jpg" alt="Desenho preto e branco de um homem tocando violão."></figure>
+                    </div>
+                    <div class="lado-esquerdo">
+                    <div class="clearfix">
+                        <div class="box">
+                            <h2>O Blues</h2>
+                            <p>O blues é um gênero e forma musical originado por afro-americanos no extremo sul dos Estados Unidos em torno do fim do século XIX. O gênero se desenvolveu a partir de raízes das tradições musicais africanas, canções de trabalho afro-americanas, spirituals e música tradicional.</p>
+                        </div>
+                    </div>
+                        <div class="box">
+                                <figure><img src="images/hooker.jpg" alt="Considerado o pai do Blues, Jhon Lee Hooker"></figure>
+                                <figcaption>Jhon Leen Hooker</figcaption>
+                        </div>
+                        <div class="lado-direito">
+                        <div class="box">
+                            <h2>Instrumentos</h2>
+                            <ol>
+                                <li>Guitarra</li>
+                                <li>Harmônicap</li>
+                                <li>Piano</li>
+                                <li>Violão</li>
+                            </ol>
+                        </div>
+                        </div>
+                      </div>
+                </section>
                 
-
-                <table>
-                    <tr>
-                        <td>Nome</td>
-                        <td>Idade</td>
-                        <td>Profissão</td>
-                    </tr>
-                    <tr>
-                        <td>Origem</td>
-                        <td>s</td>
-                        <td>ddd</td>
-                    </tr>
-                    <tr>
-                        <td>ggg</td>
-                        <td>rrr</td>
-                        <td>gggr</td>
-                    </tr>
-                </table>
-            </div>
-            </section>
-            <footer id="rodape">
-                <p>Conteúdo produzido hoje</p>
-            </footer>
-
-
-        </body>
+                
+               
+              
+            </article>
+            
+        </aside>
+            
+             
         
-
-    </html>
+    </div>
+       
+       
+        
+        <div id="rodape">
+            <p>No ©Copyright!</p>
+        </div>
+        
+</body>
+</html>
