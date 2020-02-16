@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: #6595ed;
+    background-color: #333;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -36,21 +36,21 @@ header {
 
 .menu li a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     padding: 5px 10px;
     font-family: sans-serif;
     letter-spacing: 2px;
-    border: 1px solid #fff;
+    border: 1px solid white;
 }
 
 .menu li a:hover {
-    background: #fff;
+    background: hite;
     transition: .4s;
     color: black;
 }
 
 #borda {
-    background-color: #6595ed;
+    background-color: #333;
     border: 1px solid white;
 }
 
@@ -66,18 +66,16 @@ header {
     color: white;
 }
 
-#discografia {}
-
 table {
     border-collapse: collapse;
     width: 50em;
-    border: 1px solid #666;
+    border: 1px solid #333;
 }
 
 thead {
     background: #ccc url(https://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
-    border-top: 1px solid #a5a5a5;
-    border-bottom: 1px solid #a5a5a5;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #333;
 }
 
 tr:hover {
