@@ -34,6 +34,7 @@ h4 {
 
 p {
   font-family: Raleway, sans-serif;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -91,25 +92,35 @@ main {
 }
 
 .intro {
-  display: flex;
-
+  margin: auto;
 }
-
+ 
 .lado-esquerdo {
-  margin-left: 100px;
-  padding-right: 40px;
-}
-.lado-direito {
-  margin-right: 100px;
+  display: inline-block;
+  width: 65%;
+  vertical-align: middle;
   padding-left: 40px;
+}
+
+.lado-esquerdo p {
+  text-align: justify;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 32%;
+  text-align: right;
+  vertical-align: middle;
 }
 
 .cover {
   display: inline-block;
+  width: 33%;
+  text-align: center;
 }
 
 .cover img {
-  width: 400px;
+ height: 400px;
 }
 
 .asideImg {
