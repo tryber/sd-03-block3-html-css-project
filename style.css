@@ -13,7 +13,7 @@ h1 {
   font-size: 2em;
 }
 
-h2, 
+h2,
 h3 {
   color: rgb(13, 58, 95);
 }
@@ -83,8 +83,8 @@ table {
   margin-bottom: 4em;
 }
 
-table, 
-th, 
+table,
+th,
 td {
   border: 1px solid rgb(8, 129, 163);
   border-collapse: collapse;
@@ -94,7 +94,7 @@ tr:last-child {
   background-color: rgb(8, 129, 163);
 }
 
-th, 
+th,
 td {
   padding: 1em;
 }
