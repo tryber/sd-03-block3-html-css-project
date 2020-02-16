@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(209, 94, 0);
+    font-family: Odibee Sans, sans-serif;
+    text-align: justify;
+}
+
+
+#cabecalho {
+    background-color: rgb(0, 88, 62);
+    height: 50px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+}
+
+#cabecalho ul {
+    padding: 0 65px;
+}
+
+ul li {
+    height: 21px;
+    margin: 0;
+    width: 75px;
+}
+
+#foto {
+    display: block;
+    margin: 90px auto 30px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+ol li {
+    position: rigth;
+    margin: 0;
+    width: 75px;
+}
+
+#cabecalho ul li {
+    display: inline-block;
+    margin-right: 65px;
+}
+
+#cabecalho ul li a {
+    color: rgb(255, 195, 66);
+    font-family: Cinzel, serif;
+    text-decoration: none;
+    font-family: Odibee Sans, sans-serif;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 49%;
+}
+
+.lado-direito {
+    float: right;
+    width: 49%;
+}
+
+#about {
+    margin-left: 65px;
+    background-color: rgb(249, 249, 253);
+    border: 2px solid rgb(249, 249, 253);
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+#aside {
+    background-color: rgb(249, 249, 253);
+    border: 2px solid rgb(249, 249, 253);
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    margin: 0 65px 25px;
+}
+
+h1 , h2 , h3 {
+    background-color: rgb(43, 71, 103);
+    color: rgb(255, 195, 66);
+    font-family: Cinzel, serif;
+    font-weight: 100;
+    font-family: Odibee Sans, sans-serif;
+}
