@@ -2,16 +2,14 @@ html, body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: yellow;
+    background-image:url('imagens/watercolor-flowers-background-pastel-colors/3432703.jpg');
+    background-repeat: no-repeat;
+
 }
 .container{
-    background: url('imagens/img_forest.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    padding: 2vw;
-    font-size: 4vw;
     display: grid;
+    background-color: darkgoldenrod;
+    margin: 20px 20px 20px;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 20vh 70vh 10vh;
     grid-template-areas: "cabecalho cabecalho"
@@ -19,43 +17,25 @@ html, body{
                           "footer footer"
 }
 #cabecalho{
+    grid-area: cabecalho;
     position: fixed;
-
+}
+#nome-cabecalho{
+    
+    text-align: center;
+    
 }
 article{
-    background: green;
     grid-area: article;
+    background-color: aqua;
+    margin: 30px 30px;
 }
 aside{
-    background: blue;
     grid-area: aside;
 }
 footer{
-    background: pink;
     grid-area:footer;
 }
-#navegacao ul{
-    margin:0; 
-    padding:0;
-    position: relative;
-    background-color:tomato;
-}
-li {
-	list-style:none;	
-	display:inline;
-}
-li a {
-	float:left;
-}
-#navegacao ul li a{
-    padding:2px 10px;
-    display: inline;
-    background-color:blue;
-    color: black;
-    text-decoration: none;
-    border-bottom: 3px solid pink;
-}
-
 /*#teste{
     position: relative;
 }
