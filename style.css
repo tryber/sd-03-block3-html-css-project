@@ -98,6 +98,9 @@ main {
   box-sizing: border-box;
   padding: 50px;
 }
+#tabela h2{
+  text-align: center;
+}
 
 #rodape {
   width: 100%;
