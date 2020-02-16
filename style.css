@@ -33,17 +33,17 @@ p {
     
 }
 
-.nav ul{
+.cabecalho ul{
     display: flex;
     padding: 5px 0;
 }
 
-.nav li{
+.cabecalho li{
     margin-right: 40px;
     list-style-type: none;
 }
 
-.nav li a{
+.cabecalho li a{
     color: white;
     text-decoration: none;
 }
