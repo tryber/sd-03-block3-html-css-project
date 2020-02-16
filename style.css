@@ -11,6 +11,8 @@ body{
 #cabecalho{
     background-color: teal;
     color: whitesmoke;
+    position: fixed, center;
+
 }
 
 .title{
@@ -28,6 +30,7 @@ p {
 .nav{
     background-color: cornflowerblue;
     padding: 0 30px;
+    
 }
 
 .nav ul{
