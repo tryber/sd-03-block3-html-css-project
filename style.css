@@ -3,13 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
   }
+
 #controle {
 	width: 600px;
-
 }
 
 #centro {
-	margin:  auto;
+	margin: auto;
 	width: 700px;
 	padding-left: 50px;
 	background-color: rgb(148, 144, 163);
@@ -17,9 +17,8 @@
 
 #cabecalho	{
 	color: white;
-	font-size: 50px;
 	text-align: center;
-	background-color:#6A5E76; 
+	background-color:#6A5E76;
 	width: 700px;
 	position: fixed;
 	margin-left: 363px;
@@ -57,9 +56,9 @@ p	{
 	padding-right: 35px;
 }
 
-#rodape	{
+#rodape {
 	text-align: center;
-	background-color:#6A5E76; 
+	background-color:#6A5E76;
 	width: 700px;
 	font-size: 30px;
 	margin-left: 363px;
@@ -69,3 +68,4 @@ p	{
 	color: white;
 	text-decoration: none;
 }
+
