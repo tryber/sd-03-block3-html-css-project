@@ -4,13 +4,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 150px;
+    margin-top: 105px;
 }
 
 h1 {
-    color: #ffffff;
+    color: #0D3A5F;
     text-align: center;
     font-size: 2em;
+}
+
+h2, h3 {
+    color: #0D3A5F;
 }
 
 #cabecalho {
@@ -18,25 +22,57 @@ h1 {
     top: 0;
     width: 100%;
     height: 100px;
-    background-image: url(hdr-bg.jpg);
-    background-size: cover;
-    background-position-y: 50%;
+    background-color: #0881A3;
 }
 
 article {
     width: 80%;
     margin: auto;
-    border: 1px solid black;
 }
+
 
 .imagem-artigo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
 }
 
+.lista-de-videos{
+    display: block;
+}
 
+.lista-de-videos h2 {
+    text-align: center;
+    text-decoration: underline;
+}
 
+.lista-de-videos ul li {
+    text-align: center;
+    list-style: none;
+    padding: 0.5em;
+}
+
+.lista-de-videos ul li a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+.extra {
+    width: 80%;
+    margin: auto;
+}
+
+.extra h3 {
+    text-align: center;
+}
+
+.extra p {
+    padding: 0.2em;
+    text-align: left;
+    
+}
 
 table {
     width: 100%;
@@ -53,8 +89,16 @@ tr:last-child {
 
 th, td {
     padding: 1em;
+    
 }
 
 th {
     text-align: left;
+}
+
+#rodape {
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+    background-color: #0D3A5F;
 }
