@@ -1,70 +1,66 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #controle {
-width: 600px;
+  width: 600px;
 }
 
 #centro {
-margin: auto;
-width: 700px;
-padding-left: 50px;
-background-color: rgb(148 , 144 , 163);
+  margin: auto;
+  width: 700px;
+  padding-left: 50px;
+  background-color: rgb(148 , 144 , 163);
 }
 
 #cabecalho {
-color: white;
-text-align: center;
-background-color: #6a5e76;
-width: 700px;
-position: fixed;
-margin-left: 363px;
+  color: white;
+  text-align: center;
+  background-color: #6a5e76;
+  width: 700px;
+  position: fixed;
+  margin-left: 363px;
 }
 
 .lado-esquerdo {
-float: left;
-width: 295px;
-padding-left: 20px;
-padding-bottom: 35px;
-padding-top: 70px;
+  float: left;
+  width: 295px;
+  padding-left: 20px;
+  padding-bottom: 35px;
+  padding-top: 70px;
 }
 
 .lado-direito {
-float: right;
-width: 295px;
-padding-left: 30px;
-padding-top: 70px;
+  float: right;
+  width: 295px;
+  padding-left: 30px;
+  padding-top: 70px;
 }
 
 #tabela {
-width: 600px;
-}
-
-caption {
-	font-weight: bold 2px;
+  width: 600px;
 }
 
 th , td {
-border-bottom-style: solid;
-text-align: center;
+  border-bottom-style: solid;
+  text-align: center;
   }
 
 p {
-padding-right: 35px;
+  padding-right: 35px;
 }
 
 #rodape {
-text-align: center;
-background-color: #6a5e76;
-width: 700px;
-font-size: 30px;
-margin-left: 363px;
+  text-align: center;
+  background-color: #6a5e76;
+  width: 700px;
+  font-size: 30px;
+  margin-left: 363px;
 }
 
 #link-wik {
-color: white;
-text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
