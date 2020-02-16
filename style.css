@@ -43,6 +43,10 @@ a {
   font-weight: 900;
 }
 
+li {
+  list-style-type: ;
+}
+
 main {
   padding-top: 80px;
   max-width: 90%;
@@ -94,7 +98,7 @@ main {
 .intro {
   margin: auto;
 }
- 
+
 .lado-esquerdo {
   display: inline-block;
   width: 65%;
@@ -120,7 +124,7 @@ main {
 }
 
 .cover img {
- height: 400px;
+  height: 400px;
 }
 
 .asideImg {
