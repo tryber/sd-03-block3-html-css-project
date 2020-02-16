@@ -1,12 +1,7 @@
 body {
         background-color: rgb(56 , 98 , 136);
-        font-family: "Roboto", 'sans-serif';
+        font-family: "Roboto", sans-serif;
         text-align: justify;
-}
-
-#pjo-title {
-        display: block;
-        margin: 90px auto 30px;
 }
 
 #cabecalho {
@@ -18,87 +13,31 @@ body {
         width: 1440px;
 }
 
-        #cabecalho ul {
-                padding: 0 65px;
-        }
-
-                #cabecalho ul li {
-                        display: inline-block;
-                        margin-right: 65px;
-                }
-
-                        #cabecalho ul li a {
-                                color: rgb(255 , 195 , 66);
-                                font-family: "Cinzel", 'serif';
-                                text-decoration: none;
-                        }
-
-article {
-        background-color: rgb(229 , 229 , 248);
-        border: 2px solid rgb(128 , 192 , 224);
-        margin-bottom: 30px;
-        margin-left: 65px;
-        padding: 0 20px;
-}
-
-.lado-esquerdo {
-        float: left;
-        width: 50%;
-}
-
-aside {
-        background-color: rgb(229 , 229 , 248);
-        border: 2px solid rgb(128 , 192 , 224);
-        margin: 0 65px 20px 0;
-        padding: 0 20px 10px;
-}
-
-.lado-direito {
-        float: right;
-        width: 30%;
-}
-
-        #pjo-logo {
-                padding: 0 75.25px;
-        }
-
-        #dados {
-                margin: 0 auto;
-        }
-
-        ol li {
-                height: 21px;
-                margin: 0 auto;
-                width: 160px;
-        }
-
-        ul li {
-                height: 21px;
-                margin: 0 auto;
-                width: 75px;
-        }
-
-        #galeria p {
-                text-align: center;
-                margin: 0;
-        }
-
-                .heroi {
-                        padding: 10px 77.25px 0;
-                }
-
-#rodape {
-        clear: both;
-        text-align: center;
-        margin-bottom: 25px;
+#cabecalho ul {
         padding: 0 65px;
 }
 
-h1 , h2 , h3 , h4 , h5 {
-        background-color: rgb(43 , 71 , 103);
+#cabecalho ul li {
+        display: inline-block;
+        margin-right: 65px;
+}
+
+ul li {
+        height: 21px;
+        margin: 0 auto;
+        width: 75px;
+}
+
+ol li {
+        height: 21px;
+        margin: 0 auto;
+        width: 160px;
+}
+
+#cabecalho ul li a {
         color: rgb(255 , 195 , 66);
-        font-family: "Cinzel", 'serif';
-        font-weight: 100;
+        font-family: "Cinzel", serif;
+        text-decoration: none;
 }
 
 a {
@@ -106,6 +45,62 @@ a {
         text-decoration: none;
 }
 
+#pjo-title {
+        display: block;
+        margin: 90px auto 30px;
+}
+
+.lado-esquerdo {
+        margin-left: 65px;
+        background-color: rgb(229 , 229 , 248);
+        border: 2px solid rgb(128 , 192 , 224);
+        float: left;
+        margin-bottom: 30px;
+        padding: 0 20px;
+        width: 50%;
+}
+
+.lado-direito {
+        background-color: rgb(229 , 229 , 248);
+        border: 2px solid rgb(128 , 192 , 224);
+        clear: inherit;
+        float: right;
+        margin: 0 65px 20px 0;
+        padding: 0 20px 10px;
+        width: 30%;
+}
+
+#pjo-logo {
+        padding: 0 75.25px;
+}
+
+#dados {
+        margin: 0 auto;
+}
+
+.heroi {
+        padding: 10px 77.25px 0;
+}
+
+#galeria p {
+        text-align: center;
+        margin: 0;
+}
+
+h1 , h2 , h3 , h4 , h5 {
+        background-color: rgb(43 , 71 , 103);
+        color: rgb(255 , 195 , 66);
+        font-family: "Cinzel", serif;
+        font-weight: 100;
+}
+
 .profecia {
         text-align: center;
+}
+
+#rodape {
+        clear: both;
+        text-align: center;
+        margin-bottom: 25px;
+        padding: 0 65px;
 }
