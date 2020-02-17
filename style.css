@@ -7,6 +7,12 @@
 			font-size: 50px;
 			border-width: 200px;
 		}
+		
+		h2 {
+			color: orangered;
+			font-size: 50px;
+			border-width: 200px;
+		}
 
 		article h1{
 			color: orangered;
