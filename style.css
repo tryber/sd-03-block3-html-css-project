@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background:  -webkit-gradient(linear, left top, right top, from(rgb(134, 13, 13)), to(#c42d2d));
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    /* position: relative;
+    float: center;
+    border: 1px 5px 5px 5px solid blue; */
+    border: 1px solid #c0c0c0;
+    list-style: none;
+    
+}
+
+.menu li a{color: rgb(14, 12, 12); text-decoration: none; padding: 5px 10px; display: block;}
+
+.menu li a:hover{
+    background: #333;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.menu li:hover ul, .menu li.over ul{display: block;}
+
+
+.menu ul li{
+    border: 1px solid  #c0c0c0;
+    width: 150px;
+    display: inline;
+}
+
+.menu ul  { 
+display: fixed;    
+/* display: inline; */}
+
+nav{
+    background-color: #c0c0c0;
+    display: fixed;
+}
+
+.header{
+    margin: 1px ;
+}
+
+#cabecalho{
+    position: fixed;
+}
+
+.lateral{
+    float: right;
+    width: 10%;
+    background-color: aliceblue;
+}
+
+.lado-direito{
+    float: right;
+}
+
+.lado-esquerdo{
+    float: left;
+}
