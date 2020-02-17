@@ -2,7 +2,6 @@ body {
   background-color: rgb(19, 98, 75);
   font-family: Lora, serif;
   padding-top: 120px;
-  display: block;
 }
 #cabecalho {
   position: fixed;
@@ -37,8 +36,6 @@ li a:hover {
   text-align: center;
   float: left;
   text-decoration: none;
-}
-.footer {
 }
 #img {
   width: 300px;
