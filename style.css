@@ -1,56 +1,60 @@
-body {
-	background-color: #03f0fc;
+*{
+	margin: 7px;
+	padding: 7px;
 }
-
+body {
+	text-align:center;
+	border: solid blue 2px;
+	background-color: #eaebe4;
+}
 #cabecalho {
 	text-align: center;
+	top: 0px;
+	width:100%;
+	margin: 0;
 	position: fixed;
-	padding: 0%;
+	border: solid whitesmoke 1px;
+	background-color: darkorchid;
+	left: 0;
 }
-
 #cabecalho ul li {
-	background-color: blueviolet;
-	position: relative;
+	background-color: white;
+	display: inline	;
 	text-align: center;
-	transition: 1s;
-	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 17px 20px;
 }
-
-.barra {
-	height: 82px;
-	border: thistle;
+#corpo {
+	background-image: url("/home/william/Imagens/sh_uva.jpg");	
+	background-size:cover;
+	width: 100%;
+	padding: 20px;
+	height: 1000px;
 }
-
-.nav {
-	margin: 50px auto;
-	width: 800px;
-	height: 50px;
-	list-style: none;
-	display: inline-block;
-}
-
 #cabecalho ul li a {
-	color: white;
+	color: darkorchid;
 	text-decoration: none;
 }
-
-#cabecalho li {
-	display: inline-block;
-	margin-top: 2px;
+#meio {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	background-color: darkred;
 }
-
 #cabecalho ul li a:hover {
-	color: #bab4b3;
+	color: #030302;
 }
-
 #rodape {
 	color-interpolation-filters: auto;
+	list-style: none;
 }
 .lado-esquerdo {
-	color:white;
-	
+	color:white;	
 }
 .lado-direito {
 	padding: 0%;
 	color: #000;
+}
+#logo {
+	font-family:  monospace;
+	font-size: 50px;
+	line-height:1500px;
 }
