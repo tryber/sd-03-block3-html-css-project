@@ -1,137 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+ <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portifólio Roberto Assis | Trybe</title>
-    <link rel="shortcut icon" href="./img/favicon_r.ico" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script type="text/javascript">
-    jQuery(document).ready(function(){
-
-    jQuery("#subirTopo").hide();
-
-    jQuery('a#subirTopo').click(function () {
-         jQuery('body,html').animate({
-           scrollTop: 0
-         }, 100);
-        return false;
-    });
-
-    jQuery(window).scroll(function () {
-         if (jQuery(this).scrollTop() > 1000) {
-            jQuery('#subirTopo').fadeIn();
-         } else {
-            jQuery('#subirTopo').fadeOut();
-         }
-    });
-    });
-    </script>
+    <title>Site for Automatic Evaluation</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
-<header>
-    <nav>
-        <ol id="cabecalho">
-            <h1 style="display: none;">Cabecalho</h1>
-                <li><img src="./img/white_logo.png" alt="Logo da Trybe"/> </li>
-                <h3 class="rising" style="color: white;  margin:auto; padding-right: 50px; font-size: 3vh;" > Rising Junior Developer 🚀</h3>
-                <li id="top_buttons"><a href="#content_spc_a" style="text-decoration: none; color: white;" >Portfólio </a> </li>
-                <li id="top_buttons"><a href="#content_spc_b" style="text-decoration: none; color: white;" >Trybe </a> </li>
-                <li id="top_buttons"><a href="#content_spc_c" style="text-decoration: none; color: white;" >Atividades</a> </li>   
-        </ol>  
-    </nav>
-</header>
 <body>
-    <main>
-        <section class="home">
-            <h1 style="display: none;">Home</h1>
-            <div id="picture_me" class="centralize">
-                <img src="./img/roberto_assis.png" alt="Foto de Roberto Assis em frente ao seu Workspace."/>
-            </div> 
-            <div class="centralize">
-                <a href="https://github.com/RobertoAsgon" target="_blank" ><img class="social_git" src="./img/social_git.png" alt="social_git"></a>
-                <a href="https://www.instagram.com/robertoasgon/" target="_blank" ><img class="social_instagram" src="./img/social_instagram.png" alt="social_git"></a>
-                <a href="https://www.linkedin.com/in/roberto-assis-gon%C3%A7alves-286a641a1/" target="_blank" ><img class="social_linkedin" src="./img/social_linkedin.png" alt="social_git"></a> 
-            </div>  
-        </section>
-        <section>
-            <div id="content_spc_a" class="section_a centralize">
-                <h1 style="display: none;">Conheca-me</h1>
-                <table>
-                    <tr >
-                        <td><img class="img_brasao" src="./img/brasao_demolay.png" alt="Brasão da Ordem Demolay"></td>
-                        <td>
-                            <h2 style="color: #00613c;">Conheça-me 🙋‍♂️ </h2> <hr>
-                            <p style="color: #00613c">
-                            Olá ! Roberto Assis Gonçalves é o meu nome e com 22 anos sou entusiasta do mundo DevOps, programação desde o início de minha adolescência
-                            se tornou meu hobbie favorito, anos de experiência e agora iniciando mais uma nova etapa, me preparando para o mercado de trabalho.<br> 
-                            Cultivo bons pensamentos, criterioso, acredito em uma vida pura e honrada, jamais me esquecerei de princípios virtuosos como, amor filial, reverência pelas coisas sagradas, cortesia, companheirismo, fidelidade, pureza e patriotismo.
-                        </p>
-                            <h3 style="color: #00613c;">Seja muito bem-vindo ao meu Portfólio Trybe !</h3>
-                            <p style="color: #00613c">
-                            Aqui você poderá acompanhar a minha trajetória como aluno da Trybe, fique por dentro de todas as atividades, projetos, desafios apresentados em curso, serão
-                            12 meses acompanhados por especialistas, facilitadores, expandindo nossa consciência
-                            e nos realizando como Desenvolvedores de Softwares.
-
-                            </p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="content_spc_b" class="section_b centralize">
-                <h1 style="display: none;">Trybe</h1>
-                <table>
-                    <tr>
-                        <td>
-                        <ul style="color: #00613c">
-                            <h2 style="color: #00613c;">Conhça a Trybe <img style="padding-left: 15px;position: relative; top:15px;" src="./img/favicon_y.ico" alt="favicon_y"></h2>
-                            <hr>
-                            <p style="color: #00613c">
-                            Com um programa de aprendizagem de alta qualidade, mentorias individuais e muitos desafios práticos,
-                            é a escola do futuro e para o futuro que acelera sua carreira em desenvolvimento de software em aproximadamente 12 meses.
-                            </p>    
-                            <p>
-                            Veja só, APROVEITE ! Você não paga nada até conseguir um trabalho que remunere, no mínimo, R$ 3.500,00 por mês. A modalidade
-                            de pagamento Sucesso Compartilhado, você só paga quando conseguir se realizar financeiramente, eaí 3.500,00 para você começar a pagar pelo oque aprendeu, tá valendo ?
-                            </p>
-                        </ul>
-                        </td>
-                        <td ><img class="img_skills" src="./img/trybe_picture.png" alt="Imagem ilustrando o dominio de habilidades"></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="section_c">
-                <h1 style="display: none;">Projetos</h1>
-                <table>
-                    <tr>
-                        <td><img id="content_spc_c" class="img_projects" src="./img/projects.png" alt="Brasão da Ordem Demolay"></td>
-                        <td>
-                            <h3 style="color: #00613c; text-align: center; padding-left: 25px;"> Atividades práticas em desenvolvimento : 👨‍💻</h3>
-                            <hr>
-                        <ul class="jobs" style="color: #00613c;">
-                            <p> Fique por dentro de todos os projetos e códigos criados por mim com base no que é ensinado durante o curso de formação Trybe ! #VQV #GoTrybe</p>
-                            <div> Workspace Automation : <a href="https://github.com/RobertoAsgon/workspace_automation" target="_blank" ><img src="./img/git_logo.png" alt="git_logo" width="75vh"></a></div>
-                            <div> Portfólio : <a href="https://robertoasgon.github.io/" target="_blank" ><img class="r_logo" src="./img/r_logo.png" alt="r_logo" width="75vh"></a> | <a href="https://github.com/RobertoAsgon/workspace_automation" target="_blank" ><img class ="git_logo" src="./img/git_logo.png" alt="git_logso" width="75vh"></a></div>
-                            <div> Meme Generator : <a href="https://robertoasgon.github.io/" target="_blank" ><img class="r_logo" src="./img/r_logo.png" alt="r_logo" width="75vh"></a> | <a href="https://github.com/RobertoAsgon/workspace_automation" target="_blank" ><img class ="git_logo" src="./img/git_logo.png" alt="git_logso" width="75vh"></a></div>
-                            <div> To-do List : <a href="https://robertoasgon.github.io/" target="_blank" ><img class="r_logo" src="./img/r_logo.png" alt="r_logo" width="75vh"></a> | <a href="https://github.com/RobertoAsgon/workspace_automation" target="_blank" ><img class ="git_logo" src="./img/git_logo.png" alt="git_logso" width="75vh"></a></div>
-                            <div> Guess The Color : <a href="https://robertoasgon.github.io/" target="_blank" ><img class="r_logo" src="./img/r_logo.png" alt="r_logo" width="75vh"></a> | <a href="https://github.com/RobertoAsgon/workspace_automation" target="_blank" ><img class ="git_logo" src="./img/git_logo.png" alt="git_logso" width="75vh"></a></div>
-                            <div> Mysterious Letter : <a href="https://robertoasgon.github.io/" target="_blank" ><img class="r_logo" src="./img/r_logo.png" alt="r_logo" width="75vh"></a> | <a href="https://github.com/RobertoAsgon/workspace_automation" target="_blank" ><img class ="git_logo" src="./img/git_logo.png" alt="git_logso" width="75vh"></a></div>
-                            </p>
-                        </ul>
-                        </td>
-                    </tr>    
-                </table>
-            </div>
-        </section>
-        <hr>
-        <a id="subirTopo">
-            ^ <br> subir
-        </a>
-    </main>
-    <footer id="rodape">
-        <h4 class="centralize;" style="text-align: center;font-size: 3vh;" >@Made by RobertoAsgon. #GoTrybe #AVagaÉMinha! </div>
-    </footer>
+	 <header id="cabecalho">
+	    <nav>
+	        <ul id="cabecalho">
+				<li><img src="white_logo.png" alt="Logo da Trybe"/> </li>
+	            <li style="display: none;" >Home</li>
+	        </ul>
+	    </nav>
+	</header>
+	<section>
+	    <article title="Home Page">
+			<div class="texto">
+				<table>
+					<tr>
+						<td>
+						<ul>
+							<header>
+								<h2>Conheça a Trybe</h2>
+							</header>
+							Com um programa de aprendizagem de alta qualidade, mentorias individuais e muitos desafios práticos,
+							é a escola do futuro e para o futuro que acelera sua carreira em desenvolvimento de software em aproximadamente 12 meses. <br>
+							Veja só, APROVEITE ! Você não paga nada até conseguir um trabalho que remunere, no mínimo, R$ 3.500,00 por mês. A modalidade
+							de pagamento Sucesso Compartilhado, você só paga quando conseguir se realizar financeiramente, eaí 3.500,00 para você começar a pagar pelo oque aprendeu, tá valendo ?
+							</p>
+						</ul>
+						</td>
+						<td ><img class="img_trybe_g" src="./img_trybe.png" alt="Imagem ilustrando o dominio de habilidades"></td>
+					</tr>
+				</table>
+			</div>	
+		</article>
+	    <article class="centralize">
+			<ol>
+				<a href="https://www.instagram.com/betrybe_/?hl=pt-br" target="_blank"><img class="img_insta" src="insta_logo.png" alt="Logo do instagram"></a>
+				<a href="betrybe.com" target="_blank"><img class="img_trybe" src="trybe_logo.png" alt="Logo da trybe"></a>		
+			</ol>	
+	    </article>
+	</section>
+	<aside >
+		<div style="text-align: center;">
+			<div class="lado-esquerdo">
+				<ul>
+					<li>Esquerdo</li>
+				</ul>
+			</div>
+			</aside>
+			<div class="lado-direito">
+				<ol>
+					<li>Direito</li>
+				</ol>
+			</div>
+			<div class="clear"></div>
+		</div>			
+	</aside>
+	<footer id="rodape">
+	    <p>RobertoAsgon©</p>
+	</footer>
 </body>
-
 </html>

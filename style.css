@@ -1,0 +1,93 @@
+#cabecalho{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display:flex;
+    background-color:#0fa36b;
+    border-bottom: 4px solid #047248;
+    margin:0;
+}
+
+#cabecalho img {
+    width: 24vh;
+    height: 6vh;
+}
+
+#cabecalho li {
+    color:#e1dad3;
+    display: block;
+    text-align: center;
+    padding-right: 100px;
+}
+
+#cabecalho li:first-child {
+    margin-right: auto; 
+}
+
+
+.centralize{
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.img_trybe_g{
+    width: 125vh;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: #0fa36b;
+    border-width: 5px;
+}
+
+.img_trybe{
+    width: 25vh;
+    border-radius: 35%;
+    border-style: solid;
+    border-color: #0fa36b;
+    border-width: 5px;
+}
+
+
+.img_insta{
+    width: 25vh;
+    border-radius: 35%;
+    border-style: solid;
+    border-color: #0fa36b;
+    border-width: 5px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.lado-esquerdo {
+padding-left: 75vh;
+float: left;
+display: none;
+}
+
+.lado-direito {
+padding-left: 35vh;
+float: left;
+display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.texto{
+    padding-top: 100px;
+    text-align: center;
+    font-size: medium;
+    color: #0fa36b;
+}
+
+#rodape{
+    background-color: #0fa36b;
+    padding: 1px;
+    color:white;
+    margin:0;
+    position: relative;
+    border-bottom: 4px solid #047248;
+}
