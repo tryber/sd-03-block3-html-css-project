@@ -255,8 +255,9 @@ input, textarea {
 #rodape {
     font-size: 10px;
     padding-top: 10px;
-    
-
+}
+#rodape a {
+    color: aliceblue;
 }
 #rodape a:hover {
     font-style: italic;
