@@ -1,63 +1,78 @@
-html, body{
-    margin: 0px;
-    padding: 0px;
+* {
     box-sizing: border-box;
-    background-image:url('imagens/watercolor-flowers-background-pastel-colors/3432703.jpg');
-    background-repeat: no-repeat;
-
+}
+body{
+    background-color: aquamarine;
+    
 }
 .container{
     display: grid;
-    background-color: darkgoldenrod;
-    margin: 20px 20px 20px;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 20vh 70vh 10vh;
-    grid-template-areas: "cabecalho cabecalho"
-                          "article aside"
-                          "footer footer"
+    grid-template-areas: "h h"
+                         "m a"
+                         "f f"
 }
-#cabecalho{
-    grid-area: cabecalho;
-    position: fixed;
-}
-#nome-cabecalho{
+header{
+    grid-area: h;
+    margin-left:50%;
     
+    height:10px;
+    padding: 60px;
     text-align: center;
-    
-}
-article{
-    grid-area: article;
-    background-color: aqua;
-    margin: 30px 30px;
-}
-aside{
-    grid-area: aside;
-}
-footer{
-    grid-area:footer;
-}
-/*#teste{
-    position: relative;
-}
-.teste-lista{
-    position: relative;
-    left: 80px;
-    font-size: 15px;
-    color: tomato;
-    text-align: center;
-    font-weight: bold;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
 
 }
-#tabela{
-    border-collapse: collapse;
-    width: 10%;
-    position: absolute;
+article{
+    grid-area: m;
 }
-td, th{
-    border: 1px solid blue;
-    text-align: center;
-    padding: 8px;
+aside{
+    grid-area: a;
+}
+footer{
+    grid-area: f;
+}
+#cabecalho{
+    position: fixed;
+}
+.navegacao ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.navegacao li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.navegacao li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.navegacao li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+article{
+    margin-left:25%;
+    padding:20px;
+    position: absolute;
+    height:10px;
+}
+table{
+    margin-left:25%;
+    padding:20px;
+    position: absolute;
+    height:1000px;
 }
 #rodape{
-    clear:both;
-}*/
+    background-color: bisque;
+}
