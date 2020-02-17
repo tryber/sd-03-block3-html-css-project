@@ -1,33 +1,59 @@
-        ul { 
-	        margin:0; 
-	        padding:0;
-	    }
+
+		body {
+			background-color:black;
+		}
 	
-        ul li {
-	        list-style:none;	
-	        display:inline;
-	    }
-        ul li a {
-	        float:left;
-	    }
-		
 		h1 {
 			font-size: 50px;
+			border-width: 200px;
 		}
 
-		.black {
-			background-color:black;
+		article h1{
+			color: orangered;
+		}
+
+		.listaNoticias{
+			text-decoration: none;
+			color: darkorange;
 		}
 
 		.letters_colors{
 			color: orangered;
 		}
 
-		#cabecalho{
-			
-			position: fixed;
+		#cabecalho {
+			background-color: white;
+			border-style: double;
+			border-color: orangered;
 			font-size: 25px;
+			height: 13%;
+			position: fixed;
+			margin-top: -5%;
+			margin-bottom: 1px ;
+			margin-left: -0.5%;
+			text-align: left;
+			width: 100%;
 		}
+
+
+		#cabecalho h3{
+			border-style: solid;
+			border-color: orangered;
+			display: inline-block;
+			font-size: 150%;
+			text-align: center;
+		}
+
+		#cabecalho h3 a{
+			color: orangered;
+			text-decoration: none;
+		}
+
 		#rodape{
+			background-color: white;
 			font-size: large;
+			height: 125px;
+			width: 1500px;
+			margin-bottom: 0.5px ;
+			margin-left: -0.5%;
 		}
