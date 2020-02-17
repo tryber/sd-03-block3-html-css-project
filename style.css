@@ -10,6 +10,24 @@
         ul li a {
 	        float:left;
 	    }
-.black {
-    background-color: black;
-}
+		
+		h1 {
+			font-size: 50px;
+		}
+
+		.black {
+			background-color:black;
+		}
+
+		.letters_colors{
+			color: orangered;
+		}
+
+		#cabecalho{
+			
+			position: fixed;
+			font-size: 25px;
+		}
+		#rodape{
+			font-size: large;
+		}
