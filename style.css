@@ -57,3 +57,11 @@
 			margin-bottom: 0.5px ;
 			margin-left: -0.5%;
 		}
+		.tables {
+			color: darkorange;
+			border: 3px solid blue;
+			width: 45%;
+			text-align: left;
+			border-collapse: collapse;
+			align-self: center;
+		}
