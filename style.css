@@ -20,7 +20,8 @@ body{
 .lado-direito{
     float: right;
     text-align: right;
-    padding-right: 30px;
+    padding-right: 10px;
+    border: 1px solid #000;
 }
 
 .lado-direito li{
@@ -30,6 +31,7 @@ body{
 .lado-esquerdo{
     float: left;
     padding-left: 30px;
+    border: 1px solid #000;
 }
 
 .img-centro{
