@@ -12,13 +12,14 @@ body {
   background-color: black;
   margin: 0px;
 }
-#cabecalho{
+
+#cabecalho {
   position: fixed;
 }
 
 #cabeçalho {
   position: fixed;
-  background-color: #191A1C;
+  background-color: #191a1c;
   width: 100%;
   height: 80px;
   top: 10px;
@@ -29,7 +30,7 @@ body {
 #rodapé {
   position: relative;
   opacity: 90%;
-  background-color: #191A1C;
+  background-color: #191a1c;
   bottom: 0px;
   height: 100px;
   width: 100%;
@@ -55,7 +56,7 @@ body {
 }
 
 #cabeçalho a:hover {
-  color: #335F52;
+  color: #335f52;
 }
 
 .lado-direito {
@@ -98,7 +99,7 @@ body {
 .button {
   position: relative;
   top: 50px;
-  background-color: #335F52;
+  background-color: #335f52;
   font-size: 70px;
   color: white;
   text-decoration: none;
@@ -113,7 +114,7 @@ body {
   display: block;
   width: 100%;
   height: 1000px;
-  background-color: #335F52;
+  background-color: #335f52;
 }
 
 .faixa {
@@ -162,7 +163,7 @@ body {
 }
 
 .vol-text2 strong {
-  color: #3CA78E;
+  color: #3Ca78e;
 }
 
 .vol-text3 {
@@ -175,7 +176,7 @@ body {
   position: relative;
   font-size: 40px;
   top: 30px;
-  color: #3CA78E;
+  color: #3Ca78e;
 }
 
 .vocetbm {
@@ -185,7 +186,7 @@ body {
 .Doe {
   width: 100%;
   height: 1500px;
-  background-color: #014B56;
+  background-color: #014b56;
   background-image: url(Imagens/DonateHands.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -202,19 +203,19 @@ body {
   margin-right: 400px;
   padding: 70px 0 100px 0;
   font-weight: bold;
-  background-color: #3CA78E;
+  background-color: #3Ca78e;
   border-radius: 30px;
   color: white;
 }
 
-.doe-text h3{
-  margin-block-end:0px;
-  color: #014B56;
-
+.doe-text h3 {
+  margin-block-end: 0px;
+  color: #014b56;
 }
+
 .doe-text h1 {
   margin-block-start: 0px;
-  margin-block-end:0px;
+  margin-block-end: 0px;
   word-spacing: 10px;
   font-size: 40px;
   font-weight: bold;
@@ -222,7 +223,7 @@ body {
 
 .doe-text h2 {
   font-size: 25px;
-  margin-block-start:2px;
+  margin-block-start: 2px;
   margin-block-end: 0px;
   font-weight: bold;
 }
@@ -286,12 +287,12 @@ table {
   text-decoration: none;
   color: white;
   border-radius: 10px;
-  background-color: #335F52;
+  background-color: #335f52;
   padding: 0.1em 0.2em 0.1em 0.2em;
 }
 
 .tabledoar a:hover {
-  color: #335F52;
+  color: #335f52;
   background-color: white;
 }
 
@@ -340,7 +341,7 @@ table {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #4CAF50;
+  background: #4Caf50;
   cursor: pointer;
 }
 
