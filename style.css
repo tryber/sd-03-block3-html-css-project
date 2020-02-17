@@ -207,7 +207,8 @@ body {
   color: white;
 }
 
-.doe-text #h1 {
+
+.doe-text h1 {
   margin-block-start: 0px;
   margin-block-end:0px;
   word-spacing: 10px;
@@ -215,7 +216,7 @@ body {
   font-weight: bold;
 }
 
-.doe-text #h2 {
+.doe-text h2 {
   font-size: 25px;
   margin-block-start:2px;
   margin-block-end: 0px;
