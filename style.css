@@ -71,7 +71,7 @@ button.slick-next {
 }
 .lado-esquerdo h1 {
     text-align: left;
-    padding-top: 125px;     
+    padding-top:125px;     
 }
 .lado-esquerdo {
     float: left;
@@ -79,18 +79,15 @@ button.slick-next {
 .lado-direito {
     float: right;
 }
-
 #esquerdo {
     padding-left: 50px;
     width: 600px;
     font-size: 20px;
 }
-
 #direito {
     padding-right: 50px;
     padding-top: 170px;
 }
-
 table {
     padding-left: 80px;
 }
