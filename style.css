@@ -200,14 +200,18 @@ body {
   top: 200px;
   margin-left: auto;
   margin-right: 400px;
-  padding: 80px 0 100px 0;
+  padding: 70px 0 100px 0;
   font-weight: bold;
   background-color: #3CA78E;
   border-radius: 30px;
   color: white;
 }
 
+.doe-text h3{
+  margin-block-end:0px;
+  color: #014B56;
 
+}
 .doe-text h1 {
   margin-block-start: 0px;
   margin-block-end:0px;
