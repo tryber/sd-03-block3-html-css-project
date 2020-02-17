@@ -74,16 +74,23 @@ button.slick-next {
     padding-top: 125px;     
 }
 .lado-esquerdo {
-    padding-left: 50px;
-    width: 600px;
     float: left;
-    font-size: 20px;
 }
 .lado-direito {
     float: right;
+}
+
+#esquerdo {
+    padding-left: 50px;
+    width: 600px;
+    font-size: 20px;
+}
+
+#direito {
     padding-right: 50px;
     padding-top: 170px;
 }
+
 table {
     padding-left: 80px;
 }
