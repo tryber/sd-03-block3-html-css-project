@@ -20,18 +20,19 @@ ul#menu {
     overflow: hidden;
     background-color: #333333;
 }
-li {
-    float: right;
-}
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    float: right;
 }
 li a:hover {
     background-color: #111111;
+}
+#rodape {
+    position: fixed;
 }
 .footer {
     text-decoration: none;
