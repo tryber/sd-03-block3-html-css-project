@@ -1,0 +1,231 @@
+<style>
+body {
+    margin:0;
+    background-color: #F0F8FF;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+.centralize{
+    margin:auto;
+    text-align: center;
+}
+
+.lado-direito{
+    float: left;
+    float: right;
+}
+
+.lado-esquerdo{
+    float: left;
+    float: right;
+}
+
+
+
+#cabecalho {
+    position: fixed;
+    display:flex;
+    top: 0;
+    left: 0;
+    right: 1px;
+    margin: 0;
+    background-color:#0fa36b;
+    border-bottom: 4px solid #047248;
+}
+
+
+#cabecalho img {
+    width: 24vh;
+    height: 6vh;
+}
+
+#cabecalho li {
+    color:#e1dad3;
+    text-decoration: none ;
+    font-size: 3vh;
+    display: block;
+    padding:2vh;
+}
+
+#cabecalho li:first-child {
+    margin-right: auto; 
+}
+
+#top_buttons {
+    text-decoration: none;
+    bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+    opacity: .8;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #0fa36b;
+    border-width: 5px;
+    margin:0;
+}
+
+
+#top_buttons:hover {
+    background: #0a6d47;
+    opacity:15;
+    border-radius: 15%;
+    border-width: 5px;
+}
+
+#picture_me img {
+    width: 50vh;
+    height: 50vh;
+    border-width: 4px;
+    border-style: solid;
+    border-color:#047248;
+    border-radius: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin:auto;
+    text-align: center;
+}
+
+.social_git{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:#047248;
+}
+  
+.social_instagram{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 35%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:#047248;
+    cursor: pointer;
+    max-width: 150px;
+}
+.social_linkedin{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:#047248;
+}
+
+.home{
+    background-color:#F0F8FF;
+    padding-top: 175px;
+    margin:0;
+}
+
+.section_a{
+    display: flex;
+    background-color: #F0F8FF;
+    padding-top: 15%;
+    margin:0;
+    width: 100%;
+    font-size: 3vh;
+}
+
+.section_b{
+    display: flex;
+    background-color: #F0F8FF;
+    padding-top: 15%;
+    margin:0;
+    font-size: 3vh;
+}
+
+.section_c{
+    display: flex;
+    background-color: #F0F8FF;
+    padding-top: 15%;
+    margin:0;
+    font-size: 3vh;
+}
+
+.img_brasao{
+    width: 65vh;
+    height: 65vh;
+    border-radius: 35%;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#0fa36b;
+}
+
+.img_skills{
+    width: 95vh;
+    height: 62vh;
+    float: left;
+    border-radius: 10%;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#0fa36b;
+}
+
+.img_projects{
+    width: 65vh;
+    height: 65vh;
+    border-radius: 25%;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#0fa36b;
+}
+
+.git_logo{
+    top:5px;
+    position: relative;
+    
+}
+
+.r_logo{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 25%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #047248;
+    position: relative;
+    top: 12px;
+}
+
+#subirTopo {
+    text-decoration: none;
+    background: #0fa36b;
+    bottom: 15vh;
+    right: 2vh;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding: 2vh;
+    font-size: 3vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    border: 0;
+    border-radius: 35%;
+    border-style: double;
+    border-color: white;
+    border-width: 2vh;
+    font-family: sans-serif;
+    opacity: .5;
+}
+
+#subirTopo:hover {
+    opacity:1;
+}
+
+#rodape{
+    background-color: #0fa36b;
+    padding: 1px;
+    color:white;
+    margin:0;
+    position: relative;
+    border-bottom: 4px solid #047248;
+}
+
+</style>
