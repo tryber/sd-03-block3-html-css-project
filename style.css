@@ -3,6 +3,7 @@ body{
     font-family: 'Quattrocento', serif;
     font-family: 'Lora', serif;
     padding-top: 120px;
+    margin: 25px;
 }
 #cabecalho{
     position: fixed;
@@ -31,4 +32,10 @@ li a {
 }
 li a:hover {
     background-color: #111111;
+}
+.footer {
+    text-decoration: none;
+}
+#img {
+    width: 300px;
 }
