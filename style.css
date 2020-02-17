@@ -12,6 +12,9 @@ body {
   background-color: black;
   margin: 0px;
 }
+#cabecalho{
+  position: fixed;
+}
 
 #cabeçalho {
   position: fixed;
