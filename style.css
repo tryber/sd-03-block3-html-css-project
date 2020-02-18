@@ -43,10 +43,14 @@ li a:hover {
 .lado-esquerdo {
   float: left;
   width: 66%;
+  overflow: hidden;
 }
 .lado-direito {
   padding: 5px;
-  width: 32%;
+  width: 30%;
   float: right;
   border: solid 5px;
+}
+table {
+  border-top: solid 2px;
 }
