@@ -16,13 +16,20 @@ body {
     width: 60px;
     margin-top: 10px;
 }
-#link {
+#table {
+    background: #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 10px;
+}
+#lado-esquerdo {
     width: 200px;
     margin-top: 140px;
     margin-left: 10px;
     float: left;
 }
-.lists {
+#lado-direito {
     background: #f2f2f2;
     border-radius: 10px 10px 10px 10px;
     padding-right: 20px;
