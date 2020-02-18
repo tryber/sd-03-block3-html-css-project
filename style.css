@@ -1,0 +1,48 @@
+body {
+  background-color: gray;
+  color: White;
+}
+
+#cabecalho {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 100px;   
+}
+
+#navegacao {
+  margin-top: 200px;
+}
+
+#sobre { 
+
+}
+
+#colecao {
+
+}
+
+#adaptacao {
+  margin-bottom: 200px;
+}
+
+
+#rodape {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 100px;   
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
