@@ -1,0 +1,46 @@
+body {
+    background: rgb(144, 155, 80);
+}
+#cabecalho {
+    background: black;
+    color: white;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+#trybe-logo {
+    float: left;
+    width: 60px;
+    margin-top: 10px;
+}
+#table {
+    background: #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 10px;
+}
+.lado-esquerdo {
+    width: 200px;
+    margin-top: 125px;
+    margin-left: 10px;
+    float: left;
+}
+.lado-direito {
+    background: #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    padding-right: 20px;
+    margin-top: 140px;
+    margin-right: 13px;
+    float: right;
+}
+#rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
