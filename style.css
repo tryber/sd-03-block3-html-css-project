@@ -38,11 +38,11 @@ body {
   padding-bottom: 100px;   
 }
 
-#adaptacao-lado-esquerdo {
+.lado-esquerdo {
   float: left;
 }
 
-#adaptacao-lado-direito {
+.lado-direito {
   float: right;
 }
 
