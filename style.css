@@ -49,6 +49,11 @@ a {
   font-weight: 900;
 }
 
+.lista li {
+  font-family: Raleway, sans-serif;
+  line-height: 30px;
+}
+
 main {
   padding-top: 80px;
   max-width: 80%;
@@ -69,6 +74,7 @@ main {
   padding-right: 20px;
   margin-top: 25px;
 }
+
 
 #cabecalho li {
   position: relative;
@@ -98,11 +104,11 @@ main {
 }
 
 .intro {
-  margin: auto;
+  margin-bottom: 500px;
 }
 
 .lado-esquerdo {
-  display: inline-block;
+  float: left;
   width: 65%;
   vertical-align: middle;
   padding-left: 40px;
@@ -113,10 +119,14 @@ main {
 }
 
 .lado-direito {
-  display: inline-block;
+  float: right;
   width: 32%;
   text-align: right;
   vertical-align: middle;
+}
+
+.clear {
+  clear: both;
 }
 
 .cover {
@@ -129,13 +139,8 @@ main {
   height: 400px;
 }
 
-.asideImg {
+.introImg {
   width: 400px;
-}
-
-.lista li {
-  font-family: Raleway, sans-serif;
-  line-height: 30px;
 }
 
 .about {
@@ -147,4 +152,8 @@ main {
   width: 175px;
   display: inline-block;
   padding: 10px;
+}
+
+.margin-top {
+  margin-top: 80px;
 }
