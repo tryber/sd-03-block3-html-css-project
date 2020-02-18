@@ -104,11 +104,11 @@ main {
 }
 
 .intro {
-  margin-bottom: 500px;
+  margin: auto;
 }
 
 .lado-esquerdo {
-  float: left;
+  display: inline-block;
   width: 65%;
   vertical-align: middle;
   padding-left: 40px;
@@ -119,14 +119,10 @@ main {
 }
 
 .lado-direito {
-  float: right;
+  display: inline-block;
   width: 32%;
   text-align: right;
   vertical-align: middle;
-}
-
-.clear {
-  clear: both;
 }
 
 .cover {
@@ -139,7 +135,7 @@ main {
   height: 400px;
 }
 
-.introImg {
+.asideImg {
   width: 400px;
 }
 
