@@ -1,43 +1,48 @@
 body {
-    background-color: gray;
-    color: White;
+  background-color: gray;
+  color: White;
 }
 
-#cabecalho{
-    background-color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-bottom: 100px;   
+#cabecalho {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 100px;   
 }
 
-#navegacao{
-    margin-top: 200px;
+#navegacao {
+  margin-top: 200px;
 }
 
-#sobre{
-
-}
-
-#colecao{
+#sobre { 
 
 }
 
-#adaptacao{
-    margin-bottom: 200px;
+#colecao {
 
 }
 
+#adaptacao {
+  margin-bottom: 200px;
+}
 
-#rodape{
 
-    background-color: black;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding-bottom: 100px;
-       
+#rodape {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 100px;   
+}
+
+#adaptacao-lado-esquerdo {
+  float: left;
+}
+
+#adaptacao-lado-direito {
+  float: right;
 }
 
