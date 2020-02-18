@@ -60,7 +60,7 @@ main {
   margin: auto;
 }
 
-th, td {
+th , td {
   padding: 12px;
   font-family: Raleway, sans-serif;
   border-bottom: 1px solid;
@@ -163,4 +163,13 @@ th {
 
 .margin-top {
   margin-top: 80px;
+}
+
+.fab {
+  color: rgb(62 , 112 , 66);
+}
+
+.wrap {
+  padding-left: 200px;
+  padding-right: 200px;
 }
