@@ -60,6 +60,17 @@ main {
   margin: auto;
 }
 
+th, td {
+  padding: 12px;
+  font-family: Raleway, sans-serif;
+  border-bottom: 1px solid;
+}
+
+th {
+  background-color: rgb(62 , 112 , 66);
+  color: rgb(227 , 229 , 227);
+}
+
 #cabecalho {
   background-color: rgba(198 , 19 , 85 , 0.8);
   height: 80px;
