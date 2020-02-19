@@ -66,6 +66,7 @@ body {
 #base-dupla {
   width: 20%;
   float: right;
+  max-width: 110px;
 }
 
 #foto-partner {
@@ -75,6 +76,7 @@ body {
 
 h3 {
   clear: both;
+  margin-top: 5%;
 }
 
 p {
@@ -82,5 +84,5 @@ p {
 }
 
 #tabela {
-  margin: 5px;
+  margin: 10px;
 }
