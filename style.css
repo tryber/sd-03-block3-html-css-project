@@ -1,77 +1,83 @@
 body {
-    background-color: deepskyblue;
+  background-color: deepskyblue;
 }
 
 #cabecalho {
-    display: block;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    
+  display: block;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
 }
 
-.lado{
-    display: inline-block;
-    margin-left: 10px;left: 0;
-    margin-right: 10px;right: 0px;
-    text-align: center;
+.lado {
+  display: inline-block;
+  margin-left: 10px;
+  left: 0;
+  margin-right: 10px;
+  right: 0;
+  text-align: center;
 }
 
-.relativo{
-    display: block;
-    padding-top: 150px;
+.relativo {
+  display: block;
+  padding-top: 150px;
 }
 
-h1{
-    font-size: 50px;
-    color: dimgray;
-    text-align: center;
+h1 {
+  font-size: 50px;
+  color: dimgray;
+  text-align: center;
 }
 
-.lado-esquerdo{
-    display: block;
-    margin: 10px;
-    padding: 10px;
-    margin-left: 0px;
-    padding-top: 30px;
-    margin-right: 33%;
-    background-color: white;
+.lado-esquerdo {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 0;
+  padding-top: 30px;
+  margin-right: 33%;
+  background-color: white;
 }
 
-.lado-direito{
-    float: right;
-    margin-right: 0px;
-    background-color: white;  
-}
-.ola{
-    margin-bottom: 17.5px;
+.lado-direito {
+  float: right;
+  margin-right: 0;
+  background-color: white;
 }
 
-ul{
-    text-align: center;
+.ola {
+  margin-bottom: 17.5px;
 }
 
-.borda{
-    border: black;
-    border-style: solid;
-    width: 120px;
-    padding: 10px;
-    text-align: center;
+ul {
+  text-align: center;
 }
-.bot{
-    border-bottom: black;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding: 10px;
+
+.borda {
+  border: black;
+  border-style: solid;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
 }
-#rodape{
-    text-align: center;
-    font-size: 50px;
+
+.bot {
+  border-bottom: black;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
 }
-#alinhar{
-    text-align: justify;
+
+#rodape {
+  text-align: center;
+  font-size: 50px;
+}
+
+#alinhar {
+  text-align: justify;
 }
