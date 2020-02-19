@@ -3,15 +3,15 @@ body {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1,
-h2,
+h1 , 
+h2 , 
 h3 {
   text-align: center;
 }
 
 header {
   align-items: center;
-  background-color: #578c3e;
+  background-color: rgb(94, 140, 62);
   display: flex;
   flex-wrap: wrap;
   height: 90px;
@@ -33,18 +33,20 @@ header h1 {
   margin-left: 20px;
 }
 
-img {
-  padding: 10px;
-}
-
 .lado-esquerdo {
-  position: relative;
-  left: 0%;
+  align-items: center;
+  float: left;
+  font-size: smaller;
+  padding: 10px;
+  text-align: center;
 }
 
 .lado-direito {
-  position: absolute;
-  right: 0%;
+  align-items: center;
+  float: right;
+  font-size: smaller;
+  padding: 10px;
+  text-align: center;
 }
 
 article {
@@ -56,6 +58,7 @@ article {
 section {
   padding-bottom: 5px;
   padding-top: 5px;
+  height: auto;
 }
 
 #info {
@@ -75,23 +78,22 @@ section {
 }
 
 #fotos img {
+  padding-left: 20px;
   height: 250px;
 }
 
 #curiosidades {
-  background-color: #4a484b;
+  background-color: rgb(74, 72, 75;
   color: snow;
   margin: 10px;
 }
 
 iframe {
   position: relative;
-  left: 30px;
+  left: 40px;
 }
 
 #rodape {
-  position: relative;
-  background-color: #d4daf2;
+  background-color: rgb(212, 218, 242);
   border: 10px;
-  bottom: 0%;
 }
