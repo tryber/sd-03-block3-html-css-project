@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-    color: #FFF500;
+    color: #fff500;
     font-size: 30px;
 }
 
@@ -17,35 +17,34 @@ p {
 }
 
 body {
-    background-color: #E7E9EB;
+    background-color: #e7e9eb;
 }
 
 main {
     font-size: 20px;
-    padding: 20px 20px 5px 20px;
+    padding: 20px 20px 5px;
 }
 
 section {
-    padding: 0 20px 5px 20px;
+    padding: 0 20px 5px;
     text-align: center;
     font-size: 25px;
 }
 
 aside {
-    padding: 0 40px 5px 40px;
+    padding: 0 40px 5px;
 }
 
 .villani-blue {
-    color: #013A62;
+    color: #013a62;
     font-size: 25px;
     padding-top: 20px;
 }
 
 #cabecalho {
-
     background-color: rgba(17, 133, 182, 1);
     background-position: center;
-    color: #ffffff;
+    color: white;
     padding: 10px;
     position: fixed;
     text-align: center;
@@ -61,7 +60,7 @@ aside {
 
 #rodape {
     background-color: #353634;
-    color: #ffffff;
+    color: white;
     padding: 5px;
     text-align: right;
 }
