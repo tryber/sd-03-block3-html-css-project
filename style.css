@@ -2,8 +2,20 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    }
+
+body {
+    background-color: rgb(3, 3, 31);
+    color: rgb(245, 247, 245);
+    font: normal, 20pt;
 }
 
- //body {
-    background-color: rgb(3, 3, 31);
-}//
+header {
+    position: fixed;
+    margin-bottom: 40px;
+}
+
+main {
+    margin-top: 150px;
+    position: absolute;
+}
