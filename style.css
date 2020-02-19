@@ -28,20 +28,19 @@
         display: none;
     }
 
-    #cabecalho{
-        padding-bottom: 96px;
+    #navBotoes{
+        top: 0px;
     }
-
     .navbar-menu{
         position: fixed;
-        /*position: relative;*/
-            z-index:999;
-           border: none;
-            width: 100%;
-       
-       transition-timing-function: ease-out;
-       box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
-       left: 0px;
+        z-index:999;
+        border: none;
+        width: 100%;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+        transition-timing-function: ease-out;
+        box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
        }
 
     label[for="bt-menu"]{
@@ -99,14 +98,17 @@
             height:  100px;
         }
 
-        #IMG1{ background-image:url("./../Turbozap_IMG/Foguete.png"); }
-        #IMG2{ background-image:url("./../Turbozap_IMG/caixaSoftware.png"); }
-        #IMG3{ background-image:url("./../Turbozap_IMG/Contatos.png"); }
-        #IMG4{ background-image:url("./../Turbozap_IMG/DiretoaoPonto.png"); }
-        #IMG5{ background-image:url("./../Turbozap_IMG/Mulimidia.png"); }
-        #IMG6{ background-image:url("./../Turbozap_IMG/VariosContas.png"); }
+        #IMG1{ background-image:url("Turbozap_IMG/Foguete.png"); }
+        #IMG2{ background-image:url("Turbozap_IMG/caixaSoftware.png"); }
+        #IMG3{ background-image:url("Turbozap_IMG/Contatos.png"); }
+        #IMG4{ background-image:url("Turbozap_IMG/DiretoaoPonto.png"); }
+        #IMG5{ background-image:url("Turbozap_IMG/Mulimidia.png"); }
+        #IMG6{ background-image:url("Turbozap_IMG/VariosContas.png"); }
 
-        #Sobre{ background-image:url("./../Turbozap_IMG/unnamed.png"); }
+        #Sobre{
+             background-image:url("Turbozap_IMG/unnamed.png");
+             margin-top: 100px;
+            }
 
         .transparente{
             background-color: transparent;
@@ -244,10 +246,6 @@ font-family:Arial,sans-serif;
                 /*ultilizando o Seletor irmao quando o botão estiver checked ele vai chamar o navbotçao*/
                 /*se ele tiver Checked ele seta como zero se nao ele chama a .bavbar-botoes*/
                 margin-left: 0;
-            }
-            
-            .navbar-menu{
-                height: 50px;
             }
 
             .navbar-logo img {
