@@ -1,5 +1,7 @@
 
 		body {
+			padding: 0px;
+			margin: 0px;
 			background-color:black;
 		}
 	
@@ -28,40 +30,34 @@
 		}
 
 		#cabecalho {
-			background-color: white;
-			border-style: double;
-			border-color: orangered;
-			font-size: 25px;
-			height: 13%;
-			position: fixed;
-			margin-top: -5%;
-			margin-bottom: 1px ;
-			margin-left: -0.5%;
-			text-align: left;
-			width: 100%;
-		}
-
-
-		#cabecalho h3{
-			border-style: solid;
-			border-color: orangered;
-			display: inline-block;
-			font-size: 150%;
 			text-align: center;
+			background-color: white;
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 1351px;
+
 		}
 
-		#cabecalho h3 a{
+		#cabecalho ol li{
+			display: inline-block;
+			text-decoration: none;
+			margin-right: 190px;
+		}
+
+		#cabecalho ol li a{
 			color: orangered;
 			text-decoration: none;
 		}
 
 		#rodape{
-			background-color: white;
+			background-color: gray;
 			font-size: large;
 			height: 125px;
-			width: 1500px;
-			margin-bottom: 0.5px ;
-			margin-left: -0.5%;
+			margin-top: 0px;
+   			margin-right: 65px;
+    		margin-bottom: 25px;
+    		margin-left: 65px;
 		}
 		.tables {
 			color: darkorange;
