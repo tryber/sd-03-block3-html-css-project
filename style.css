@@ -24,7 +24,7 @@
 
   #cabecalho {
     position: fixed;
-    
+    width: 100%;
   
   }
   #rodape {
@@ -62,13 +62,14 @@
   }
   
   .main-content {
-    width: 66%;
+    width: 100%;
   }
   
   .side-bar {
     
     padding: 20px;
     width: 200px;
+    padding-top: 80px;
   }
   
   .articles {
@@ -78,6 +79,7 @@
   
   .article {
     padding: 15px;
+    padding-top: 40px;
   }
   
  .nav ul {
@@ -103,4 +105,13 @@
   
   .nav li a:hover {
     background-color: #111;
+  }
+
+
+  .lado-direito{
+    float: right;
+  }
+
+  .lado-esquerdo{
+    float: left;
   }
