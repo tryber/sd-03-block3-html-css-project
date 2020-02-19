@@ -25,6 +25,11 @@
 			width: 38%;
 		}
 
+		.lado-esquerdo{
+			padding: 0px;
+			margin: 15px;
+		}
+
 		.listaNoticias{
 			text-decoration: none;
 			color: darkorange;
