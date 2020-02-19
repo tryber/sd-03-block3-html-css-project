@@ -1,14 +1,12 @@
 body {
-  background-color: rgb(88, 111, 107);
+  background-color: rgb(88 , 111 , 107);
   margin: 0;
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
   color: white;
 }
 
-ul,
-ol,
-li {
+ul , ol , li {
   list-style: none;
 }
 
@@ -18,7 +16,7 @@ li {
   overflow: hidden;
   position: fixed;
   color: black;
-  background-color: rgb(127, 145, 131);
+  background-color: rgb(127 , 145 , 131);
 }
 
 .logo {
@@ -31,12 +29,11 @@ li {
   border: 0;
   text-align: justify;
 }
-#navbar::after,
-#navbar::before,
-article p::after {
+
+#navbar:after , #navbar:before , article p:after {
   display: inline-block;
   width: 100%;
-  content: "";
+  content: '';
 }
 
 .nav-item {
@@ -51,7 +48,7 @@ section {
 article {
   border: solid 0;
   border-radius: 15px;
-  background-color: rgb(184, 184, 170);
+  background-color: rgb(184 , 184 , 170);
   color: black;
   margin-top: 5%;
   margin-left: 10%;
@@ -67,8 +64,7 @@ article h2 {
   text-align: center;
 }
 
-article h3,
-h4 {
+article h3 , h4 {
   margin-left: 1em;
 }
 
@@ -81,6 +77,7 @@ h4 {
 .lado-esquerdo {
   float: left;
 }
+
 .lado-direito {
   float: right;
 }
