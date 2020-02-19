@@ -76,8 +76,10 @@ article h3 , h4 {
 
 .lado-esquerdo {
   float: left;
+  width: 50%;
 }
 
 .lado-direito {
   float: right;
+  width: 50%;
 }
