@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: antiquewhite;
 }
@@ -8,7 +12,7 @@ article{
     position: absolute;
     padding: 50px;
     background-color: brown;
-    top: 150px;
+    top: 100px;
 }
 #cabecalho{
     position:fixed;
@@ -22,6 +26,7 @@ article{
     transition: 0.3s;
     width: 20%;
     top: 500px;
+    margin: 30px;
 }
 .lado-esquerdo:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -36,6 +41,8 @@ article{
     width: 20%;
     top: 500px;
     left: 30%;
+    margin: 30px;
+
 }
 .lado-direito:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -50,6 +57,7 @@ article{
     transition: 0.3s;
     width: 20%;
     top: 1000px;
+    margin: 30px;
 }
 .card-um:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -64,6 +72,7 @@ article{
     width: 20%;
     top: 1000px;
     left: 30%;
+    margin: 30px;
 }
 .card-dois:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -71,15 +80,49 @@ article{
 .container-quatro {
     padding: 2px 16px;
 }
+
+
+
+
+.card-tres {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    top: 1500px;
+    margin: 30px;
+}
+.card-um:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container-cinco {
+    padding: 2px 16px;
+}
+.card-quatro{
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    top: 1500px;
+    left: 30%;
+    margin: 30px;
+}
+.card-dois:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container-seis {
+    padding: 2px 16px;
+}
 #campo-aside{
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 30%;
-    height: 50%;
+    width: 40%;
+    height: 120%;
     top: 500px;
     left: 60%;
-    background-color: yellow
+    background-color: yellow;
+    margin: 30px;
 }
 .navegacao ul{
     padding:20px;
@@ -109,9 +152,18 @@ article{
 }
 #rodape{
     position: absolute;
-    top: 1500px;
+    
+    top: 2000px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
     background-color: aqua;
+}
+table, th, td {
+    border: 1px solid black;
+    margin: 40px;
+    
+}
+th {
+    background-color: grey;
 }
