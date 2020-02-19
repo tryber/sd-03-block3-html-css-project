@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #C0A9B0;
+}
+#cabecalho{
+    background-color: blue;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100px;
+}
+#teste{
+    position: relative;
+}
+.teste-lista{
+    position: relative;
+    left: 80px;
+    font-size: 15px;
+    color: tomato;
+    text-align: center;
+    font-weight: bold;
+
+}
+#tabela{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.imagens{
+    padding: 0 8px;
+    float: left;
+    width: 50%;
+}
+.lado-esquerdo{
+    border: 1px solid #ccc;
+}
+.lado.direito{
+    border: 1px solid #ccc;
+}
+.lado-esquerdo:hover{
+    border: 1px solid #777;
+}
+.lado.direito:hover{
+    border: 1px solid #777;
+}
