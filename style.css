@@ -20,6 +20,11 @@
 			color: orangered;
 		}
 
+		.lado-direito{
+			float: right;
+			width: 38%;
+		}
+
 		.listaNoticias{
 			text-decoration: none;
 			color: darkorange;
