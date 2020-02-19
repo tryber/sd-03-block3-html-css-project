@@ -1,0 +1,144 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    background: #f9edcc;
+    color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/*HEADER*/
+
+#cabecalho {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background: #f9edcc;
+    flex-wrap: wrap;
+    /* GAMBS: background changed on "cabecalho" from #f9edcc to #f9edcD to hide content below on scroll*/
+}
+
+#logo {
+    width: 45%;
+    margin-top: 15px;
+    align-self: flex-end;
+}
+
+#logo h1 {
+    padding-left: 140px;
+    font-size: 1.5em;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+#navbar {
+    width: 50%;
+    margin: 0;
+    padding-left: 50px;
+    align-self: flex-end;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-self: flex-end;
+    padding: 0;
+    padding-left: 80px;
+    margin-top: 52px;
+    margin-bottom: 0;
+}
+
+#navbar ul li {
+    padding-right: 2em;
+    font-size: 1em;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+#navbar ul li a:hover {
+    color: #ef4f2b;
+}
+
+#deco {
+    background: #ef4f2b;
+    border: solid #ef4f2b;
+    width: 100%;
+}
+
+
+/*MAIN PAGE*/
+
+#grid-main-page {
+    display: grid;
+    grid-template-columns: 0.2fr 3fr 1fr 0.2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". lado-esquerdo lado-direito .";
+    height: 80vh;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.lado-esquerdo {
+    grid-area: lado-esquerdo;
+    margin: 0 35 0 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.lado-esquerdo h2 {
+    font-size: 2.3em;
+}
+
+.lado-esquerdo p {
+    font-size: 1.3em;
+}
+
+.button {
+    color: black;
+    padding: 0.8em 1.6em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    border: 1px solid black;
+}
+
+.left {
+    background-color: #ef4f2b;
+    border: 2px solid black;
+}
+
+.right {
+    background-color: #f9edcc;
+    border: 3px solid #ef4f2b;
+    margin-left: 1rem;
+}
+
+.lado-direito {
+    grid-area: lado-direito;
+    width: 20%;
+    height: auto;
+}
+
+.lado-direito img {
+    padding-right: 80px;
+    width: 450px;
+    height: auto;
+}
+
+#rank {
+    grid-area: rank;
+}
