@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+    *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f8f9fa;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+                
+    } 
+
+    figcaption h3{
+        display: none;
+    }
+
+    .foto-Sistema img{
+        width: 80%;
+        height: 300px;
+    }
+
+    .direita{
+        text-align: right;
+        font-size: 15px;
+    }
+
+    figcaption p{
+        display: none;
+    }
+
+    #cabecalho{
+        padding-bottom: 96px;
+    }
+
+    .navbar-menu{
+        position: fixed;
+        /*position: relative;*/
+            z-index:999;
+           border: none;
+            width: 100%;
+       
+       transition-timing-function: ease-out;
+       box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+       left: 0px;
+       }
+
+    label[for="bt-menu"]{
+        padding: 5px;
+        background-color:greenyellow;
+        color: black;
+        font-family: "arial";
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+    }
+
+    #bt-menu{
+        display: none;
+        }
+
+    label[for="bt-menu"]{
+        display: none;
+    }
+
+    .lado-esquerdo {
+        float: left; 
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        background-color: transparent;
+        }
+
+    .lado-direito {
+        float: right;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        }
+
+        .blocoItens{
+            float: left; 
+            width: 28%;
+            height:  100%;
+            box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+            margin: 25px 25px 25px 25px;
+        }
+
+        
+        .imgBloco{
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px;
+            height:  100px;
+        }
+
+        #IMG1{ background-image:url("./../Turbozap_IMG/Foguete.png"); }
+        #IMG2{ background-image:url("./../Turbozap_IMG/caixaSoftware.png"); }
+        #IMG3{ background-image:url("./../Turbozap_IMG/Contatos.png"); }
+        #IMG4{ background-image:url("./../Turbozap_IMG/DiretoaoPonto.png"); }
+        #IMG5{ background-image:url("./../Turbozap_IMG/Mulimidia.png"); }
+        #IMG6{ background-image:url("./../Turbozap_IMG/VariosContas.png"); }
+
+        #Sobre{ background-image:url("./../Turbozap_IMG/unnamed.png"); }
+
+        .transparente{
+            background-color: transparent;
+            color:white;
+            text-align: center;
+        }
+
+        .transparente #div1{
+            background-color: transparent;
+        }
+    
+
+
+
+
+        #Principal{
+                   margin: 0; 
+                  padding: 0;
+      color: rgba(0,0,0,1);
+ background-color: #f8f9fa;
+font-family:Arial,sans-serif;
+}
+
+    .container {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        /*border: 3px solid #000;*/
+    }
+
+    .mapaImg{
+        position: relative;
+        left: 2%;
+        top: -395px;
+        width: 56%;
+    }
+    .topo{
+        display: inline-block;
+        width: 100%;
+        margin: 0 20px;
+        padding: 0 20px;
+    }
+
+    #content{
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+    }
+
+    .bavbar-botoes ul{
+        margin-left: 150px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .bavbar-botoes li{
+        display:inline-block;
+        list-style:  none;
+        font-size: 1.5rem;
+        transition-timing-function: ease-in;
+        /*background-color: rgb(250, 251, 255);*/
+        background-color:greenyellow;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+        transform: translateY(-3px) scale(1.01);        
+        margin: 3px 5px 3px 5px;
+               
+    }
+
+    .bavbar-botoes a{
+        text-decoration: none;
+        cursor: pointer;
+        margin: 15px 10px 15px 10px;
+        display: block;
+        /*background-color: rgb(250, 251, 255);*/
+        background-color:greenyellow;
+    }
+    .bavbar-botoes a:hover {
+     background-color: blue;
+     color: white;
+     /*font-weight:bold;*/
+    }
+    
+    .bavbar-botoes li:hover {
+        background-color: blue;
+        color: blue;
+        }
+ 
+    .navbar-logo img {
+        position: relative;
+        float: left;
+        top: 5px;
+        left: 10px;
+        width: 100px;
+        height: 81px;
+    }
+
+.divContados{
+    position: relative;left: -7%;top: -706px;width: 317px;float: right;background-color: transparent;
+}
+
+    @media only screen and (max-width: 480px){
+        .lado-esquerdo {  
+            display: inline-block;
+            vertical-align: top;         
+            width: 100%;
+            padding: 5px 5px 5px 5px;
+            }
+        .lado-direito {
+            display: inline-block;
+            vertical-align: top;         
+            width: 100%;
+            padding: 5px 5px 5px 5px;
+            }
+
+            .bavbar-botoes {
+                width: 100%;
+                float: none;
+                margin-left: -100%;
+                transition: all .4s;
+            }
+
+            label[for="bt-menu"]{
+                display: block;
+                position: relative;
+                float: right;
+            }
+
+            #bt-menu:checked ~ .bavbar-botoes{
+                /*ultilizando o Seletor irmao quando o botão estiver checked ele vai chamar o navbotçao*/
+                /*se ele tiver Checked ele seta como zero se nao ele chama a .bavbar-botoes*/
+                margin-left: 0;
+            }
+            
+            .navbar-menu{
+                height: 50px;
+            }
+
+            .navbar-logo img {
+                position: relative;
+                float: left;
+                top: 5px;
+                left: 10px;
+                width: 50px;
+                height: 40px;
+            }
+
+            .blocoItens{
+                
+                float: left; 
+                width: 100%;
+                height:  100%;
+                box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+                text-align: center;
+                padding: 5px 5px 5px 5px;
+                margin: 25px 25px 25px 25px;
+            }
+
+            .mapaImg{
+                position: relative;
+                left: 2%;
+                top: -152px;
+                width: 56%;
+            }
+
+            .divContados{
+                position: relative;left: -7%;top: -274px;width: 126px;float: right;background-color: transparent;
+            }
+        }
