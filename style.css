@@ -1,39 +1,35 @@
-* {
-    box-sizing: border-box;
-}
-
 html {
-    height: 100%;
+    height:100%;
 }
 
 body {
-    background-color: rgb(3, 3, 31);
-    color: rgb(245, 247, 245);
-    margin: 0;
-    min-height: 100%;
-    padding: 0;
-    position: absolute;
+    background-color:black;
+    color:white;
+    margin:0;
+    min-height:100%;
+    padding:0;
+    position:absolute;
 }
 
 main {
-    margin-top: 150px;
-    position: absolute;
-    margin-bottom: 90px;
-    font-size: 14pt;
+    margin-top:150px;
+    position:absolute;
+    margin-bottom:90px;
+    font-size:14pt;
 }
 
 a {
-    font-style: italic;
+    font-style:italic;
 }
 
 a:link {
     color: black;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 a:hover {
     color: white;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 a:visited {
@@ -42,111 +38,111 @@ a:visited {
 }
 
 h2 {
-    text-align: center;
-    font-weight: bolder;
+    text-align:center;
+    font-weight:600;
     position: reltive;
-    margin-bottom: 100px;
+    margin-bottom:100px;
 }
 
 table {
-    border-collapse: collapse;
-    margin-left: 30%;
+    border-collapse:collapse;
+    margin-left:30%;
 }
 
 .content-container {
-    text-align: justify;
+    text-align:justify;
 }
 
 .lado-direito {
-    float: right;
-    clear: 0;
-    margin-top: 45px;
-    width: 40%;
+    float:right;
+    clear:0;
+    margin-top:45px;
+    width:40%;
 }
 
 .lado-esquerdo {
-    float: left;
-    clear: 0;
-    margin-top: 45px;
-    width: 40%;
+    float:left;
+    clear:0;
+    margin-top:45px;
+    width:40%;
 }
 
 .reference-container {
-    display: inline;
+    display:inline;
 }
 
 #background {
-    margin-bottom: 200px;
-    padding-top: 150px;
+    margin-bottom:200px;
+    padding-top:150px;
 }
 
 #cabecalho {
-    background-color: yellow;
-    color: black;
-    display: inline-table;
-    font-size: 16pt;
-    font-weight: bold;
-    height: 100px;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    width: 100%;
+    background-color:yellow;
+    color:black;
+    display:inline-table;
+    font-size:16pt;
+    font-weight:400;
+    height:100px;
+    margin:0;
+    padding:0;
+    position:fixed;
+    width:100%;
 }
 
 #caracteristicas {
-    position: relative;
-    margin-top: 600px;
-    padding-top: 150px;
+    position:relative;
+    margin-top:600px;
+    padding-top:150px;
 }
 
 #impacto {
-    position: relative;
-    margin-top: 80px;
-    padding-top: 150px;
+    position:relative;
+    margin-top:80px;
+    padding-top:150px;
 }
 
 #indice {
-    font-size: 14pt;
-    font-weight: normal;
+    font-size:14pt;
+    font-weight:200;
 }
 
 #intro-image {
-    margin-left: 30%;
-    position: relative;
-    margin-bottom: 60px;
-    width: 80%;
-    padding-top: 80px;
+    margin-left:30%;
+    position:relative;
+    margin-bottom:60px;
+    width:80%;
+    padding-top:80px;
 }
 
 #obras td, th {
-    border: 3px solid white;
-    width: 80%;
+    border:3px solid white;
+    width:80%;
 }
 
 #police-image {
-    margin-left: 10%;
-    position: relative;
-    margin-bottom: 60px;
-    margin-left: 30%;
-    margin-top: 45px;
-    width: 600px;
+    margin-left:10%;
+    position:relative;
+    margin-bottom:60px;
+    margin-left:30%;
+    margin-top:45px;
+    width:600px;
 }
 
 #reference-container {
-    display: inline-block;
+    display:inline-block;
 }
 
 #rodape {
     background-color: yellow;
-    color: black;
-    bottom: 0;
-    display: inline-block;
-    position: fixed;
-    height: 80px;
-    text-align: justify;
-    width: 100%;
+    color:black;
+    bottom:0;
+    display:inline-block;
+    position:fixed;
+    height:80px;
+    text-align:justify;
+    width:100%;
 }
 
 #works-container {
-    text-align: center;
+    text-align:center;
 }
