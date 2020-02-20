@@ -128,8 +128,13 @@ table {
     width: 600px;
 }
 
-#reference-container {
-    display: inline-block;
+#referencias {
+    font-size: 12pt;
+    font-style: italic;
+    position: relative;
+    margin-top: 80px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 #rodape {
@@ -137,9 +142,11 @@ table {
     color: black;
     bottom: 0;
     display: inline-block;
+    font-weight: 200;
+    font-style: italic;
     position: fixed;
     height: 80px;
-    text-align: justify;
+    text-align: left;
     width: 100%;
 }
 
