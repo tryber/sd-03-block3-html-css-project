@@ -4,8 +4,16 @@
         <meta charset="utf-8">
         <title>História do Kickboxing</title>
     <style>
+        #header { 
+             position: fixed;
+             top: 0; 
+             left: 0;
+             width: 100%;
+             height: 100px;
+             background-color: black;
+        }
         body{
-            background-color:black
+            background-color:black;
         }
         p, li{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -15,15 +23,22 @@
         .titles{
             color: darkorange;
             font-size: 40px;
+            font-weight: 400;
         }
-        .principal-title{
+        #principal-title{
+            position: absolute;
+            left:20px;
             color: darkorange;
-            font-size: 80px;
+            font-size: 50px;
+            font-weight: 600;
         }
     </style>
     </head>
 <body>
-    <h1 class="principal-title">A história do Kickboxing</h1>
+    <div id="header">
+        <h1 id="principal-title">A história do Kickboxing</h1>
+    </div>
+    
     <img src="kickboxing.jpg" alt="Dois homens lutando" width="1000px">
     
     <h2 class="titles">Golpes</h2>
