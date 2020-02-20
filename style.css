@@ -1,0 +1,67 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+h1 {
+        font-size: 50px;
+}
+
+h2 {
+        color: #fff500;
+        font-size: 30px;
+}
+
+p {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+        background-color: #e7e9eb;
+}
+
+main {
+        font-size: 20px;
+        padding: 20px 20px 5px;
+}
+
+section {
+        font-size: 25px;
+        padding: 0 20px 5px;
+        text-align: center;
+}
+
+aside {
+        font-size: 20px;
+        padding: 0 40px 60px;
+}
+
+.villani-blue {
+        color: #013a62;
+        font-size: 25px;
+        padding-top: 20px;
+}
+
+#cabecalho {
+        background-color: rgba(17,133,182,1);
+        background-position: center;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+}
+
+#capa {
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        padding-top: 120px;
+}
+
+#rodape {
+        background-color: #353634;
+        color: white;
+        padding: 12px;
+        text-align: right;
+}
