@@ -79,6 +79,7 @@ body {
 
 #rodape {
 	margin-left:auto;
+	page-break-after: auto;
 }
 #linkBeneficios {
 	border:1px solid #999;
