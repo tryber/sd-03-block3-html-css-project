@@ -1,21 +1,104 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    }
+}
+
+html {
+    height: 100%;
+}
 
 body {
     background-color: rgb(3, 3, 31);
     color: rgb(245, 247, 245);
-    font: normal, 20pt;
-}
-
-header {
-    position: fixed;
-    margin-bottom: 40px;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    position: absolute;
 }
 
 main {
     margin-top: 150px;
     position: absolute;
+    margin-bottom: 90px;
+    font-size: 14pt;
+}
+
+a {
+    font-style: italic;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    position: reltive;
+}
+
+.content-container {
+    text-align: justify;
+}
+
+.lado-direito {
+    float: right;
+    clear: 0;
+    width: 40%;
+}
+
+.lado-esquerdo {
+    float: left;
+    clear: 0;
+    width: 40%;
+}
+
+.reference-container {
+    display: inline;
+}
+
+#cabecalho {
+    background-color: yellow;
+    color: black;
+    font-size: 12pt;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#caracteristicas{
+    position: relative;
+    margin-top: 600px;
+}
+
+#indice {
+    font-size: 14pt;
+}
+
+#intro-image {
+    margin-left: 30%;
+    position: relative;
+    margin-bottom: 60px;
+    }
+
+#rodape {
+    background-color: yellow;
+    color: black;
+    bottom: 0;
+    position: fixed;
+    height: 80px;
+    text-align: justify;
+    width: 100%;
 }
