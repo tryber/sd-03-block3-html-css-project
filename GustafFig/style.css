@@ -1,3 +1,10 @@
+body {
+  background-color: green;
+  position: relative;
+  top: 85px;
+  margin: 1px;
+}
+
 #cabecalho {
   background-color: yellow;
   margin: auto;
@@ -28,13 +35,6 @@
 
 #cabecalho h2 {
   border: 2px solid black;
-  margin: 1px;
-}
-
-body {
-  background-color: green;
-  position: relative;
-  top: 85px;
   margin: 1px;
 }
 
