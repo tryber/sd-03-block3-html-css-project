@@ -36,7 +36,8 @@ body {
     position: absolute;
     top: 45px;
     height: auto;
-    max-width: 100%;
+    width: 100%;
+    max-height: 720px;
     z-index: -1;
 }
 
@@ -46,13 +47,15 @@ body {
     position: relative;
     top: 75px;
     text-align: center;
+    width: auto;
 }
 
 #listas {
     z-index: 1;
     color: #9FB1BC;
-    font-size: xx-large;
-    margin: 0px 35px;
+    font-size: 48px;
+    margin: 0px 200px;
+    width: auto;
 }
 
 .lado-direito {
@@ -60,6 +63,7 @@ body {
     position: relative;
     top: 150px;
     text-align: center; 
+    padding: 0px 25px;
 }
 
 ol {
@@ -71,6 +75,7 @@ ol {
     position: relative;
     top: 150px;
     text-align: center;
+    padding: 0px 25px;
 }
 
 ul {
@@ -78,17 +83,43 @@ ul {
 }
 
 #link-externo {
-    position: relative;
-    top: 275px;
-    margin-left: 14%;
-    text-align: center;
-    display: inline;
     color: #9FB1BC;
-}
+    position: relative;
+    top: 720px;
+    font-size: 20px;
+    width: auto;
+    line-height: 20px;
+}   
 
 #google {
-    margin-left: 48%;
-    font-size: large;
+    margin-left: 3%;
+}
+
+table.tabela {
+  width: 25%;
+  position: relative;
+  top: 525px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #9fb1bc;
+  border-style: outset;
+  color: #000000;
+}
+
+table.tabela td, table.tabela th {
+  border-width: 2px;
+  border-color: #9fb1bc;
+  border-style: outset;
+  padding: 3px;
+  text-align: center;
+}
+
+table.tabela thead {
+  background-color: #9fb1bc;
 }
 
 #rodape {
