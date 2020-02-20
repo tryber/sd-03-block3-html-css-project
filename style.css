@@ -38,11 +38,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
-    #rodape-text{
-        color:white;
-        text-align: center;
-    }
+    color:white;
+    text-align: center;
+}
     #posicao-imagem{
         margin: 120px 0 0 0;
     }
