@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+
+body {
+    background-color: black;
+}
+
+#Principal{
+    margin: 0; 
+   padding: 0;
+color: rgba(0,0,0,1);
+background-color: #f8f9fa;
+font-family:Arial,sans-serif;
+}
+
     *{
         margin: 0; 
         padding: 0;
@@ -119,18 +132,6 @@
         .transparente #div1{
             background-color: transparent;
         }
-    
-
-
-
-
-        #Principal{
-                   margin: 0; 
-                  padding: 0;
-      color: rgba(0,0,0,1);
- background-color: #f8f9fa;
-font-family:Arial,sans-serif;
-}
 
     .container {
         width: 100%;
