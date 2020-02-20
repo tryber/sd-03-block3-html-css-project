@@ -43,7 +43,6 @@ figcaption p {
 }
 
 .navbar-menu {
-    position: fixed;
     z-index: 999;
     border: none;
     width: 100%;
@@ -52,6 +51,10 @@ figcaption p {
     top: 0px;
     transition-timing-function: ease-out;
     box-shadow: 0 10px 20px 0 black;
+}
+
+#cabecalho{
+    position: fixed;
 }
 
 label[for="bt-menu"] {
@@ -131,8 +134,8 @@ label[for="bt-menu"] {
     background-image: url("Turbozap_IMG/VariosContas.png");
 }
 #Sobre {
-background-image: url("Turbozap_IMG/unnamed.png");
-margin-top: 100px;
+    background-image: url("Turbozap_IMG/unnamed.png");
+    margin-top: 100px;
 }
 
 .transparente {
