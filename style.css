@@ -1,6 +1,7 @@
 body {
   background-color: rgb(198 , 169 , 127);
   color: rgb(5 , 34 , 34);
+  display: flexbox;
 }
 
 .title {
@@ -9,7 +10,7 @@ body {
 }
 
 article {
-  margin: 2em;
+  margin: 1em;
   margin-top: 3.5em;
   border: rgb(161 , 172 , 178);
   padding: 5px;
@@ -19,7 +20,7 @@ article {
 section {
   border: 2px double rgb(3 , 8 , 1);
   padding: 20px;
-  max-width: 70%;
+  max-width: 60%;
   margin-top: 3em;
   border-radius: 30px;
 }
@@ -55,7 +56,7 @@ nav {
 
 header {
   position: fixed;
-  background-color: rgba(40 , 88 , 0 , 0.741);
+  background-color: rgba(40 , 88 , 0 , 0.941);
   top: 0;
   width: 100%;
   color: rgb(208 , 215 , 174);
@@ -72,8 +73,15 @@ img {
 }
 
 #rodape {
-  background-color: rgb(208 , 215 , 174);
+  background-color: rgba(112 , 122 , 61 , 0.876);
   height: 50px;
+  bottom: 0;
+  border-radius: 1em;
+  align-self: end;
+}
+
+:before {
+  padding: 1em;
 }
 
 .lado-esquerdo {
@@ -83,3 +91,4 @@ img {
 .lado-direito {
   float: right;
 }
+
