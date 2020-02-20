@@ -58,18 +58,18 @@ body {
   text-align: center;
 }
 
-#grupo-stunt {
+#grupostunt {
   width: 10%;
   float: left;
 }
 
-#base-dupla {
+#basedupla {
   width: 20%;
   float: right;
   max-width: 110px;
 }
 
-#foto-partner {
+#fotopartnerId {
   width: 20%;
   float: left;
 }
