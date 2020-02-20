@@ -45,6 +45,12 @@ h2 {
     text-align: center;
     font-weight: bolder;
     position: reltive;
+    margin-bottom: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 30%;
 }
 
 .content-container {
@@ -54,12 +60,14 @@ h2 {
 .lado-direito {
     float: right;
     clear: 0;
+    margin-top: 45px;
     width: 40%;
 }
 
 .lado-esquerdo {
     float: left;
     clear: 0;
+    margin-top: 45px;
     width: 40%;
 }
 
@@ -67,10 +75,17 @@ h2 {
     display: inline;
 }
 
+#background {
+    margin-bottom: 200px;
+    padding-top: 150px;
+}
+
 #cabecalho {
     background-color: yellow;
     color: black;
-    font-size: 12pt;
+    display: inline-table;
+    font-size: 16pt;
+    font-weight: bold;
     height: 100px;
     margin: 0;
     padding: 0;
@@ -78,20 +93,44 @@ h2 {
     width: 100%;
 }
 
-#caracteristicas{
+#caracteristicas {
     position: relative;
     margin-top: 600px;
+    padding-top: 150px;
+}
+
+#impacto {
+    position: relative;
+    margin-top: 80px;
+    padding-top: 150px;
 }
 
 #indice {
     font-size: 14pt;
+    font-weight: normal;
 }
 
 #intro-image {
     margin-left: 30%;
     position: relative;
     margin-bottom: 60px;
-    }
+    width: 80%;
+    padding-top: 80px;
+}
+
+#obras td, th {
+    border: 3px solid white;
+    width: 80%;
+}
+
+#police-image {
+    margin-left: 10%;
+    position: relative;
+    margin-bottom: 60px;
+    margin-left: 30%;
+    margin-top: 45px;
+    width: 600px;
+}
 
 #rodape {
     background-color: yellow;
@@ -101,4 +140,8 @@ h2 {
     height: 80px;
     text-align: justify;
     width: 100%;
+}
+
+#works-container {
+    text-align: center;
 }
