@@ -26,13 +26,14 @@ main {
 }
 
 section {
+    font-size: 25px;
     padding: 0 20px 5px;
     text-align: center;
-    font-size: 25px;
 }
 
 aside {
-    padding: 0 40px 5px;
+    font-size: 20px;
+    padding: 0 40px 60px;
 }
 
 .villani-blue {
@@ -61,6 +62,6 @@ aside {
 #rodape {
     background-color: #353634;
     color: white;
-    padding: 5px;
+    padding: 12px;
     text-align: right;
 }
