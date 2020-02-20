@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(198 , 169 , 127);
+  color: rgb(5 , 34 , 34);
+  display: flexbox;
+}
+
+.title {
+  text-align: center;
+  padding: 1.5em, 2em;
+}
+
+article {
+  margin: 1em;
+  margin-top: 3.5em;
+  border: rgb(161 , 172 , 178);
+  padding: 5px;
+  border-radius: 50px;
+}
+
+section {
+  border: 2px double rgb(3 , 8 , 1);
+  padding: 20px;
+  max-width: 60%;
+  margin-top: 3em;
+  border-radius: 30px;
+}
+
+p {
+  padding: 1em;
+
+}
+
+h2 h3 {
+  text-align: center;
+}
+
+#explicacao {
+  max-width: relative;
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+}
+
+li {
+  margin: 1em;
+  text-decoration: none;
+}
+
+nav {
+  text-decoration: none;
+  margin-top: 20px;
+  display: flex;
+}
+
+header {
+  position: fixed;
+  background-color: rgba(40 , 88 , 0 , 0.941);
+  top: 0;
+  width: 100%;
+  color: rgb(208 , 215 , 174);
+  display: flex;
+  max-height: fit-content;
+  border-radius: 20px;
+
+}
+
+img {
+  border: 0.5em double rgba(1 , 15 , 27 , 0.808);
+  margin-top: 3.5em;
+  border-radius: 1em;
+}
+
+#rodape {
+  background-color: rgba(112 , 122 , 61 , 0.876);
+  height: 50px;
+  bottom: 0;
+  border-radius: 1em;
+  align-self: end;
+}
+
+:before {
+  padding: 1em;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
