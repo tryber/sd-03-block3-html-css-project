@@ -3,8 +3,8 @@ body {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 , 
-h2 , 
+h1, 
+h2, 
 h3 {
   text-align: center;
 }
@@ -37,7 +37,7 @@ header h1 {
   align-items: center;
   float: left;
   font-size: smaller;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -45,7 +45,7 @@ header h1 {
   align-items: center;
   float: right;
   font-size: smaller;
-  padding: 10px;
+  padding: 15px 10px;
   text-align: center;
 }
 
@@ -63,6 +63,7 @@ section {
 
 #info {
   background-color: steelblue;
+  height: auto;
   margin: 10px;
 }
 
@@ -83,7 +84,7 @@ section {
 }
 
 #curiosidades {
-  background-color: rgb(74, 72, 75;
+  background-color: rgb(74, 72, 75);
   color: snow;
   margin: 10px;
 }
@@ -91,6 +92,10 @@ section {
 iframe {
   position: relative;
   left: 40px;
+}
+
+aside {
+  text-align: center;
 }
 
 #rodape {
