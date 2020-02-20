@@ -2,39 +2,47 @@
 body {
 background-color: black;
 }
-#Principal{
+
+#Principal {
 margin: 1; 
 padding: 1;
-color: rgba(0,0,0,1);
+color: black;
 background-color: #f8f9fa;
 font-family: Arial,sans-serif;
 }
-*{
+
+* {
 margin: 1; 
 padding: 1;
 box-sizing: border-box;
 background-color: #f8f9fa;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box; 
-} 
-figcaption h3{
+}
+
+figcaption h3 {
 display: none;
 }
-.foto-Sistema img{
+
+.foto-Sistema img {
 width: 80%;
 height: 300px;
 }
-.direita{
+
+.direita {
 text-align: right;
 font-size: 15px;
 }
-figcaption p{
+
+figcaption p {
 display: none;
 }
-#navBotoes{
+
+#navBotoes {
 top: 0px;
 }
-.navbar-menu{
+
+.navbar-menu {
 position: fixed;
 z-index:999;
 border: none;
@@ -43,9 +51,10 @@ height: 50px;
 left: 0px;
 top: 0px;
 transition-timing-function: ease-out;
-box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+box-shadow: 0 10px 20px 0 black;
 }
-label[for="bt-menu"]{
+
+label[for="bt-menu"] {
 padding: 5px;
 background-color: greenyellow;
 color: black;
@@ -56,12 +65,15 @@ cursor: pointer;
 width: 50px;
 height: 50px;
 }
-#bt-menu{
+
+#bt-menu {
 display: none;
 }
+
 label[for="bt-menu"] {
 display: none;
 }
+
 .lado-esquerdo {
 float: left; 
 width: 50%;
@@ -70,6 +82,7 @@ text-align: center;
 padding: 5px 5px 5px 5px;
 background-color: transparent;
 }
+
 .lado-direito {
 float: right;
 width: 50%;
@@ -77,51 +90,60 @@ height: 100%;
 text-align: center;
 padding: 5px 5px 5px 5px;
 }
-.blocoItens{
+
+.blocoItens {
 float: left; 
 width: 28%;
 height: 100%;
-box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+box-shadow: 0 10px 20px 0 black;
 text-align: center;
 padding: 5px 5px 5px 5px;
 margin: 25px 25px 25px 25px;
 }
-.imgBloco{
+
+.imgBloco {
 margin-left: auto;
 margin-right: auto;
 width: 100px;
 height: 100px;
 }
-#IMG1{ 
+
+#IMG1 { 
 background-image: url("Turbozap_IMG/Foguete.png"); 
 }
-#IMG2{ 
+
+#IMG2 { 
 background-image: url("Turbozap_IMG/caixaSoftware.png"); 
 }
-#IMG3{ 
+
+#IMG3 { 
 background-image: url("Turbozap_IMG/Contatos.png"); 
 }
-#IMG4{ 
+
+#IMG4 { 
 background-image: url("Turbozap_IMG/DiretoaoPonto.png"); 
 }
-#IMG5{ 
+#IMG5 { 
 background-image: url("Turbozap_IMG/Mulimidia.png");
 }
-#IMG6{ 
+#IMG6 { 
 background-image: url("Turbozap_IMG/VariosContas.png"); 
 }
-#Sobre{
+#Sobre {
 background-image: url("Turbozap_IMG/unnamed.png");
 margin-top: 100px;
 }
-.transparente{
+
+.transparente {
 background-color: transparent;
 color: white;
 text-align: center;
 }
-.transparente #div1{
+
+.transparente #div1 {
 background-color: transparent;
 }
+
 .container {
 width: 100%;
 margin-top: 0px;
@@ -130,60 +152,65 @@ margin-left: auto;
 margin-right: auto;
 padding-right: 0px;
 padding-left: 0px;
-/*border: 3px solid #000;*/
 }
-.mapaImg{
+
+.mapaImg {
 position: relative;
 left: 2%;
 top: -395px;
 width: 56%;
 }
-.topo{
+
+.topo {
 display: inline-block;
 width: 100%;
 margin: 0 20px;
 padding: 0 20px;
 }
-#content{
+
+#content {
 display: inline-block;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
 padding: 0 20px;
 }
-.bavbar-botoes ul{
+
+.bavbar-botoes ul {
 margin-left: 150px;
 padding: 15px 15px 15px 15px;
 }
-.bavbar-botoes li{
+
+.bavbar-botoes li {
 display: inline-block;
 list-style: none;
 font-size: 1.5rem;
 transition-timing-function: ease-in;
-/*background-color: rgb(250, 251, 255);*/
 background-color: greenyellow;
 border-radius: 5px;
-box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+box-shadow: 0 10px 20px 0 black;
 transform: translateY(-3px) scale(1.01);
 margin: 3px 5px 3px 5px; 
 }
-.bavbar-botoes a{
+
+.bavbar-botoes a {
 text-decoration: none;
 cursor: pointer;
 margin: 15px 10px 15px 10px;
 display: block;
-/*background-color: rgb(250, 251, 255);*/
 background-color: greenyellow;
 }
+
 .bavbar-botoes a:hover {
 background-color: blue;
 color: white;
-/*font-weight:bold;*/
 }
+
 .bavbar-botoes li:hover {
 background-color: blue;
 color: blue;
 }
+
 .navbar-logo img {
 position: relative;
 float: left;
@@ -192,9 +219,11 @@ left: 10px;
 width: 100px;
 height: 81px;
 }
-.divContados{
+
+.divContados {
 position: relative;left: -7%;top: -706px;width: 317px;float: right;background-color: transparent;
 }
+
 @media only screen and (max-width: 480px) {
 .lado-esquerdo { 
 display: inline-block;
@@ -202,28 +231,31 @@ vertical-align: top;
 width: 100%;
 padding: 5px 5px 5px 5px;
 }
+
 .lado-direito {
 display: inline-block;
 vertical-align: top; 
 width: 100%;
 padding: 5px 5px 5px 5px;
 }
+
 .bavbar-botoes {
 width: 100%;
 float: none;
 margin-left: -100%;
 transition: all .4s;
 }
-label[for="bt-menu"]{
+
+label[for="bt-menu"] {
 display: block;
 position: relative;
 float: right;
 }
-#bt-menu:checked ~ .bavbar-botoes{
-/*ultilizando o Seletor irmao quando o botão estiver checked ele vai chamar o navbotçao*/
-/* se ele tiver Checked ele seta como zero se nao ele chama a .bavbar-botoes*/
+
+#bt-menu:checked ~ .bavbar-botoes {
 margin-left: 0;
 }
+
 .navbar-logo img {
 position: relative;
 float: left;
@@ -232,22 +264,25 @@ left: 10px;
 width: 50px;
 height: 40px;
 }
-.blocoItens{
+
+.blocoItens {
 float: left; 
 width: 100%;
 height: 100%;
-box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+box-shadow: 0 10px 20px 0 black;
 text-align: center;
 padding: 5px 5px 5px 5px;
 margin: 25px 25px 25px 25px;
 }
-.mapaImg{
+
+.mapaImg {
 position: relative;
 left: 2%;
 top: -152px;
 width: 56%;
 }
-.divContados{
+
+.divContados {
 position: relative;left: -7%;top: -274px;width: 126px;float: right;background-color: transparent;
 }
 }
