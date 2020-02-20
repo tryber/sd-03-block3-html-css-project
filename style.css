@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-    background-color: black;
+    background-color: cornsilk;
 }
 
 #Principal {
@@ -109,25 +109,25 @@ label[for="bt-menu"] {
     height: 100px;
 }
 
-#IMG1 { 
+#IMG1 {
     background-image: url("Turbozap_IMG/Foguete.png");
 }
 
-#IMG2 { 
+#IMG2 {
     background-image: url("Turbozap_IMG/caixaSoftware.png");
 }
 
-#IMG3 { 
+#IMG3 {
     background-image: url("Turbozap_IMG/Contatos.png");
 }
 
-#IMG4 { 
+#IMG4 {
     background-image: url("Turbozap_IMG/DiretoaoPonto.png");
 }
-#IMG5 { 
+#IMG5 {
     background-image: url("Turbozap_IMG/Mulimidia.png");
 }
-#IMG6 { 
+#IMG6 {
     background-image: url("Turbozap_IMG/VariosContas.png");
 }
 #Sobre {
@@ -229,8 +229,24 @@ margin-top: 100px;
     background-color: transparent;
 }
 
+.botaoLigamosparaVoce{
+    float: right;
+    position: relative;
+    border-radius: 50px;
+    top: 26px;
+    right: 17px;
+    width: 271px;
+    height: 63px;
+    color: white;
+    background-color: gold;
+    padding: 13px 5px 5px 5px;
+    font-size: 25px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 480px) {
-    .lado-esquerdo { 
+    .lado-esquerdo {
         display: inline-block;
         vertical-align: top;
         width: 100%;
