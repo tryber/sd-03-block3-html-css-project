@@ -1,0 +1,104 @@
+body {
+  background-color: snow;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, 
+h2, 
+h3 {
+  text-align: center;
+}
+
+header {
+  align-items: center;
+  background-color: rgb(94, 140, 62);
+  display: flex;
+  flex-wrap: wrap;
+  height: 90px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 2;
+}
+
+header nav {
+  background-color: sandybrown;
+  display: block;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+.lado-esquerdo {
+  align-items: center;
+  float: left;
+  font-size: smaller;
+  padding: 15px;
+  text-align: center;
+}
+
+.lado-direito {
+  align-items: center;
+  float: right;
+  font-size: smaller;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+article {
+  background-color: salmon;
+  position: relative;
+  top: 80px;
+}
+
+section {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  height: auto;
+}
+
+#info {
+  background-color: steelblue;
+  height: auto;
+  margin: 10px;
+}
+
+#fatos {
+  background-color: sandybrown;
+  margin: 10px;
+}
+
+#fotos {
+  background-color: sandybrown;
+  height: auto;
+  margin: 10px;
+}
+
+#fotos img {
+  padding-left: 20px;
+  height: 250px;
+}
+
+#curiosidades {
+  background-color: rgb(74, 72, 75);
+  color: snow;
+  margin: 10px;
+}
+
+iframe {
+  position: relative;
+  left: 40px;
+}
+
+aside {
+  text-align: center;
+}
+
+#rodape {
+  background-color: rgb(212, 218, 242);
+  border: 10px;
+}
