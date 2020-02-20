@@ -1,0 +1,94 @@
+* {
+  margin: 7px;
+  padding: 7px;
+}
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: center;
+  border: solid blue 2px;
+	background-color: rgb(235, 225, 202);
+}
+#cabecalho {
+  text-align: center;
+  top: 0px;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  border: solid whitesmoke 1px;
+  background-color: darkorchid;
+  left: 0;
+}
+
+#cabecalho ul li {
+  background-color: white;
+  display: inline;
+  text-align: center;
+  padding: 17px 20px;
+}
+
+#cabecalho ul li a {
+  color: darkorchid;
+  text-decoration: none;
+}
+
+#corpo {
+  width: 100%;
+  height: 800px;
+}
+
+#meio {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: initial;
+}
+
+#cabecalho ul li a:hover {
+  color: #030302;
+}
+
+.lado-esquerdo {
+  color: white;
+  max-width: 2000px;
+  padding: 0 2% 3% 2%;
+}
+
+.lado-direito {
+  color: #000;
+}
+
+#logo {
+  background-image: url("/home/william/Imagens/sh_uva.jpg");
+  background-size: cover;
+}
+
+#logo h2 {
+  font-family: Roboto;
+  font-size: 50px;
+  margin-top: 600px;
+}  
+
+#imagenmeio {
+  float: right;
+}
+
+#referencias {
+  text-align: left;
+}
+
+#rodape {
+  margin-left: auto;
+  page-break-after: auto;
+}
+
+#linkBeneficios {
+	padding: 15px;
+  width: 100%;
+}
+
+#linkBeneficios th {
+	border: 1px solid black;
+}
+#linkBeneficios td {
+  border: 1px solid black
+}
