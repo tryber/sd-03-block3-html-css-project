@@ -38,13 +38,13 @@ a:hover {
 }
 
 .lado-esquerdo {
-  width: 65%;
+  width: 50%;
   float: left;
-  margin: 0px 80px 10px 15px;
+  margin: 1px 80px 10px 15px;
 }
 
 .lado-direito {
-  width: 15%;
+  width: 35%;
   float: right;
 }
 
