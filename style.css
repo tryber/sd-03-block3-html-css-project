@@ -58,16 +58,16 @@ body {
   text-align: center;
 }
 
-#grupostunt {
+/*#grupostunt {
   width: 1px;
   float: left;
 }
 
-#basedupla {
-  width: 1px;
+ #basedupla { 
+  width: 1px; 
   float: right;
   max-width: 110px;
-}
+}*/
 
 #fotopartnerId {
   width: 1px;
