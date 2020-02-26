@@ -40,11 +40,10 @@ a:hover {
 .lado-esquerdo {
   width: 50%;
   float: left;
-  margin: 1px 80px 10px 15px;
 }
 
 .lado-direito {
-  width: 35%;
+  width: 24%;
   float: right;
 }
 
@@ -52,5 +51,5 @@ a:hover {
   background-color: rgb(233 , 112 , 187);
   clear: both;
   text-align: center;
-  margin: 80 65px 25px;
+  margin: 85px 1px;
 }
