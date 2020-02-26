@@ -44,11 +44,11 @@ a:hover {
 .lado-esquerdo {
   width: 65%;
   float: left;
-  margin: 1px 80px 10px 35px;
+  margin: 1px 80px 10px 15px;
 }
 
 .lado-direito {
-  width: 15%;
+  width: 25%;
   float: right;
 }
 
