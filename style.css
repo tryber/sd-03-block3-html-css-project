@@ -1,0 +1,55 @@
+body {
+  background-color: steelblue;
+  font-family: verdana, sans-serif;
+  margin: 5px;
+  padding: 3px auto;
+}
+
+#topo {
+  height: 200px;
+  background: url('topo.jpg');
+  margin: 20px auto;
+}
+
+#cabecalho {
+  height: 60px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: black;
+  width: 1400px;
+  border: 2px solid rgb(35 , 40 , 43);
+}
+
+a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background: white;
+}
+
+#cabecalho li {
+  margin: 50px;
+  display: inline;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  float: left;
+}
+
+.lado-direito {
+  width: 24%;
+  float: right;
+}
+
+#rodape {
+  background-color: rgb(233 , 112 , 187);
+  clear: both;
+  text-align: center;
+  margin: 85px 1px;
+}
