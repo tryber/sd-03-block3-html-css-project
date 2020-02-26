@@ -36,16 +36,12 @@ a:hover {
   display: inline;
 }
 
-#aside {
-  margin: 0;
-  padding: 0;
-}
-
 .lado-esquerdo {
   width: 65%;
   float: left;
   margin: 1px 80px 10px 15px;
 }
+
 .lado-direito {
   width: 25%;
   float: right;
