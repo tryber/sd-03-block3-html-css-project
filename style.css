@@ -59,18 +59,18 @@ body {
 }
 
 #grupostunt {
-  width: 10%;
+  width: 1px;
   float: left;
 }
 
 #basedupla {
-  width: 20%;
+  width: 1px;
   float: right;
   max-width: 110px;
 }
 
 #fotopartnerId {
-  width: 21%;
+  width: 1px;
   float: left;
 }
 
