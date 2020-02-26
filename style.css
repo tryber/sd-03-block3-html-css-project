@@ -1,7 +1,8 @@
 body {
   background-color: steelblue;
   font-family: verdana, sans-serif;
-  margin: 10px;
+  margin: 5px;
+  padding: 3px auto;
 }
 
 #topo {
@@ -39,11 +40,11 @@ a:hover {
 .lado-esquerdo {
   width: 65%;
   float: left;
-  margin: 1px 80px 10px 15px;
+  margin: 0px 80px 10px 15px;
 }
 
 .lado-direito {
-  width: 25%;
+  width: 15%;
   float: right;
 }
 
