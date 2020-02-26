@@ -3,50 +3,59 @@ body {
   font-family: verdana, sans-serif;
   margin: 10px;
 }
-#topo{
-  height:200px;
+
+#topo {
+  height: 200px;
   background: url('topo.jpg');
   margin: 20px auto;
-  border: 2px solid rgb(13, 13, 14);
 }
-#cabecalho {
+
+#menu {
   height: 60px;
   top: 0;
   left: 0;
   position: fixed;
 }
-div #cabecalho {
+
+div #menu {
   background: black;
   width: 1400px;
 }
-a{
+
+a {
   color: white;
   text-align: center;
   text-decoration: none;
 }
+
 a:hover {
   color: black;
-  background:white;
+  background: white;
 }
-#cabecalho li{
+
+#menu li {
   margin: 50px;
   display: inline;
 }
+
 #aside {
   margin: 0;
   padding: 0;
 }
+
 .lado-esquerdo {
   width: 65%;
   float: left;
-  margin: 0px 80px 10px 35px;
+  margin: 1px 80px 10px 35px;
 }
+
 .lado-direito {
-  width:15%;
+  width: 15%;
   float: right;
 }
+
 #rodape {
-  background-color: rgb(233, 112, 187);
+  background-color: rgb(233,112,187);
   clear: both;
   text-align: center;
   margin: 80 65px 25px;
