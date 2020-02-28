@@ -1,0 +1,65 @@
+    html{
+        height: 100%; 
+    }
+    body{
+        background-color: rgb(71, 71, 70);
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    #cabecalho {
+        border-bottom: 5px solid orange;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: white;
+    }
+    p, li, table{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 22px;
+        color: white;
+    }
+    .titles{
+        text-align: center;
+        top: 1px;
+        color:orange;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    #principal-title{
+        text-align: center;
+        color: orange;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    #rodape {
+    position: absolute;
+    margin-top: 2200px;
+    width: 100%;
+    height: 100px;
+    right: 0;
+    background-color: white;
+    color: orange;
+    text-align: center;
+    border-top: 5px solid orange;
+    }
+    .posicao-introducao{
+        float: left;
+        margin: 140px 0 0 40px;
+        width: 30%;
+    }
+    .posicao-imagem{
+        float:right;
+        margin: 140px 40px 0 0;
+        width: 60%;
+    }
+    .posicao-desenvolvimento{
+        float:right;
+        margin: 20px 0 0 0;
+    }
+    .posicao-linha{
+        text-align:center;
+    }
