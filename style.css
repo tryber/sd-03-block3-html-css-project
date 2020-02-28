@@ -17,7 +17,7 @@
         height: 100px;
         background-color: white;
     }
-    p, li{
+    p, li, table{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 22px;
         color: white;
