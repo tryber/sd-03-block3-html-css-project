@@ -13,11 +13,11 @@ body {
   opacity: 95%;
 }
 
-ul#menu {
+#menu {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(51, 51, 51);
 }
 
 li a {
@@ -30,7 +30,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: rgb(17, 17, 17);
 }
 
 #rodape {
