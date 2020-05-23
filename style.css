@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #d7df01, #ffbf00, #df7401);
+  background-color: salmon;
   height: auto;
 }
 
@@ -51,13 +51,13 @@ body {
   text-align: center;
 }
 
-.conjunto-de-fotos{
+.conjunto-de-fotos {
   text-align: center;
 }
 
 .bloco-de-comentario {
   background-color: white;
-  box-shadow: 10px 10px 0 #d9d9d9;
+  box-shadow: 10px 10px 0 grey;
   display: inline-block;
   height: 100%;
   margin: 20px;
@@ -79,6 +79,7 @@ body {
   margin: 10px;
   text-align: center;
 }
+
 #destaque-text {
   text-align: center;
   width: 100%;
