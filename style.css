@@ -1,16 +1,16 @@
 * {
-  margin: 0px;
+  margin: 0;
 }
 
-body{
-  background-image: linear-gradient(to top, #D7DF01,#FFBF00,#DF7401);
+body {
+  background-image: linear-gradient(to top, #d7df01, #ffbf00, #df7401);
   height: auto;
 }
 
 #cabecalho {
   background-color: black;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   height: 50px;
   position: fixed;
   width: 100%;
@@ -28,6 +28,7 @@ body{
   height: 180px;
   margin: 1.5%;
   margin-top: 70px;
+  overflow: hidden;
   width: 180px;
 }
 
@@ -37,28 +38,32 @@ body{
   text-align: center;
 }
 
-.fontes{
+.fontes {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 40px;
   margin-bottom: 20px;
 }
-.bloco-para-comentarios{
+
+.bloco-para-comentarios {
   height: 250px;
   margin-bottom: 50px;
   text-align: center;
 }
+
 .conjunto-de-fotos{
   text-align: center;
 }
-.bloco-de-comentario{
+
+.bloco-de-comentario {
   background-color: white;
-  box-shadow: 10px 10px 0px #d9d9d9;
+  box-shadow: 10px 10px 0 #d9d9d9;
   display: inline-block;
   height: 100%;
   margin: 20px;
   width: 30%;
 }
+
 .foto-comentario {
   background-color: black;
   border-radius: 50%;
@@ -69,9 +74,6 @@ body{
   width: 75px;
 }
 
-.fotos-iniciais {
-  overflow: hidden;
-}
 .text-comentario {
   color: grey;
   margin: 10px;
@@ -88,6 +90,7 @@ body{
   text-align: center;
   width: 100%;
 }
+
 #fotos-destaques {
   width: 100%;
 }
@@ -100,9 +103,10 @@ body{
   overflow: hidden;
   width: 42%;
 }
+
 .nomes-comentarios {
   color: black;
-  font-family:'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: small;
 }
 
@@ -112,16 +116,19 @@ body{
   padding: 30px;
   text-align: center;
 }
+
 .saiba-mais li {
   display: inline-block;
   margin: 3%;
 }
+
 #sugestao {
   height: 300px;
   text-align: center;
   width: 100%;
 }
-.sugestao-block{
+
+.sugestao-block {
   display: inline-block;
   height: 250px;
   margin: 2%;
