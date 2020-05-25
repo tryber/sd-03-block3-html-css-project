@@ -17,23 +17,19 @@ body {
     background-color: green;margin-top: 150;
     padding-top: 150;
 }
+
 header {
-    margin-top: 150;
-    padding-top: 150;
+    position: fixed;
     width: 100%;
     background-color: greenyellow;
 }
 
-nav {
-    margin-top: 150;
-    padding-top: 150;
+.body {
+    position: static;
 }
 
-
-#cabecalho {
-    position: fixed;
-    margin-top: 150;
-    padding-top: 150;   
+nav {
+    margin-top: 20px;
 }
 
 img {float: left;
